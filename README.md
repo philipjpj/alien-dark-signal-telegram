@@ -1,57 +1,79 @@
 # 🛸 ALIEN: DARK SIGNAL — Telegram RPG Bot
 
-Un RPG testuale completo ambientato nell'universo di Alien, progettato per Telegram.
+A complete text-based RPG set in the Alien universe, designed for Telegram.
 
 ---
 
-## 🚀 SETUP RAPIDO
+## ⚖️ LEGAL NOTICE & DISCLAIMER
 
-### 1. Clona / scarica il progetto
+This is a non-commercial, fan-made project created purely for educational and experimental purposes, including research and software development practice with Python and related technologies.
+
+### Intellectual Property Disclaimer
+
+This project is inspired by the Alien franchise.  
+Alien and all related names, characters, concepts, and imagery are trademarks and intellectual property of their respective rights holders, including 20th Century Studios.
+
+This repository is:
+- not affiliated with
+- not endorsed by
+- not sponsored by
+- and not associated with
+
+the official rights holders in any way.
+
+No monetization is involved. No commercial use is intended.  
+This project is distributed exclusively for study, experimentation, and portfolio purposes.
+
+---
+
+## 🚀 QUICK SETUP
+
+### 1. Clone / download the project
 ```bash
 cd alien_dark_signal
 ```
 
-### 2. Installa le dipendenze
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configura il bot
+### 3. Configure the bot
 ```bash
 cp .env.example .env
 ```
-Modifica `.env` e inserisci il tuo **BOT_TOKEN** da [@BotFather](https://t.me/BotFather).
+Edit `.env` and enter your **BOT_TOKEN** from [@BotFather](https://t.me/BotFather).
 
-### 4. Avvia
+### 4. Run
 ```bash
 python bot.py
 ```
 
 ---
 
-## 📁 STRUTTURA DEL PROGETTO
+## 📁 PROJECT STRUCTURE
 
 ```
 alien_dark_signal/
-├── bot.py                        ← Entry point principale
-├── config.py                     ← Configurazioni globali
+├── bot.py                        ← Main entry point
+├── config.py                     ← Global configuration
 ├── requirements.txt
 ├── .env.example
 │
 ├── database/
-│   ├── models.py                 ← Modello Player (SQLAlchemy)
-│   └── db.py                     ← Gestione sessioni async
+│   ├── models.py                 ← Player model (SQLAlchemy)
+│   └── db.py                     ← Async session management
 │
 ├── game/
-│   ├── i18n.py                   ← Localizzazione (IT/EN/ES)
-│   ├── scene_engine.py           ← Engine delle scene
-│   ├── combat.py                 ← Sistema di combattimento
-│   ├── npcs.py                   ← NPC, achievement, missioni daily
+│   ├── i18n.py                   ← Localization (IT/EN/ES)
+│   ├── scene_engine.py           ← Scene engine
+│   ├── combat.py                 ← Combat system
+│   ├── npcs.py                   ← NPCs, achievements, daily missions
 │   └── scenes/
-│       └── chapter1.json         ← Capitolo 1 completo (+ lore)
+│       └── chapter1.json         ← Complete Chapter 1 (+ lore)
 │
 ├── handlers/
-│   └── main_handlers.py          ← Tutti i callback e comandi
+│   └── main_handlers.py          ← All callbacks and commands
 │
 └── localization/
     ├── it.json
@@ -61,75 +83,75 @@ alien_dark_signal/
 
 ---
 
-## 🎮 MECCANICHE DI GIOCO
+## 🎮 GAME MECHANICS
 
-### Statistiche personaggio (1–10)
-| Stat | Uso |
-|------|-----|
-| Forza | Combattimento, azioni fisiche |
-| Intelligenza | Puzzle, hacking, lore nascosta |
-| Furtività | Evitare xenomorfi, infiltrazione |
-| Ingegneria | Riparare, costruire trappole |
-| Resistenza | HP, sopravvivenza ambienti ostili |
-| Carisma | Convincere NPC, leadership |
-| Fortuna | Modificatore casuale |
-| Adattabilità | Bonus in situazioni nuove |
+### Character Stats (1–10)
+| Stat | Usage |
+|------|-------|
+| Strength | Combat, physical actions |
+| Intelligence | Puzzles, hacking, hidden lore |
+| Stealth | Avoiding xenomorphs, infiltration |
+| Engineering | Repairing, building traps |
+| Endurance | HP, survival in hostile environments |
+| Charisma | Convincing NPCs, leadership |
+| Luck | Random modifier |
+| Adaptability | Bonus in new situations |
 
-### Background disponibili
-- 🪖 **Colonial Marine** — Forza/Resistenza
-- 🔬 **Scienziato W-Y** — Intelligenza/Stealth
-- 🔧 **Tecnico** — Ingegneria/Resistenza  
-- 🧠 **Sopravvissuto** — Adattabilità/Fortuna
-- 🤖 **Sintetico** — Intelligenza, no panico
+### Available Backgrounds
+- 🪖 **Colonial Marine** — Strength/Endurance
+- 🔬 **W-Y Scientist** — Intelligence/Stealth
+- 🔧 **Technician** — Engineering/Endurance
+- 🧠 **Survivor** — Adaptability/Luck
+- 🤖 **Synthetic** — Intelligence, no panic
 
-### Tratti psicologici
-- 🧊 Freddo e Razionale
-- ⚡ Istintivo e Coraggioso
-- 👁️ Paranoico
-- 💗 Empatico
+### Psychological Traits
+- 🧊 Cold and Rational
+- ⚡ Instinctive and Brave
+- 👁️ Paranoid
+- 💗 Empathetic
 
-### Sistema XP & Level Up
-- XP da scene, scelte coraggiose, lore trovata, combattimento
-- Ogni livello (100 XP × livello): +2 punti stat da distribuire
-- Livello massimo: 20
+### XP & Level Up System
+- XP earned from scenes, brave choices, lore found, combat
+- Every level (100 XP × level): +2 stat points to distribute
+- Maximum level: 20
 
-### Missione Giornaliera
-- Disponibile ogni 24h
-- Streak bonus per 7 giorni consecutivi
-- XP + oggetti rari
+### Daily Mission
+- Available every 24h
+- Streak bonus for 7 consecutive days
+- XP + rare items
 
 ### Permadeath (Nostromo Mode)
-- Morte permanente, nessun checkpoint
-- Storie esclusive e finale segreto
-- Titolo speciale: ☠️ Il Vero Sopravvissuto
+- Permanent death, no checkpoints
+- Exclusive storylines and secret ending
+- Special title: ☠️ The True Survivor
 
 ---
 
-## 📖 STORIA — ALIEN: DARK SIGNAL
+## 📖 STORY — ALIEN: DARK SIGNAL
 
-**Anno 2197.** La Weyland-Yutani ha dichiarato estinta la minaccia xenomorfa. Bugia.
+**Year 2197.** Weyland-Yutani has declared the xenomorph threat extinct. A lie.
 
-La **Prometheus Station Theta** — classificata Omega — è silenziosa da 72 ore. Il giocatore guida una squadra di risposta rapida verso la verità su **Progetto Architetto**: xenomorfi ibridi con DNA di Engineer, capaci di pianificare, apprendere, adattarsi.
+**Prometheus Station Theta** — classified Omega — has been silent for 72 hours. The player leads a rapid response team toward the truth behind **Project Architect**: hybrid xenomorphs with Engineer DNA, capable of planning, learning, and adapting.
 
-### Capitoli
-1. **Silenzio di Theta** — Arrivo, primo contatto, scoperta del segreto
-2. **Gli Architetti** — Discesa nei livelli, tradimento interno
-3. **Codice Nero** — Database segreti, rivelazione AJAX-7
-4. **La Regina degli Architetti** — Boss finale multi-fase
-5. **Segnale verso Casa** — Fuga, 4 finali alternativi
+### Chapters
+1. **Theta's Silence** — Arrival, first contact, uncovering the secret
+2. **The Architects** — Descent into lower levels, internal betrayal
+3. **Black Code** — Secret databases, the AJAX-7 revelation
+4. **The Architect Queen** — Multi-phase final boss
+5. **Signal Home** — Escape, 4 alternate endings
 
-### NPC Principali
-- 🤖 **AJAX-7** — Sintetico ambiguo, lealtà dipende dalle scelte
-- 🪖 **Cpl. Sarah Chen** — Colonial Marine, protettiva
-- 🔬 **Dr. Marcus Okafor** — Xenobiologo, complice?
-- 🎖️ **Lt. Ray Vance** — Comandante, mission-focused
-- 🧬 **Dr. Petra Morel** — Sopravvissuta, conosce la verità
+### Main NPCs
+- 🤖 **AJAX-7** — Ambiguous synthetic; loyalty depends on your choices
+- 🪖 **Cpl. Sarah Chen** — Colonial Marine, protective
+- 🔬 **Dr. Marcus Okafor** — Xenobiologist, accomplice?
+- 🎖️ **Lt. Ray Vance** — Commander, mission-focused
+- 🧬 **Dr. Petra Morel** — Survivor, knows the truth
 
 ---
 
-## 🔧 AGGIUNGERE CAPITOLI
+## 🔧 ADDING CHAPTERS
 
-Crea `game/scenes/chapter2.json` con la stessa struttura di `chapter1.json`:
+Create `game/scenes/chapter2.json` following the same structure as `chapter1.json`:
 
 ```json
 {
@@ -147,30 +169,30 @@ Crea `game/scenes/chapter2.json` con la stessa struttura di `chapter1.json`:
 }
 ```
 
-La scene engine carica **automaticamente** tutti i JSON nella cartella `scenes/`.
+The scene engine **automatically loads** all JSON files in the `scenes/` folder.
 
 ---
 
-## 🌐 COMANDI TELEGRAM
+## 🌐 TELEGRAM COMMANDS
 
-| Comando | Funzione |
+| Command | Function |
 |---------|----------|
-| `/start` | Menu principale |
-| `/profilo` | Scheda personaggio |
-| `/inventario` | Oggetti posseduti |
-| `/archivio` | Lore raccolta |
-| `/mappa` | Mappa ASCII stazione |
-| `/obiettivi` | Achievement |
-| `/salva` | Salva manuale |
+| `/start` | Main menu |
+| `/profilo` | Character sheet |
+| `/inventario` | Owned items |
+| `/archivio` | Collected lore |
+| `/mappa` | ASCII station map |
+| `/obiettivi` | Achievements |
+| `/salva` | Manual save |
 
 ---
 
-## ☁️ DEPLOY SU SERVER
+## ☁️ SERVER DEPLOYMENT
 
-Per girare 24/7 su un VPS (es. Ubuntu):
+To run 24/7 on a VPS (e.g., Ubuntu):
 
 ```bash
-# Con systemd
+# With systemd
 sudo nano /etc/systemd/system/alien-bot.service
 ```
 
@@ -200,14 +222,13 @@ sudo systemctl start alien-bot
 
 ## 📊 DATABASE
 
-SQLite per default (file locale `alien_dark_signal.db`).  
-Per PostgreSQL su produzione, cambia nel `.env`:
+SQLite by default (local file `alien_dark_signal.db`).  
+For PostgreSQL in production, update your `.env`:
 ```
 DATABASE_URL=postgresql+asyncpg://user:pass@localhost/aliendb
 ```
-E aggiungi `asyncpg` ai requirements.
+And add `asyncpg` to the requirements.
 
 ---
 
 *Weyland-Yutani Corp — "Building Better Worlds"*  
-*⚠️ Classificazione: Omega. Accesso non autorizzato è perseguibile.*
