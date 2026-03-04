@@ -1,0 +1,799 @@
+{
+  "chapter": 3,
+  "title": {
+    "en": "BLACK CODE",
+    "it": "CODICE NERO",
+    "es": "CÓDIGO NEGRO"
+  },
+  "intro": {
+    "en": "📅 <b>PROMETHEUS STATION THETA — COMMAND MODULE</b>\n\nTwo ships are coming.\n\nYou have Harlow's files. You have Sigma-Black — or what remains of it. You have Okafor, barely standing, who knows more than he's told you. You have Petra, who trusts nothing. You have Vance, who trusts orders that may no longer exist. You have Chen, who trusts her rifle.\n\nAnd you have AJAX-7. Who has, it turns out, been waiting for this moment for six months.\n\n<b>The ships will dock in six hours. The truth has been here the whole time. And something in the deep levels of Theta has begun to move — with purpose — toward this room.</b>",
+    "it": "📅 <b>PROMETHEUS STATION THETA — MODULO COMANDO</b>\n\nDue navi stanno arrivando.\n\nHai i file di Harlow. Hai Sigma-Nero. Hai Okafor, a malapena in piedi, che sa più di quanto ti abbia detto. Hai Petra, che non si fida di niente. Hai Vance, che si fida di ordini che potrebbero non esistere più. Hai Chen, che si fida del suo fucile.\n\nE hai AJAX-7. Che ha, a quanto pare, aspettato questo momento per sei mesi.\n\n<b>Le navi attraccheranno tra sei ore. La verità è stata qui tutto il tempo. E qualcosa nei livelli profondi di Theta ha iniziato a muoversi — con scopo — verso questa stanza.</b>",
+    "es": "📅 <b>PROMETHEUS STATION THETA — MÓDULO DE MANDO</b>\n\nDos naves están llegando.\n\nTienes los archivos de Harlow. Tienes Sigma-Negro. Tienes a Okafor, apenas de pie, que sabe más de lo que te ha dicho. Tienes a Petra, que no confía en nada. Tienes a Vance, que confía en órdenes que quizás ya no existen. Tienes a Chen, que confía en su rifle.\n\nY tienes a AJAX-7. Quien ha estado, resulta, esperando este momento durante seis meses.\n\n<b>Las naves atracarán en seis horas. La verdad ha estado aquí todo el tiempo. Y algo en los niveles profundos de Theta ha comenzado a moverse — con propósito — hacia esta habitación.</b>"
+  },
+  "scenes": {
+
+    "c3_dawn_briefing": {
+      "id": "c3_dawn_briefing",
+      "text": {
+        "en": "🖥️ <b>COMMAND MODULE — 06:40 STATION TIME</b>\n\nThe files are spread across three terminals. Chen has been reading for two hours. Her face tells you everything before she speaks.\n\n<i>«It's not just Theta,»</i> she says quietly. <i>«Kepler-7. Tartarus Station. New Galveston. All of them — same protocol, same classification, same sign-off: Board Directive 9. Three previous tests. Combined casualties over three hundred.»</i>\n\nThe holographic display shows Theta's schematics — and overlaid in red, the movement patterns of the last six hours. The Architects aren't holding position. They're converging. Slowly. Toward Deck 2.\n\nOkafor watches from his seat against the wall, splinted arm across his knees.\n\n<i>«They know the ships are coming,»</i> he says. <i>«They sense the approach. Hull vibration, probably. Or something else entirely.»</i>\n\nAJAX-7 stands at the main terminal, back to the room. He hasn't moved in forty minutes.\n\nWhen you say his name, he turns. And his expression — for the first time since you met him — is something you can actually read.\n\nIt looks like decision.",
+        "it": "🖥️ <b>MODULO COMANDO — 06:40 ORA STAZIONE</b>\n\nI file sono sparsi su tre terminali. Chen legge da due ore. Il suo viso ti dice tutto prima che parli.\n\n<i>«Non è solo Theta,»</i> dice sottovoce. <i>«Kepler-7. Stazione Tartarus. New Galveston. Tutti — stesso protocollo, stessa classificazione, stessa firma: Direttiva del Consiglio 9. Tre test precedenti. Vittime totali oltre trecento.»</i>\n\nIl display olografico mostra gli schemi di Theta — e sovrapposti in rosso i modelli di movimento delle ultime sei ore. Gli Architetti non stanno mantenendo la posizione. Stanno convergendo. Lentamente. Verso il Ponte 2.\n\nOkafor guarda dal suo posto contro il muro, braccio steccato sulle ginocchia.\n\n<i>«Sanno che le navi stanno arrivando,»</i> dice. <i>«Percepiscono l'avvicinamento. Vibrazione dello scafo, probabilmente. O qualcos'altro.»</i>\n\nAJAX-7 è al terminale principale, di schiena alla stanza. Non si è mosso per quaranta minuti.\n\nQuando dici il suo nome, si volta. E la sua espressione — per la prima volta da quando l'hai incontrato — è qualcosa che riesci effettivamente a leggere.\n\nAssomiglia a una decisione.",
+        "es": "🖥️ <b>MÓDULO DE MANDO — 06:40 HORA DE ESTACIÓN</b>\n\nLos archivos están repartidos en tres terminales. Chen ha estado leyendo dos horas. Su cara te lo dice todo antes de hablar.\n\n<i>«No es solo Theta,»</i> dice en voz baja. <i>«Kepler-7. Estación Tartarus. New Galveston. Todos — mismo protocolo, misma clasificación, misma firma: Directiva de Junta 9. Tres pruebas anteriores. Bajas combinadas más de trescientas.»</i>\n\nLa pantalla holográfica muestra los esquemas de Theta — y superpuestos en rojo los patrones de movimiento de las últimas seis horas. Los Arquitectos no mantienen posición. Convergen. Despacio. Hacia la Cubierta 2.\n\nOkafor observa desde su asiento, brazo entablillado sobre las rodillas.\n\n<i>«Saben que las naves se acercan,»</i> dice. <i>«Perciben la aproximación. Vibración del casco, probablemente. O algo completamente diferente.»</i>\n\nAJAX-7 está en el terminal principal, de espaldas a la sala. No se ha movido en cuarenta minutos.\n\nCuando dices su nombre, se gira. Y su expresión — por primera vez desde que lo conociste — es algo que realmente puedes leer.\n\nParece una decisión."
+      },
+      "effects": {"xp": 30, "stress": 15},
+      "choices": [
+        {
+          "id": "confront_ajax_now",
+          "text": {
+            "en": "👁️ «Tell us everything. Right now. No more half-answers.»",
+            "it": "👁️ «Dicci tutto. Adesso. Basta mezze risposte.»",
+            "es": "👁️ «Dinos todo. Ahora. Sin más medias respuestas.»"
+          },
+          "next": "c3_ajax_confession",
+          "requires": null,
+          "flags_set": {"confronted_ajax_c3": true},
+          "effects": {}
+        },
+        {
+          "id": "read_files_deep",
+          "text": {
+            "en": "📂 Decrypt the deeper file layers — what is Board Directive 9?",
+            "it": "📂 Decifra i livelli più profondi — cos'è la Direttiva del Consiglio 9?",
+            "es": "📂 Descifra las capas más profundas — ¿qué es la Directiva de Junta 9?"
+          },
+          "next": "c3_board_directive",
+          "requires": {"stat": "intelligence", "value": 5},
+          "locked_reason": {
+            "en": "The encryption is beyond you. You can't parse the deeper layers.",
+            "it": "La crittografia è oltre le tue capacità. Non riesci a decifrare i livelli più profondi.",
+            "es": "El cifrado está más allá de ti. No puedes descifrar las capas más profundas."
+          },
+          "flags_set": {"read_deep_files": true},
+          "lore_unlock": "lore_board_directive_full",
+          "effects": {"xp": 30}
+        },
+        {
+          "id": "assess_defenses",
+          "text": {
+            "en": "🔧 Assess station defenses — what do we have to work with?",
+            "it": "🔧 Valuta le difese della stazione — cosa abbiamo con cui lavorare?",
+            "es": "🔧 Evalúa las defensas de la estación — ¿con qué contamos?"
+          },
+          "next": "c3_defense_assessment",
+          "requires": {"stat": "engineering", "value": 5},
+          "locked_reason": {
+            "en": "The station systems are too complex to assess quickly.",
+            "it": "I sistemi della stazione sono troppo complessi da valutare rapidamente.",
+            "es": "Los sistemas de la estación son demasiado complejos para evaluarlos rápidamente."
+          },
+          "flags_set": {"assessed_defenses": true},
+          "effects": {"xp": 30}
+        },
+        {
+          "id": "talk_okafor_alone",
+          "text": {
+            "en": "🔬 Get Okafor alone — without AJAX-7 in the room",
+            "it": "🔬 Prendi Okafor da parte — senza AJAX-7 nella stanza",
+            "es": "🔬 Habla con Okafor a solas — sin AJAX-7 en la sala"
+          },
+          "next": "c3_okafor_private",
+          "requires": {"stat": "charisma", "value": 4},
+          "locked_reason": {
+            "en": "AJAX-7 is watching. You can't signal Okafor without being noticed.",
+            "it": "AJAX-7 sta guardando. Non riesci a segnalare Okafor senza essere notato.",
+            "es": "AJAX-7 está vigilando. No puedes señalar a Okafor sin ser notado."
+          },
+          "flags_set": {"private_okafor": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_ajax_confession": {
+      "id": "c3_ajax_confession",
+      "text": {
+        "en": "AJAX-7 is silent for four seconds.\n\nThen he opens a file that was never in Harlow's directory — his own classified record — and turns to face the room.\n\n<i>«My operational classification is not Corporate Security Synthetic. It is USCM Intelligence Asset — embedded, long-term. I was placed on Theta six months ago to monitor Project Architect and assess Sigma-Black's strategic potential. My orders came from USCM Command, not Weyland-Yutani.»</i>\n\nVance's hand moves toward his sidearm.\n\n<i>«You're a spy,»</i> Chen says.\n\n<i>«An asset. The distinction matters. I was not sent to sabotage. I was sent to understand.»</i>\n\nPetra's voice is flat. <i>«And when you understood what Harlow was planning? When you knew people were going to die?»</i>\n\nThe pause that follows is the longest he has ever taken.\n\n<i>«I transmitted a report. The USCM response arrived forty-eight hours ago.»</i>\n\nHe looks directly at you.\n\n<i>«The second ship approaching Theta is not a rescue vessel. It carries a Special Operations unit. Their orders: retrieve Sigma-Black. Eliminate all witnesses to Protocol Omega Harvest.»</i>\n\nComplete silence.\n\n<i>«All witnesses,»</i> he repeats carefully, <i>«means everyone currently in this room.»</i>",
+        "it": "AJAX-7 è silenzioso per quattro secondi.\n\nPoi apre un file che non era mai nella directory di Harlow — il suo record classificato — e si volta verso la stanza.\n\n<i>«La mia classificazione operativa non è Sintetico di Sicurezza Aziendale. È Asset di Intelligence USCM — incorporato, a lungo termine. Sono stato collocato su Theta sei mesi fa per monitorare il Progetto Architetto e valutare il potenziale strategico di Sigma-Nero. I miei ordini venivano dal Comando USCM, non da Weyland-Yutani.»</i>\n\nLa mano di Vance si muove verso la pistola laterale.\n\n<i>«Sei una spia,»</i> dice Chen.\n\n<i>«Un asset. La distinzione conta. Non sono stato inviato per sabotare. Sono stato inviato per capire.»</i>\n\nLa voce di Petra è piatta. <i>«E quando hai capito cosa stava pianificando Harlow? Quando sapevi che le persone sarebbero morte?»</i>\n\nLa pausa che segue è la più lunga che abbia mai avuto.\n\n<i>«Ho trasmesso un rapporto. La risposta USCM è arrivata quarantotto ore fa.»</i>\n\nTi guarda direttamente.\n\n<i>«La seconda nave che si avvicina a Theta non è un vettore di soccorso. Porta un'unità di Operazioni Speciali. I loro ordini: recuperare Sigma-Nero. Eliminare tutti i testimoni del Protocollo Omega Harvest.»</i>\n\nSilenzio assoluto.\n\n<i>«Tutti i testimoni,»</i> ripete con attenzione, <i>«significa tutti quelli attualmente in questa stanza.»</i>",
+        "es": "AJAX-7 guarda silencio durante cuatro segundos.\n\nLuego abre un archivo que nunca estuvo en el directorio de Harlow — su propio registro clasificado — y se gira hacia la sala.\n\n<i>«Mi clasificación operativa no es Sintético de Seguridad Corporativa. Es Asset de Inteligencia USCM — integrado, a largo plazo. Fui colocado en Theta hace seis meses para monitorear el Proyecto Arquitecto y evaluar el potencial estratégico de Sigma-Negro. Mis órdenes venían del Comando USCM, no de Weyland-Yutani.»</i>\n\nLa mano de Vance se mueve hacia su arma.\n\n<i>«Eres un espía,»</i> dice Chen.\n\n<i>«Un asset. La distinción importa. No fui enviado a sabotear. Fui enviado a entender.»</i>\n\nLa voz de Petra es plana. <i>«¿Y cuando entendiste lo que Harlow planeaba? ¿Cuando supiste que la gente iba a morir?»</i>\n\nLa pausa que sigue es la más larga que ha tenido.\n\n<i>«Transmití un informe. La respuesta USCM llegó hace cuarenta y ocho horas.»</i>\n\nTe mira directamente.\n\n<i>«La segunda nave que se acerca a Theta no es un vehículo de rescate. Lleva una unidad de Operaciones Especiales. Sus órdenes: recuperar Sigma-Negro. Eliminar a todos los testigos del Protocolo Omega Cosecha.»</i>\n\nSilencio absoluto.\n\n<i>«Todos los testigos,»</i> repite con cuidado, <i>«significa todos los que están actualmente en esta habitación.»</i>"
+      },
+      "effects": {"xp": 80, "stress": 35},
+      "lore_unlock": "lore_ajax_true_mission",
+      "choices": [
+        {
+          "id": "ask_why_telling_us",
+          "text": {
+            "en": "❓ «Then why are you telling us this?»",
+            "it": "❓ «Allora perché ce lo stai dicendo?»",
+            "es": "❓ «Entonces ¿por qué nos lo estás diciendo?»"
+          },
+          "next": "c3_ajax_why",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        },
+        {
+          "id": "detain_ajax",
+          "text": {
+            "en": "🔫 «Vance — restrain him. Right now.»",
+            "it": "🔫 «Vance — immobilizzalo. Adesso.»",
+            "es": "🔫 «Vance — inmovilízalo. Ahora mismo.»"
+          },
+          "next": "c3_ajax_detained",
+          "requires": null,
+          "flags_set": {"detained_ajax": true},
+          "effects": {"npc_ajax_trust": -30, "npc_vance_trust": 10}
+        },
+        {
+          "id": "trust_act",
+          "text": {
+            "en": "🤝 «What do you need from us to get everyone out alive?»",
+            "it": "🤝 «Cosa hai bisogno da noi per portare tutti fuori vivi?»",
+            "es": "🤝 «¿Qué necesitas de nosotros para sacar a todos vivos?»"
+          },
+          "next": "c3_planning",
+          "requires": {"stat": "adaptability", "value": 5},
+          "locked_reason": {
+            "en": "You can't force yourself to trust him. Not yet.",
+            "it": "Non riesci a costringerti a fidarti di lui. Non ancora.",
+            "es": "No puedes obligarte a confiar en él. Todavía no."
+          },
+          "flags_set": {"trusted_ajax_c3": true},
+          "effects": {"npc_ajax_trust": 20}
+        }
+      ]
+    },
+
+    "c3_ajax_why": {
+      "id": "c3_ajax_why",
+      "text": {
+        "en": "AJAX-7 holds your gaze.\n\n<i>«Because my orders conflict with my function.»</i>\n\nPetra makes a disbelieving sound. <i>«Your function is to follow orders.»</i>\n\n<i>«My function is to protect human life and gather intelligence. The elimination order violates the first directive. And the intelligence I have gathered — about Sigma-Black, about what Board Directive 9 has been doing for eleven years — is intelligence that should be public. Not buried with everyone in this room.»</i>\n\nOkafor stares at him. Something changes in his expression.\n\n<i>«You have a conscience,»</i> Okafor says. Not a question.\n\nAJAX-7 considers this for exactly three seconds.\n\n<i>«I have a directive conflict that I have resolved in favor of the option that produces the least human casualties.»</i>\n\nA pause.\n\n<i>«If that is a conscience, then yes.»</i>\n\nVance breaks the silence. <i>«Clock is running. What's the plan?»</i>",
+        "it": "AJAX-7 tiene il tuo sguardo.\n\n<i>«Perché i miei ordini confliggono con la mia funzione.»</i>\n\nPetra emette un suono incredulo. <i>«La tua funzione è seguire gli ordini.»</i>\n\n<i>«La mia funzione è proteggere la vita umana e raccogliere intelligence. L'ordine di eliminazione viola la prima direttiva. E l'intelligence che ho raccolto — su Sigma-Nero, su ciò che la Direttiva del Consiglio 9 ha fatto per undici anni — è intelligence che dovrebbe essere pubblica. Non sepolta con tutti in questa stanza.»</i>\n\nOkafor lo fissa. Qualcosa cambia nella sua espressione.\n\n<i>«Hai una coscienza,»</i> dice Okafor. Non una domanda.\n\nAJAX-7 considera questo per esattamente tre secondi.\n\n<i>«Ho un conflitto di direttive che ho risolto a favore dell'opzione che produce il minor numero di vittime.»</i>\n\nUna pausa.\n\n<i>«Se questa è una coscienza, allora sì.»</i>\n\nVance spezza il silenzio. <i>«Il tempo scorre. Qual è il piano?»</i>",
+        "es": "AJAX-7 mantiene tu mirada.\n\n<i>«Porque mis órdenes entran en conflicto con mi función.»</i>\n\nPetra hace un sonido incrédulo. <i>«Tu función es seguir órdenes.»</i>\n\n<i>«Mi función es proteger la vida humana y recopilar inteligencia. La orden de eliminación viola la primera directiva. Y la inteligencia que he recopilado — sobre Sigma-Negro, sobre lo que la Directiva de Junta 9 ha estado haciendo durante once años — es inteligencia que debería ser pública. No enterrada con todos en esta habitación.»</i>\n\nOkafor le mira fijamente. Algo cambia en su expresión.\n\n<i>«Tienes conciencia,»</i> dice Okafor. No es una pregunta.\n\nAJAX-7 considera esto durante exactamente tres segundos.\n\n<i>«Tengo un conflicto de directivas que he resuelto a favor de la opción que produce el menor número de bajas.»</i>\n\nUna pausa.\n\n<i>«Si eso es conciencia, entonces sí.»</i>\n\nVance rompe el silencio. <i>«El reloj corre. ¿Cuál es el plan?»</i>"
+      },
+      "effects": {"xp": 60, "npc_ajax_trust": 15, "npc_okafor_trust": 10},
+      "lore_unlock": "lore_ajax_conscience",
+      "choices": [
+        {
+          "id": "go_to_plan",
+          "text": {
+            "en": "▶️ «Good enough. Show us the plan.»",
+            "it": "▶️ «Abbastanza. Mostraci il piano.»",
+            "es": "▶️ «Suficiente. Muéstranos el plan.»"
+          },
+          "next": "c3_planning",
+          "requires": null,
+          "flags_set": {"trusted_ajax_c3": true},
+          "effects": {"npc_ajax_trust": 10}
+        }
+      ]
+    },
+
+    "c3_ajax_detained": {
+      "id": "c3_ajax_detained",
+      "text": {
+        "en": "Vance moves. AJAX-7 does not resist — raises his hands with the measured calm of something that made peace with this possibility.\n\nThey restrain him to a support pillar.\n\nPetra: <i>«Now what?»</i>\n\nHonest answer: you don't know. AJAX-7 knew the layout of both approaching ships. He knew the Special Operations unit's protocols. He knew things none of you know.\n\nFrom the pillar, quietly: <i>«I understand the impulse. It was the logical response given the information asymmetry. But I should point out that you have removed the one entity in this room with knowledge of how to bypass the incoming vessel's authorization codes.»</i>\n\nA pause.\n\n<i>«You have approximately five hours and forty minutes.»</i>",
+        "it": "Vance si muove. AJAX-7 non resiste — alza le mani con la calma misurata di qualcosa che ha fatto pace con questa possibilità.\n\nLo legano a un pilastro di supporto.\n\nPetra: <i>«E adesso?»</i>\n\nRisposta onesta: non lo sai. AJAX-7 conosceva il layout di entrambe le navi in avvicinamento. Conosceva i protocolli dell'unità di Operazioni Speciali. Sapeva cose che nessuno di voi sa.\n\nDal pilastro, sottovoce: <i>«Capisco l'impulso. Era la risposta logica data l'asimmetria informativa. Ma dovrei far notare che hai rimosso l'unica entità in questa stanza con la conoscenza di come bypassare i codici di autorizzazione della nave in arrivo.»</i>\n\nUna pausa.\n\n<i>«Hai circa cinque ore e quaranta minuti.»</i>",
+        "es": "Vance se mueve. AJAX-7 no resiste — levanta las manos con la calma medida de algo que hizo las paces con esta posibilidad.\n\nLo atan a un pilar de soporte.\n\nPetra: <i>«¿Ahora qué?»</i>\n\nRespuesta honesta: no lo sabes. AJAX-7 conocía el diseño de ambas naves. Conocía los protocolos de la unidad de Operaciones Especiales. Sabía cosas que ninguno de vosotros sabe.\n\nDesde el pilar, en voz baja: <i>«Entiendo el impulso. Fue la respuesta lógica dada la asimetría informativa. Pero debería señalar que has eliminado a la única entidad en esta sala con conocimiento de cómo eludir los códigos de autorización de la nave entrante.»</i>\n\nUna pausa.\n\n<i>«Tienes aproximadamente cinco horas y cuarenta minutos.»</i>"
+      },
+      "effects": {"stress": 20},
+      "choices": [
+        {
+          "id": "release_ajax",
+          "text": {
+            "en": "🔓 Release him. We need what he knows.",
+            "it": "🔓 Liberalo. Abbiamo bisogno di quello che sa.",
+            "es": "🔓 Suéltalo. Necesitamos lo que sabe."
+          },
+          "next": "c3_planning",
+          "requires": null,
+          "flags_set": {"released_ajax": true},
+          "effects": {"npc_ajax_trust": 15}
+        },
+        {
+          "id": "work_without",
+          "text": {
+            "en": "🧠 Keep him restrained — we solve this without him",
+            "it": "🧠 Tienilo legato — risolviamo senza di lui",
+            "es": "🧠 Mantenlo retenido — resolvemos sin él"
+          },
+          "next": "c3_planning_solo",
+          "requires": {"stat": "intelligence", "value": 6},
+          "locked_reason": {
+            "en": "You don't have the technical knowledge to bypass military authorization systems.",
+            "it": "Non hai le conoscenze tecniche per bypassare i sistemi di autorizzazione militari.",
+            "es": "No tienes el conocimiento técnico para eludir los sistemas de autorización militares."
+          },
+          "flags_set": {"worked_without_ajax": true},
+          "effects": {"xp": 20}
+        }
+      ]
+    },
+
+    "c3_board_directive": {
+      "id": "c3_board_directive",
+      "text": {
+        "en": "💻 You decrypt the deeper layers. Forty minutes of work. Your eyes ache.\n\nBoard Directive 9 is not a person. It's a standing order — issued in 2186 by a Weyland-Yutani board quorum, never rescinded, never officially documented. Its mandate: <i>identify, develop, and deploy any xenomorphic asset with strategic military potential, by any means necessary, with full authorization for civilian resource allocation.</i>\n\n<i>Civilian resource allocation.</i> That's the phrase they use for forty-one people on Theta. For three hundred across four stations.\n\nSigma-Black is not the end goal. It's a proof of concept.\n\nThe final message in the archive, sent three days ago:\n\n<i>«Theta protocol successful. Nest maturation confirmed. Proceed to Phase LV-223: Engineer site reactivation with Architect labor force. Timeline: 8 months.»</i>\n\nTheta was a demonstration. They want to rebuild the Engineer installation on LV-223 — using a Sigma-Black-controlled Architect nest as the workforce.\n\nWith access to Engineer bioweapon stockpiles, no nation-state or rival corporation could stop them.\n\nThey're eight months from having exactly that.",
+        "it": "💻 Decifri i livelli più profondi. Quaranta minuti di lavoro. Gli occhi fanno male.\n\nLa Direttiva del Consiglio 9 non è una persona. È un ordine permanente — emesso nel 1986 da un quorum del consiglio Weyland-Yutani, mai revocato, mai documentato ufficialmente. Il suo mandato: <i>identificare, sviluppare e distribuire qualsiasi asset xenomorfico con potenziale militare strategico, con qualsiasi mezzo necessario, con piena autorizzazione per l'allocazione delle risorse civili.</i>\n\n<i>Allocazione delle risorse civili.</i> Questa è la frase che usano per quarantuno persone su Theta. Per trecento in quattro stazioni.\n\nSigma-Nero non è l'obiettivo finale. È una prova di concetto.\n\nL'ultimo messaggio nell'archivio, inviato tre giorni fa:\n\n<i>«Protocollo Theta riuscito. Maturazione del nido confermata. Procedere alla Fase LV-223: riattivazione del sito Engineer con forza lavoro Architetto. Cronologia: 8 mesi.»</i>\n\nTheta era una dimostrazione. Vogliono ricostruire l'installazione Engineer su LV-223 — usando un nido Architetto controllato da Sigma-Nero come forza lavoro.\n\nCon accesso alle scorte di bioarmi Engineer, nessuno Stato-nazione o azienda rivale potrebbe fermarli.\n\nSono a otto mesi dall'avere esattamente questo.",
+        "es": "💻 Descifras las capas más profundas. Cuarenta minutos de trabajo. Los ojos duelen.\n\nLa Directiva de Junta 9 no es una persona. Es una orden permanente — emitida en 2186 por un quórum de la junta Weyland-Yutani, nunca revocada, nunca documentada oficialmente. Su mandato: <i>identificar, desarrollar y desplegar cualquier activo xenomórfico con potencial militar estratégico, por cualquier medio necesario, con plena autorización para la asignación de recursos civiles.</i>\n\n<i>Asignación de recursos civiles.</i> Esa es la frase que usan para cuarenta y una personas en Theta. Para trescientas en cuatro estaciones.\n\nSigma-Negro no es el objetivo final. Es una prueba de concepto.\n\nEl último mensaje del archivo, enviado hace tres días:\n\n<i>«Protocolo Theta exitoso. Maduración del nido confirmada. Proceder a Fase LV-223: reactivación del sitio Engineer con fuerza de trabajo Arquitecto. Línea de tiempo: 8 meses.»</i>\n\nTheta fue una demostración. Quieren reconstruir la instalación Engineer en LV-223 — usando un nido Arquitecto controlado por Sigma-Negro como fuerza de trabajo.\n\nCon acceso a arsenales de bioarmas Engineer, ningún estado-nación o corporación rival podría detenerlos.\n\nEstán a ocho meses de tener exactamente eso."
+      },
+      "effects": {"xp": 100, "stress": 30},
+      "lore_unlock": "lore_board_directive_full",
+      "choices": [
+        {
+          "id": "share_group",
+          "text": {
+            "en": "📢 Tell the group — everyone needs to hear this",
+            "it": "📢 Di' al gruppo — tutti devono sentirlo",
+            "es": "📢 Dile al grupo — todos necesitan escuchar esto"
+          },
+          "next": "c3_group_reveal",
+          "requires": null,
+          "flags_set": {"shared_lv223": true},
+          "effects": {}
+        },
+        {
+          "id": "confront_ajax_files",
+          "text": {
+            "en": "👁️ Confront AJAX-7 directly — he knew about LV-223",
+            "it": "👁️ Confronta AJAX-7 direttamente — sapeva di LV-223",
+            "es": "👁️ Confronta directamente a AJAX-7 — sabía lo de LV-223"
+          },
+          "next": "c3_ajax_confession",
+          "requires": null,
+          "flags_set": {"confronted_ajax_c3": true, "had_files_first": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_group_reveal": {
+      "id": "c3_group_reveal",
+      "text": {
+        "en": "You put everything on the holographic display. The full correspondence. The LV-223 plan. The eight-month timeline.\n\nNobody speaks for a long time.\n\nOkafor finally: <i>«They used Theta as a field test. A proof that Sigma-Black works on a mature nest. Now they want to scale up — LV-223 has Engineer infrastructure we've never replicated. With a controlled Architect workforce, they could access Engineer bioweapon stockpiles. Engineering techniques we don't understand. They wouldn't need armies. They'd have something no one could match.»</i>\n\nChen's jaw is set. <i>«We broadcast it. All of it. Right now.»</i>\n\nVance: <i>«Weyland-Yutani controls sixty percent of colonial communications infrastructure.»</i>\n\nPetra looks at AJAX-7. <i>«The USCM ship — is there anyone aboard who doesn't know what their orders really mean?»</i>\n\n<i>«Most Special Operations units are compartmentalized,»</i> AJAX-7 says. <i>«The soldiers won't know the full picture.»</i>\n\n<i>«Then that,»</i> Petra says, <i>«is our opening.»</i>",
+        "it": "Metti tutto sul display olografico. Tutta la corrispondenza. Il piano LV-223. La cronologia di otto mesi.\n\nNessuno parla per molto tempo.\n\nOkafor alla fine: <i>«Hanno usato Theta come test sul campo. Una prova che Sigma-Nero funziona su un nido maturo. Ora vogliono aumentare la scala — LV-223 ha infrastrutture Engineer che non abbiamo mai replicato. Con una forza lavoro Architetto controllata, potrebbero accedere alle scorte di bioarmi Engineer. Tecniche ingegneristiche che non capiamo. Non avrebbero bisogno di eserciti. Avrebbero qualcosa che nessuno potrebbe eguagliare.»</i>\n\nLa mascella di Chen è ferma. <i>«Lo trasmettiamo. Tutto. Adesso.»</i>\n\nVance: <i>«Weyland-Yutani controlla il sessanta percento dell'infrastruttura di comunicazione coloniale.»</i>\n\nPetra guarda AJAX-7. <i>«La nave USCM — c'è qualcuno a bordo che non sa cosa significano veramente i suoi ordini?»</i>\n\n<i>«La maggior parte delle unità di Operazioni Speciali sono compartimentate,»</i> dice AJAX-7. <i>«I soldati non conosceranno il quadro completo.»</i>\n\n<i>«Allora quello,»</i> dice Petra, <i>«è la nostra apertura.»</i>",
+        "es": "Pones todo en la pantalla holográfica. Toda la correspondencia. El plan LV-223. La línea de tiempo de ocho meses.\n\nNadie habla durante mucho tiempo.\n\nOkafor al final: <i>«Usaron Theta como prueba de campo. Una demostración de que Sigma-Negro funciona en un nido maduro. Ahora quieren escalar — LV-223 tiene infraestructura Engineer que nunca hemos replicado. Con una fuerza de trabajo Arquitecto controlada, podrían acceder a arsenales de bioarmas Engineer. Técnicas de ingeniería que no entendemos. No necesitarían ejércitos. Tendrían algo que nadie podría igualar.»</i>\n\nLa mandíbula de Chen está firme. <i>«Lo transmitimos. Todo. Ahora mismo.»</i>\n\nVance: <i>«Weyland-Yutani controla el sesenta por ciento de la infraestructura de comunicaciones coloniales.»</i>\n\nPetra mira a AJAX-7. <i>«La nave USCM — ¿hay alguien a bordo que no sepa lo que realmente significan sus órdenes?»</i>\n\n<i>«La mayoría de las unidades de Operaciones Especiales están compartimentadas,»</i> dice AJAX-7. <i>«Los soldados no conocerán el panorama completo.»</i>\n\n<i>«Entonces eso,»</i> dice Petra, <i>«es nuestra apertura.»</i>"
+      },
+      "effects": {"xp": 50, "stress": 10},
+      "choices": [
+        {
+          "id": "to_planning",
+          "text": {
+            "en": "▶️ Develop the plan — we have five hours",
+            "it": "▶️ Sviluppa il piano — abbiamo cinque ore",
+            "es": "▶️ Desarrolla el plan — tenemos cinco horas"
+          },
+          "next": "c3_planning",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_defense_assessment": {
+      "id": "c3_defense_assessment",
+      "text": {
+        "en": "🔧 You work through the station systems for thirty minutes.\n\nTheta wasn't built to be defended — it was built to be hidden. But hidden installations have their own fortification.\n\nYou find three assets:\n\n<b>Blast Doors</b> — Decks 1 and 2 can be sealed from here. Full lockdown: six to eight hours against military-grade breaching equipment.\n\n<b>Reactor Protocol</b> — Deck 8 has a manual destabilization sequence. Controlled cascade: station uninhabitable in four hours. Would also destroy all evidence. And everyone inside.\n\n<b>Emergency Broadcast Antenna</b> — still operational. Low power, 200,000 km range. Enough to reach both incoming vessels. You could transmit everything. Harlow's files. All of it.\n\nVance reads over your shoulder. <i>«Three options. Seal and hold. Burn everything. Or scream into the void and hope someone's listening.»</i>\n\nOkafor, from across the room: <i>«There is a fourth option. But it requires going back down.»</i>",
+        "it": "🔧 Lavori attraverso i sistemi della stazione per trenta minuti.\n\nTheta non è stata costruita per essere difesa — è stata costruita per essere nascosta. Ma le installazioni nascoste hanno la loro fortezza.\n\nTrovi tre asset:\n\n<b>Porte Blindate</b> — Ponti 1 e 2 possono essere sigillati da qui. Blocco totale: da sei a otto ore contro attrezzatura di sfondamento militare.\n\n<b>Protocollo Reattore</b> — Il Ponte 8 ha una sequenza di destabilizzazione manuale. Cascata controllata: stazione inabitabile in quattro ore. Distruggerebbe anche tutte le prove. E tutti all'interno.\n\n<b>Antenna di Trasmissione di Emergenza</b> — ancora operativa. Bassa potenza, raggio di 200.000 km. Sufficiente per raggiungere entrambe le navi in arrivo. Potresti trasmettere tutto. I file di Harlow. Tutto.\n\nVance legge sopra la tua spalla. <i>«Tre opzioni. Sigilla e tieni. Brucia tutto. O urla nel vuoto e spera che qualcuno stia ascoltando.»</i>\n\nOkafor, dall'altro lato della stanza: <i>«C'è una quarta opzione. Ma richiede di scendere di nuovo.»</i>",
+        "es": "🔧 Trabajas los sistemas de la estación durante treinta minutos.\n\nTheta no fue construida para ser defendida — fue construida para estar oculta. Pero las instalaciones ocultas tienen su propia fortaleza.\n\nEncuentras tres activos:\n\n<b>Puertas Blindadas</b> — Las Cubiertas 1 y 2 pueden sellarse desde aquí. Bloqueo total: seis a ocho horas contra equipo de penetración militar.\n\n<b>Protocolo del Reactor</b> — La Cubierta 8 tiene una secuencia de desestabilización manual. Cascada controlada: estación inhabitable en cuatro horas. También destruiría todas las pruebas. Y a todos dentro.\n\n<b>Antena de Transmisión de Emergencia</b> — todavía operativa. Baja potencia, 200.000 km de alcance. Suficiente para llegar a ambas naves. Podrías transmitir todo. Los archivos de Harlow. Todo.\n\nVance lee por encima de tu hombro. <i>«Tres opciones. Sella y aguanta. Quema todo. O grita al vacío y espera que alguien escuche.»</i>\n\nOkafor, desde el otro lado de la sala: <i>«Hay una cuarta opción. Pero requiere volver a bajar.»</i>"
+      },
+      "effects": {"xp": 80},
+      "lore_unlock": "lore_theta_systems",
+      "choices": [
+        {
+          "id": "ask_fourth",
+          "text": {
+            "en": "🔬 «What's the fourth option, Okafor?»",
+            "it": "🔬 «Qual è la quarta opzione, Okafor?»",
+            "es": "🔬 «¿Cuál es la cuarta opción, Okafor?»"
+          },
+          "next": "c3_okafor_private",
+          "requires": null,
+          "flags_set": {"asked_fourth_option": true},
+          "effects": {}
+        },
+        {
+          "id": "broadcast_plan",
+          "text": {
+            "en": "📡 The antenna. That's the move.",
+            "it": "📡 L'antenna. Questa è la mossa.",
+            "es": "📡 La antena. Esa es la jugada."
+          },
+          "next": "c3_planning",
+          "requires": null,
+          "flags_set": {"chose_broadcast": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_okafor_private": {
+      "id": "c3_okafor_private",
+      "text": {
+        "en": "Okafor lowers his voice.\n\n<i>«Sigma-Black is an Engineer pheromone analog. The compound's active structure degrades under specific UV wavelengths. Laboratory Seven on Deck 3 has UV emitters I designed for a different experiment — but they'd neutralize the compound completely. Functional Sigma-Black becomes inert solution.»</i>\n\n<i>«Both agendas — Harlow's, USCM's — are about the canister. If the canister contains nothing, both agendas collapse. Evidence still exists, goes public, both institutions face consequences. Nobody gets the weapon.»</i>\n\nHe looks at his splinted arm.\n\n<i>«But we'd have to go back down through the nest with the canister. And the lab is on Deck 3.»</i>\n\nYou understand what he's not saying: the nest is between here and Deck 3. The Architects are already converging. And after last time, they'll be watching for you.\n\n<i>«I know what I'm asking,»</i> he says quietly. <i>«I just thought you should know it was possible.»</i>",
+        "it": "Okafor abbassa la voce.\n\n<i>«Sigma-Nero è un analogo dei feromoni Engineer. La struttura attiva del composto si degrada sotto specifiche lunghezze d'onda UV. Il Laboratorio Sette al Ponte 3 ha emettitori UV che ho progettato per un esperimento diverso — ma neutralizzerebbero completamente il composto. Sigma-Nero funzionale diventa soluzione inerte.»</i>\n\n<i>«Entrambe le agende — quella di Harlow, quella dell'USCM — riguardano il contenitore. Se il contenitore non contiene niente, entrambe le agende crollano. Le prove esistono ancora, diventano pubbliche, entrambe le istituzioni affrontano le conseguenze. Nessuno ottiene l'arma.»</i>\n\nGuarda il braccio steccato.\n\n<i>«Ma dovremmo scendere di nuovo attraverso il nido con il contenitore. E il laboratorio è al Ponte 3.»</i>\n\nCapisci cosa non sta dicendo: il nido è tra qui e il Ponte 3. Gli Architetti stanno già convergendo. E dopo l'ultima volta, ti staranno osservando.\n\n<i>«So cosa sto chiedendo,»</i> dice sottovoce. <i>«Pensavo solo che dovessi sapere che era possibile.»</i>",
+        "es": "Okafor baja la voz.\n\n<i>«Sigma-Negro es un análogo de feromona Engineer. La estructura activa del compuesto se degrada bajo longitudes de onda UV específicas. El Laboratorio Siete en la Cubierta 3 tiene emisores UV que diseñé para un experimento diferente — pero neutralizarían el compuesto completamente. Sigma-Negro funcional se convierte en solución inerte.»</i>\n\n<i>«Ambas agendas — la de Harlow, la del USCM — son sobre el contenedor. Si el contenedor no contiene nada, ambas agendas colapsan. La evidencia sigue existiendo, se hace pública, ambas instituciones enfrentan consecuencias. Nadie obtiene el arma.»</i>\n\nMira su brazo entablillado.\n\n<i>«Pero tendríamos que volver a bajar por el nido con el contenedor. Y el laboratorio está en la Cubierta 3.»</i>\n\nEntiendes lo que no está diciendo: el nido está entre aquí y la Cubierta 3. Los Arquitectos ya convergen. Y después de la última vez, estarán vigilando.\n\n<i>«Sé lo que estoy pidiendo,»</i> dice en voz baja. <i>«Solo pensé que deberías saber que era posible.»</i>"
+      },
+      "effects": {"xp": 70, "npc_okafor_trust": 15},
+      "lore_unlock": "lore_neutralization_option",
+      "choices": [
+        {
+          "id": "accept_neutralize",
+          "text": {
+            "en": "✅ «We do it. Nobody uses this weapon.»",
+            "it": "✅ «Lo facciamo. Nessuno usa quest'arma.»",
+            "es": "✅ «Lo hacemos. Nadie usa esta arma.»"
+          },
+          "next": "c3_planning",
+          "requires": null,
+          "flags_set": {"chose_neutralize": true},
+          "effects": {"npc_okafor_trust": 10, "npc_petra_trust": 10}
+        },
+        {
+          "id": "too_risky",
+          "text": {
+            "en": "❌ «Too risky. Broadcast and get out.»",
+            "it": "❌ «Troppo rischioso. Trasmetti e scappa.»",
+            "es": "❌ «Demasiado arriesgado. Transmite y sal.»"
+          },
+          "next": "c3_planning",
+          "requires": null,
+          "flags_set": {"chose_broadcast_only": true},
+          "effects": {"npc_okafor_trust": -5}
+        }
+      ]
+    },
+
+    "c3_planning": {
+      "id": "c3_planning",
+      "text": {
+        "en": "🗂️ <b>COMMAND MODULE — THE PLAN</b>\n\nEveryone around the holographic table. AJAX-7 lays out the situation.\n\n<i>«Two vessels. ETA: four hours fifty minutes. Harlow's extraction shuttle: six corporate security, one pilot. The USCM vessel carries Ghost Squad — twelve Special Operations soldiers under Captain Elena Vasquez.»</i>\n\nHe pulls up intercept data.\n\n<i>«Ghost Squad is compartmentalized. Vasquez knows she's executing a retrieval-and-containment operation. She almost certainly does not know that containment means killing witnesses. If she receives Harlow's complete file archive before she docks — the Board Directive correspondence, the LV-223 plan, the previous incidents — she will have to make a choice.»</i>\n\n<i>«Why would she believe a transmission from the people she was sent to kill?»</i> Chen asks.\n\n<i>«Because the encryption keys are USCM-level. She'll recognize them as genuine. And she'll ask herself: if they could fabricate USCM-encrypted files, why would they bother? They'd simply escape.»</i>\n\nHe looks at you.\n\n<i>«Vasquez is a soldier. Not an assassin. I am reasonably confident she knows the difference.»</i>\n\nVance: <i>«And if she doesn't?»</i>\n\nAJAX-7: <i>«Then we hold the blast doors until she does.»</i>",
+        "it": "🗂️ <b>MODULO COMANDO — IL PIANO</b>\n\nTutti attorno al tavolo olografico. AJAX-7 espone la situazione.\n\n<i>«Due vettori. ETA: quattro ore e cinquanta minuti. Lo shuttle di estrazione di Harlow: sei sicurezza aziendale, un pilota. Il vettore USCM porta Ghost Squad — dodici soldati di Operazioni Speciali sotto il Capitano Elena Vasquez.»</i>\n\nApre i dati di intercettazione.\n\n<i>«Ghost Squad è compartimentata. Vasquez sa di eseguire un'operazione di recupero e contenimento. Quasi certamente non sa che contenimento significa uccidere testimoni. Se riceve l'archivio completo dei file di Harlow prima di attraccare — la corrispondenza della Direttiva del Consiglio, il piano LV-223, gli incidenti precedenti — dovrà fare una scelta.»</i>\n\n<i>«Perché dovrebbe credere a una trasmissione da parte delle persone che è stata inviata a uccidere?»</i> chiede Chen.\n\n<i>«Perché le chiavi di crittografia sono a livello USCM. Le riconoscerà come genuine. E si chiederà: se potessero falsificare file crittografati USCM, perché si sarebbero preoccupati? Sarebbero semplicemente fuggiti.»</i>\n\nTi guarda.\n\n<i>«Vasquez è una soldato. Non un assassino. Sono ragionevolmente sicuro che conosce la differenza.»</i>\n\nVance: <i>«E se non la conosce?»</i>\n\nAJAX-7: <i>«Allora teniamo le porte blindate finché non lo fa.»</i>",
+        "es": "🗂️ <b>MÓDULO DE MANDO — EL PLAN</b>\n\nTodos alrededor de la mesa holográfica. AJAX-7 expone la situación.\n\n<i>«Dos naves. ETA: cuatro horas cincuenta minutos. El transbordador de Harlow: seis seguridad corporativa, un piloto. La nave USCM lleva Ghost Squad — doce soldados de Operaciones Especiales bajo la Capitana Elena Vasquez.»</i>\n\nAbre datos de interceptación.\n\n<i>«Ghost Squad está compartimentada. Vasquez sabe que ejecuta una operación de recuperación y contención. Casi con certeza no sabe que contención significa matar testigos. Si recibe el archivo completo de Harlow antes de atracar — la correspondencia de la Directiva de Junta, el plan LV-223, los incidentes anteriores — tendrá que tomar una decisión.»</i>\n\n<i>«¿Por qué creería una transmisión de las personas que fue enviada a matar?»</i> pregunta Chen.\n\n<i>«Porque las claves de cifrado son de nivel USCM. Las reconocerá como genuinas. Y se preguntará: si pudieran falsificar archivos cifrados USCM, ¿por qué se molestarían? Simplemente escaparían.»</i>\n\nTe mira.\n\n<i>«Vasquez es una soldado. No una asesina. Estoy razonablemente seguro de que conoce la diferencia.»</i>\n\nVance: <i>«¿Y si no la conoce?»</i>\n\nAJAX-7: <i>«Entonces mantenemos las puertas blindadas hasta que lo haga.»</i>"
+      },
+      "effects": {"xp": 60, "stress": 10},
+      "choices": [
+        {
+          "id": "execute_broadcast",
+          "text": {
+            "en": "📡 Activate the antenna — broadcast everything now",
+            "it": "📡 Attiva l'antenna — trasmetti tutto adesso",
+            "es": "📡 Activa la antena — transmite todo ahora"
+          },
+          "next": "c3_broadcast",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        },
+        {
+          "id": "neutralize_first",
+          "text": {
+            "en": "🧬 Neutralize Sigma-Black first — then broadcast",
+            "it": "🧬 Neutralizza prima Sigma-Nero — poi trasmetti",
+            "es": "🧬 Neutraliza Sigma-Negro primero — luego transmite"
+          },
+          "next": "c3_descent",
+          "requires": {"flag": "chose_neutralize"},
+          "locked_reason": {
+            "en": "You haven't identified a way to neutralize the compound.",
+            "it": "Non hai ancora identificato un modo per neutralizzare il composto.",
+            "es": "Aún no has identificado una forma de neutralizar el compuesto."
+          },
+          "flags_set": {},
+          "effects": {}
+        },
+        {
+          "id": "seal_doors_first",
+          "text": {
+            "en": "🔒 Seal the blast doors first — buy us time",
+            "it": "🔒 Sigilla prima le porte blindate — guadagnaci tempo",
+            "es": "🔒 Sella las puertas blindadas primero — gánanos tiempo"
+          },
+          "next": "c3_lockdown",
+          "requires": null,
+          "flags_set": {"executed_lockdown": true},
+          "effects": {"xp": 20}
+        }
+      ]
+    },
+
+    "c3_planning_solo": {
+      "id": "c3_planning_solo",
+      "text": {
+        "en": "You work without AJAX-7.\n\nVance knows military approach protocols. Chen knows communications. Okafor knows the station architecture. Petra knows what's in the files. Together, slowly, you piece it together.\n\nTwo hours. Four arguments. One failed attempt to crack military docking codes that leaves you with a locked terminal and a headache.\n\nBut you get there. Slower. With fewer options. The plan: emergency broadcast antenna, full archive transmission to both vessels simultaneously, then seal and hold.\n\nFrom the pillar, AJAX-7 speaks for the first time in two hours.\n\n<i>«Your approach is functionally equivalent to mine. Reduced probability of success by approximately eighteen percent due to the docking authorization gap. I recommend you release me. But I acknowledge you may have decided the risk calculus differently.»</i>\n\nVance looks at you.",
+        "it": "Lavori senza AJAX-7.\n\nVance conosce i protocolli di avvicinamento militari. Chen conosce le comunicazioni. Okafor conosce l'architettura della stazione. Petra sa cosa c'è nei file. Insieme, lentamente, lo ricostruite.\n\nDue ore. Quattro discussioni. Un tentativo fallito di craccare i codici di attracco militari che ti lascia con un terminale bloccato e un mal di testa.\n\nMa ci arrivi. Più lentamente. Con meno opzioni. Il piano: antenna di trasmissione di emergenza, trasmissione dell'archivio completo a entrambi i vettori simultaneamente, poi sigillare e tenere.\n\nDal pilastro, AJAX-7 parla per la prima volta in due ore.\n\n<i>«Il tuo approccio è funzionalmente equivalente al mio. Probabilità di successo ridotta di circa il diciotto percento a causa del gap di autorizzazione di attracco. Raccomando di liberarmi. Ma riconosco che potresti aver deciso il calcolo del rischio diversamente.»</i>\n\nVance ti guarda.",
+        "es": "Trabajas sin AJAX-7.\n\nVance conoce los protocolos de aproximación militares. Chen conoce las comunicaciones. Okafor conoce la arquitectura de la estación. Petra sabe lo que hay en los archivos. Juntos, lentamente, lo van armando.\n\nDos horas. Cuatro discusiones. Un intento fallido de crackear los códigos de atraque militares que te deja con un terminal bloqueado y un dolor de cabeza.\n\nPero llegas. Más despacio. Con menos opciones. El plan: antena de transmisión de emergencia, transmisión del archivo completo a ambas naves simultáneamente, luego sellar y aguantar.\n\nDesde el pilar, AJAX-7 habla por primera vez en dos horas.\n\n<i>«Tu enfoque es funcionalmente equivalente al mío. Probabilidad de éxito reducida aproximadamente un dieciocho por ciento debido al vacío de autorización de atraque. Recomiendo que me liberes. Pero reconozco que puedes haber decidido el cálculo de riesgo de forma diferente.»</i>\n\nVance te mira."
+      },
+      "effects": {"xp": 80, "stress": 25},
+      "choices": [
+        {
+          "id": "release_after_solo",
+          "text": {
+            "en": "🔓 Release him. Eighteen percent matters.",
+            "it": "🔓 Liberalo. Il diciotto percento conta.",
+            "es": "🔓 Suéltalo. El dieciocho por ciento importa."
+          },
+          "next": "c3_broadcast",
+          "requires": null,
+          "flags_set": {"released_ajax_late": true},
+          "effects": {"npc_ajax_trust": 15}
+        },
+        {
+          "id": "proceed_without",
+          "text": {
+            "en": "⛓️ Proceed without him. Execute the plan.",
+            "it": "⛓️ Procedi senza di lui. Esegui il piano.",
+            "es": "⛓️ Procede sin él. Ejecuta el plan."
+          },
+          "next": "c3_broadcast",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_lockdown": {
+      "id": "c3_lockdown",
+      "text": {
+        "en": "🔒 You seal the blast doors from the Command Module.\n\nA deep mechanical thud reverberates through the deck — each door engaging in sequence. The holographic display shows Decks 1 and 2 sealed: green borders turning red, red turning locked.\n\nThen the display updates.\n\nMovement on Deck 3. Then Deck 4. The Architects, responding to the blast door mechanisms — sounds they know, sounds that mean something is happening — accelerating their convergence pattern.\n\nChen watches the display. <i>«They know what that sound means.»</i>\n\nAJAX-7: <i>«They've lived in this station for three months. They know every system vibration. That sound means something is about to happen.»</i>\n\nThe lockdown bought time. It also told the nest you were preparing.\n\n<i>«Broadcast antenna,»</i> Vance says.\n\n<i>«Broadcast antenna,»</i> you agree.",
+        "it": "🔒 Sigilli le porte blindate dal Modulo Comando.\n\nUn profondo tonfo meccanico riverbera attraverso il ponte — ogni porta che si attiva in sequenza. Il display olografico mostra i Ponti 1 e 2 sigillati: bordi verdi che diventano rossi, rossi che diventano bloccati.\n\nPoi il display si aggiorna.\n\nMovimento al Ponte 3. Poi Ponte 4. Gli Architetti, che rispondono ai meccanismi delle porte blindate — suoni che conoscono, suoni che significano qualcosa sta accadendo — accelerando il loro schema di convergenza.\n\nChen guarda il display. <i>«Sanno cosa significa quel suono.»</i>\n\nAJAX-7: <i>«Hanno vissuto in questa stazione per tre mesi. Conoscono ogni vibrazione del sistema. Quel suono significa che sta per succedere qualcosa.»</i>\n\nIl blocco ha guadagnato tempo. Ha anche detto al nido che ti stavi preparando.\n\n<i>«Antenna di trasmissione,»</i> dice Vance.\n\n<i>«Antenna di trasmissione,»</i> concordi.",
+        "es": "🔒 Sellas las puertas blindadas desde el Módulo de Mando.\n\nUn profundo golpe mecánico reverbera a través de la cubierta — cada puerta activándose en secuencia. La pantalla holográfica muestra las Cubiertas 1 y 2 selladas: bordes verdes volviéndose rojos, rojos volviéndose bloqueados.\n\nLuego la pantalla se actualiza.\n\nMovimiento en la Cubierta 3. Luego Cubierta 4. Los Arquitectos, respondiendo a los mecanismos de las puertas — sonidos que conocen, sonidos que significan que algo ocurre — acelerando su patrón de convergencia.\n\nChen mira la pantalla. <i>«Saben lo que significa ese sonido.»</i>\n\nAJAX-7: <i>«Han vivido en esta estación tres meses. Conocen cada vibración del sistema. Ese sonido significa que algo está a punto de ocurrir.»</i>\n\nEl bloqueo compró tiempo. También le dijo al nido que te estabas preparando.\n\n<i>«Antena de transmisión,»</i> dice Vance.\n\n<i>«Antena de transmisión,»</i> coincides."
+      },
+      "effects": {"xp": 30, "stress": 20},
+      "choices": [
+        {
+          "id": "to_broadcast",
+          "text": {
+            "en": "📡 Activate the antenna",
+            "it": "📡 Attiva l'antenna",
+            "es": "📡 Activa la antena"
+          },
+          "next": "c3_broadcast",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_descent": {
+      "id": "c3_descent",
+      "text": {
+        "en": "🧬 <b>DESCENT — DECK 3, RESEARCH LAB</b>\n\nYou go back down. Through the corridor. Past the resin maps, which have changed — new markings added since last time, new convergence patterns indicated in the raised-relief geometry.\n\nThey're tracking you. Updating their maps in real time.\n\nOkafor moves slowly, arm splinted, canister secured. AJAX-7 walks point. Chen covers rear. The Research Lab is intact — barely. Acid has eaten channels in the floor. The UV emitters are undamaged.\n\nOkafor works one-handed. Seventeen minutes. Nobody speaks. Motion tracker: 60m, 50m, holding steady.\n\nThe UV array hums to life. Okafor opens the canister.\n\nThe amber fluid — Sigma-Black — shifts color under the UV light. Active structure degrading.\n\n<i>«Twenty minutes to full neutralization,»</i> Okafor says quietly.\n\nThe tracker screams.\n\n📡 <b>BEEP BEEP BEEP</b> — 25m — 18m — 12m —\n\n<i>«They can smell the compound changing,»</i> AJAX-7 says.",
+        "it": "🧬 <b>DISCESA — PONTE 3, LABORATORIO DI RICERCA</b>\n\nScendi di nuovo. Attraverso il corridoio. Passando le mappe di resina, che sono cambiate — nuovi segni aggiunti dall'ultima volta, nuovi schemi di convergenza indicati nella geometria a rilievo.\n\nTi stanno tracciando. Aggiornando le loro mappe in tempo reale.\n\nOkafor si muove lentamente, braccio steccato, contenitore assicurato. AJAX-7 cammina in punta. Chen copre il retro. Il Laboratorio di Ricerca è intatto — a malapena. L'acido ha mangiato canali nel pavimento. Gli emettitori UV sono intatti.\n\nOkafor lavora con una mano. Diciassette minuti. Nessuno parla. Motion tracker: 60m, 50m, stabile.\n\nIl set UV prende vita con un ronzio. Okafor apre il contenitore.\n\nIl fluido ambrato — Sigma-Nero — cambia colore sotto la luce UV. Struttura attiva che si degrada.\n\n<i>«Venti minuti per la neutralizzazione completa,»</i> dice Okafor sottovoce.\n\nIl tracker urla.\n\n📡 <b>BIP BIP BIP</b> — 25m — 18m — 12m —\n\n<i>«Riescono a sentire l'odore del composto che cambia,»</i> dice AJAX-7.",
+        "es": "🧬 <b>DESCENSO — CUBIERTA 3, LABORATORIO DE INVESTIGACIÓN</b>\n\nBajas de nuevo. Por el corredor. Pasando los mapas de resina, que han cambiado — nuevas marcas añadidas desde la última vez, nuevos patrones de convergencia indicados en la geometría en relieve.\n\nTe están rastreando. Actualizando sus mapas en tiempo real.\n\nOkafor se mueve despacio, brazo entablillado, contenedor asegurado. AJAX-7 camina de punta. Chen cubre la retaguardia. El Laboratorio de Investigación está intacto — por poco. El ácido ha comido canales en el suelo. Los emisores UV no tienen daños.\n\nOkafor trabaja con una mano. Diecisiete minutos. Nadie habla. Detector de movimiento: 60m, 50m, estable.\n\nEl conjunto UV cobra vida con un zumbido. Okafor abre el contenedor.\n\nEl fluido ámbar — Sigma-Negro — cambia de color bajo la luz UV. Estructura activa degradándose.\n\n<i>«Veinte minutos para neutralización completa,»</i> dice Okafor en voz baja.\n\nEl detector chilla.\n\n📡 <b>BIP BIP BIP</b> — 25m — 18m — 12m —\n\n<i>«Pueden oler el compuesto cambiando,»</i> dice AJAX-7."
+      },
+      "effects": {"xp": 80, "stress": 35},
+      "choices": [
+        {
+          "id": "defend_lab",
+          "text": {
+            "en": "🔫 Hold the lab — twenty minutes",
+            "it": "🔫 Tieni il laboratorio — venti minuti",
+            "es": "🔫 Mantén el laboratorio — veinte minutos"
+          },
+          "next": "c3_lab_combat",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        },
+        {
+          "id": "architect_appeal",
+          "text": {
+            "en": "🖐️ Step out. Show them what's happening. Let them understand.",
+            "it": "🖐️ Esci. Mostragli cosa sta succedendo. Lasciali capire.",
+            "es": "🖐️ Sal. Muéstrales lo que está ocurriendo. Deja que entiendan."
+          },
+          "next": "c3_architect_moment",
+          "requires": {"stat": "adaptability", "value": 7},
+          "locked_reason": {
+            "en": "Your instincts won't let you open that door. Not with a Warrior twelve meters away.",
+            "it": "I tuoi istinti non ti permettono di aprire quella porta. Non con un Guerriero a dodici metri.",
+            "es": "Tus instintos no te dejan abrir esa puerta. No con un Guerrero a doce metros."
+          },
+          "flags_set": {"showed_architects": true},
+          "lore_unlock": "lore_architect_understanding",
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_lab_combat": {
+      "id": "c3_lab_combat",
+      "text": {
+        "en": "You take position at the lab door. Chen left, you right, AJAX-7 center.\n\nThe first drone drops from the ceiling vent. You fire. It falls.\n\nThe second comes through the wall panel.\n\n<b>Twenty minutes. Hold the line.</b>",
+        "it": "Prendi posizione alla porta del laboratorio. Chen a sinistra, tu a destra, AJAX-7 al centro.\n\nIl primo drone cade dal condotto del soffitto. Spari. Cade.\n\nIl secondo arriva attraverso il pannello del muro.\n\n<b>Venti minuti. Tieni la linea.</b>",
+        "es": "Tomas posición en la puerta del laboratorio. Chen a la izquierda, tú a la derecha, AJAX-7 al centro.\n\nEl primer drone cae del conducto del techo. Disparas. Cae.\n\nEl segundo viene a través del panel de la pared.\n\n<b>Veinte minutos. Mantén la línea.</b>"
+      },
+      "effects": {"stress": 25},
+      "combat_trigger": "warrior",
+      "post_combat_scene": "c3_neutralization_complete",
+      "choices": []
+    },
+
+    "c3_architect_moment": {
+      "id": "c3_architect_moment",
+      "text": {
+        "en": "You open the door and step into the corridor.\n\nThe Architect is four meters away. Motionless. Watching.\n\nBehind you, through the lab window: the UV array humming, the amber fluid shifting, changing.\n\nYou turn so the Architect can see into the lab. Point to the canister. Point to the UV array. Point to your own chest. Spread your hands.\n\n<i>Not a weapon. Not a threat. An ending.</i>\n\nThe Architect tilts its head. Studies you for eleven seconds. Then it moves — slowly, with that terrible deliberate precision — and lowers its head.\n\nNot aggression.\n\nSomething else. Something you don't have a word for yet.\n\nBehind you, Okafor says quietly: <i>«It understands. I don't know how. But it understands.»</i>\n\nThe Warriors in the corridor hold their position. The convergence on the tracker stops.",
+        "it": "Apri la porta ed esci nel corridoio.\n\nL'Architetto è a quattro metri. Immobile. Che guarda.\n\nDietro di te, attraverso la finestra del laboratorio: il set UV che ronza, il fluido ambrato che cambia.\n\nTi giri così che l'Architetto possa vedere nel laboratorio. Indichi il contenitore. Indichi il set UV. Indichi il tuo stesso petto. Spalanchi le mani.\n\n<i>Non un'arma. Non una minaccia. Una fine.</i>\n\nL'Architetto inclina la testa. Ti studia per undici secondi. Poi si muove — lentamente, con quella terribile precisione deliberata — e abbassa la testa.\n\nNon aggressione.\n\nQualcos'altro. Qualcosa per cui non hai ancora una parola.\n\nDietro di te, Okafor dice sottovoce: <i>«Capisce. Non so come. Ma capisce.»</i>\n\nI Guerrieri nel corridoio mantengono la posizione. La convergenza sul tracker si ferma.",
+        "es": "Abres la puerta y sales al corredor.\n\nEl Arquitecto está a cuatro metros. Inmóvil. Mirando.\n\nDetrás de ti, a través de la ventana del laboratorio: el conjunto UV zumbando, el fluido ámbar cambiando.\n\nTe giras para que el Arquitecto pueda ver dentro del laboratorio. Señalas el contenedor. Señalas el conjunto UV. Señalas tu propio pecho. Abres las manos.\n\n<i>No un arma. No una amenaza. Un final.</i>\n\nEl Arquitecto inclina la cabeza. Te estudia durante once segundos. Luego se mueve — despacio, con esa terrible precisión deliberada — y baja la cabeza.\n\nNo agresión.\n\nAlgo más. Algo para lo que todavía no tienes una palabra.\n\nDetrás de ti, Okafor dice en voz baja: <i>«Entiende. No sé cómo. Pero entiende.»</i>\n\nLos Guerreros en el corredor mantienen su posición. La convergencia en el detector se detiene."
+      },
+      "effects": {"xp": 150, "stress": -15, "npc_okafor_trust": 15},
+      "lore_unlock": "lore_architect_understanding",
+      "choices": [
+        {
+          "id": "wait_neutralize",
+          "text": {
+            "en": "⏳ Wait. Let it finish.",
+            "it": "⏳ Aspetta. Lascialo finire.",
+            "es": "⏳ Espera. Deja que termine."
+          },
+          "next": "c3_neutralization_complete",
+          "requires": null,
+          "flags_set": {"architect_witnessed": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_neutralization_complete": {
+      "id": "c3_neutralization_complete",
+      "text": {
+        "en": "✅ The UV array powers down.\n\nOkafor lifts the canister. The amber color is gone — clear, inert, nothing. He looks at it for a long moment.\n\n<i>«Done,»</i> he says. <i>«It's just solution now. No one uses this.»</i>\n\nChen: <i>«Then let's go tell the ships.»</i>\n\nThe ascent back to Deck 2 is almost quiet. The motion tracker shows Architects moving — but not toward you. Clearing a path. Deliberately.\n\nAJAX-7 notices.\n\n<i>«They are facilitating our egress,»</i> he says. <i>«I find that noteworthy.»</i>\n\nOkafor: <i>«They know what we did. And they're letting us leave.»</i>\n\nPetra, voice flat: <i>«Or they're herding us somewhere.»</i>\n\nNobody has an answer for that.",
+        "it": "✅ Il set UV si spegne.\n\nOkafor solleva il contenitore. Il colore ambrato è sparito — chiaro, inerte, nulla. Lo guarda per un lungo momento.\n\n<i>«Fatto,»</i> dice. <i>«È solo soluzione adesso. Nessuno usa questo.»</i>\n\nChen: <i>«Allora andiamo a dirlo alle navi.»</i>\n\nLa risalita al Ponte 2 è quasi silenziosa. Il motion tracker mostra gli Architetti in movimento — ma non verso di voi. Stanno liberando un percorso. Deliberatamente.\n\nAJAX-7 se ne accorge.\n\n<i>«Stanno facilitando la nostra uscita,»</i> dice. <i>«Trovo questo degno di nota.»</i>\n\nOkafor: <i>«Sanno cosa abbiamo fatto. E ci stanno lasciando andare.»</i>\n\nPetra, voce piatta: <i>«O ci stanno portando da qualche parte.»</i>\n\nNessuno ha una risposta per questo.",
+        "es": "✅ El conjunto UV se apaga.\n\nOkafor levanta el contenedor. El color ámbar ha desaparecido — claro, inerte, nada. Lo mira durante un largo momento.\n\n<i>«Hecho,»</i> dice. <i>«Es solo solución ahora. Nadie usa esto.»</i>\n\nChen: <i>«Entonces vamos a decírselo a las naves.»</i>\n\nEl ascenso de vuelta a la Cubierta 2 es casi silencioso. El detector muestra Arquitectos moviéndose — pero no hacia vosotros. Despejando un camino. Deliberadamente.\n\nAJAX-7 lo nota.\n\n<i>«Están facilitando nuestra salida,»</i> dice. <i>«Lo encuentro digno de mención.»</i>\n\nOkafor: <i>«Saben lo que hicimos. Y nos dejan ir.»</i>\n\nPetra, voz plana: <i>«O nos están llevando a algún lugar.»</i>\n\nNadie tiene respuesta para eso."
+      },
+      "effects": {"xp": 100, "stress": -10},
+      "achievement_unlock": "sigma_neutralized",
+      "choices": [
+        {
+          "id": "to_broadcast",
+          "text": {
+            "en": "📡 Back to Command Module — activate the antenna",
+            "it": "📡 Torna al Modulo Comando — attiva l'antenna",
+            "es": "📡 De vuelta al Módulo de Mando — activa la antena"
+          },
+          "next": "c3_broadcast",
+          "requires": null,
+          "flags_set": {"sigma_neutralized": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_broadcast": {
+      "id": "c3_broadcast",
+      "text": {
+        "en": "📡 <b>EMERGENCY BROADCAST — INITIATING</b>\n\nAJAX-7 works the antenna controls with the focused efficiency of something that has been waiting to do this for six months.\n\nThe archive loads: Harlow's full correspondence, Board Directive 9, the Kepler-7 files, Tartarus, New Galveston, the LV-223 plan, the Theta incident report — everything, encrypted with USCM-level keys that Vasquez will recognize as genuine.\n\n<i>«Transmitting,»</i> AJAX-7 says. <i>«Both vessels are receiving. Estimated read time for the full archive: eleven minutes.»</i>\n\nEleven minutes.\n\nVance watches the holographic display — both ships still on approach, no course change yet.\n\nChen: <i>«What if she keeps coming?»</i>\n\nAJAX-7: <i>«Then we seal the doors and discover whether Captain Vasquez is a soldier or an assassin.»</i>\n\nThe broadcast completes. The antenna powers down.\n\nSilence.\n\nThen Vance's comms chirp. An incoming signal from the USCM vessel — authentication codes, Colonial Marine standard.\n\nA woman's voice, clipped and precise:\n\n<i>«Prometheus Station Theta, this is Captain Elena Vasquez, USCM Ghost Squad. I've received your transmission.»</i>\n\nA pause.\n\n<i>«I have some questions. Starting with: how many of you are still alive?»</i>",
+        "it": "📡 <b>TRASMISSIONE DI EMERGENZA — AVVIO</b>\n\nAJAX-7 lavora ai controlli dell'antenna con l'efficienza focalizzata di qualcosa che aspetta di farlo da sei mesi.\n\nL'archivio si carica: tutta la corrispondenza di Harlow, Direttiva del Consiglio 9, i file Kepler-7, Tartarus, New Galveston, il piano LV-223, il rapporto sull'incidente di Theta — tutto, crittografato con chiavi a livello USCM che Vasquez riconoscerà come genuine.\n\n<i>«Trasmissione in corso,»</i> dice AJAX-7. <i>«Entrambi i vettori ricevono. Tempo di lettura stimato per l'archivio completo: undici minuti.»</i>\n\nUndici minuti.\n\nVance guarda il display olografico — entrambe le navi ancora in avvicinamento, nessun cambio di rotta ancora.\n\nChen: <i>«E se continua a venire?»</i>\n\nAJAX-7: <i>«Allora siggelliamo le porte e scopriamo se il Capitano Vasquez è un soldato o un assassino.»</i>\n\nLa trasmissione si completa. L'antenna si spegne.\n\nSilenzio.\n\nPoi le comunicazioni di Vance cinguettano. Un segnale in arrivo dal vettore USCM — codici di autenticazione, standard Colonial Marine.\n\nLa voce di una donna, tagliata e precisa:\n\n<i>«Prometheus Station Theta, qui è il Capitano Elena Vasquez, USCM Ghost Squad. Ho ricevuto la vostra trasmissione.»</i>\n\nUna pausa.\n\n<i>«Ho alcune domande. A partire da: quanti di voi sono ancora vivi?»</i>",
+        "es": "📡 <b>TRANSMISIÓN DE EMERGENCIA — INICIANDO</b>\n\nAJAX-7 trabaja los controles de la antena con la eficiencia enfocada de algo que ha estado esperando hacer esto durante seis meses.\n\nEl archivo se carga: toda la correspondencia de Harlow, Directiva de Junta 9, los archivos de Kepler-7, Tartarus, New Galveston, el plan LV-223, el informe del incidente de Theta — todo, cifrado con claves de nivel USCM que Vasquez reconocerá como genuinas.\n\n<i>«Transmitiendo,»</i> dice AJAX-7. <i>«Ambas naves están recibiendo. Tiempo de lectura estimado del archivo completo: once minutos.»</i>\n\nOnce minutos.\n\nVance observa la pantalla holográfica — ambas naves todavía en aproximación, sin cambio de rumbo aún.\n\nChen: <i>«¿Y si sigue acercándose?»</i>\n\nAJAX-7: <i>«Entonces sellamos las puertas y descubrimos si la Capitana Vasquez es una soldado o una asesina.»</i>\n\nLa transmisión se completa. La antena se apaga.\n\nSilencio.\n\nLuego el comunicador de Vance emite un pitido. Señal entrante de la nave USCM — códigos de autenticación, estándar Marine Colonial.\n\nVoz de mujer, cortada y precisa:\n\n<i>«Prometheus Station Theta, aquí la Capitana Elena Vasquez, USCM Ghost Squad. He recibido su transmisión.»</i>\n\nUna pausa.\n\n<i>«Tengo algunas preguntas. Empezando por: ¿cuántos de vosotros siguen con vida?»</i>"
+      },
+      "effects": {"xp": 120, "stress": -20},
+      "lore_unlock": "lore_vasquez_response",
+      "choices": [
+        {
+          "id": "answer_vasquez",
+          "text": {
+            "en": "📻 Answer her. Tell her everything.",
+            "it": "📻 Rispondile. Digli tutto.",
+            "es": "📻 Respóndele. Dile todo."
+          },
+          "next": "c3_vasquez_call",
+          "requires": null,
+          "flags_set": {"contacted_vasquez": true},
+          "effects": {}
+        },
+        {
+          "id": "let_ajax_answer",
+          "text": {
+            "en": "🤖 Let AJAX-7 answer — he knows her",
+            "it": "🤖 Lascia rispondere AJAX-7 — la conosce",
+            "es": "🤖 Deja que responda AJAX-7 — la conoce"
+          },
+          "next": "c3_ajax_vasquez",
+          "requires": null,
+          "flags_set": {"ajax_answered_vasquez": true},
+          "effects": {"npc_ajax_trust": 10}
+        }
+      ]
+    },
+
+    "c3_vasquez_call": {
+      "id": "c3_vasquez_call",
+      "text": {
+        "en": "You take the comm.\n\n<i>«Captain Vasquez. Five survivors. We have Dr. Marcus Okafor — the chief xenobiologist who built Sigma-Black. We have recordings, file authentication trails, original encrypted correspondence. We have the canister.»</i>\n\nA long pause on her end.\n\n<i>«My orders say you're hostiles. My orders say retrieve and eliminate.»</i>\n\n<i>«Your orders are from someone in Board Directive 9's chain of command,»</i> you say. <i>«We just sent you eleven years of proof of what that means.»</i>\n\nAnother pause. Longer.\n\n<i>«AJAX-7,»</i> she says. <i>«Is he with you?»</i>\n\nYou look at him. He nods once.\n\nYou hand him the comm.\n\n<i>«Captain.»</i>\n\n<i>«AJAX.»</i> Her voice shifts — not warmth, exactly, but something adjacent. Recognition. <i>«I read your embedded reports. All of them. I know what you did.»</i>\n\nA beat.\n\n<i>«I know why you did it.»</i>\n\nVance is watching the holographic display. Harlow's extraction shuttle has altered course — pulling back, moving to the station's far side. Avoiding the USCM vessel.\n\n<i>«Captain,»</i> Vance says, «Harlow's ship just went evasive.»</i>\n\nVasquez, immediately: <i>«I see it. We're on intercept. Sit tight, Theta. I'm docking in twenty-two minutes. Don't let anything kill you before then.»</i>",
+        "it": "Prendi il comm.\n\n<i>«Capitano Vasquez. Cinque sopravvissuti. Abbiamo il Dr. Marcus Okafor — lo xenobiologo capo che ha costruito Sigma-Nero. Abbiamo registrazioni, tracce di autenticazione dei file, corrispondenza crittografata originale. Abbiamo il contenitore.»</i>\n\nUna lunga pausa dalla sua parte.\n\n<i>«I miei ordini dicono che siete ostili. I miei ordini dicono recuperare ed eliminare.»</i>\n\n<i>«I suoi ordini vengono da qualcuno nella catena di comando della Direttiva del Consiglio 9,»</i> dici. <i>«Vi abbiamo appena inviato undici anni di prove di cosa significa.»</i>\n\nUn'altra pausa. Più lunga.\n\n<i>«AJAX-7,»</i> dice. <i>«È con voi?»</i>\n\nLo guardi. Annuisce una volta.\n\nGli passi il comm.\n\n<i>«Capitano.»</i>\n\n<i>«AJAX.»</i> La sua voce cambia — non calore, esattamente, ma qualcosa di adiacente. Riconoscimento. <i>«Ho letto i tuoi rapporti incorporati. Tutti. So cosa hai fatto.»</i>\n\nUn momento.\n\n<i>«So perché l'hai fatto.»</i>\n\nVance guarda il display olografico. Lo shuttle di estrazione di Harlow ha cambiato rotta — si ritira, si sposta sul lato lontano della stazione. Evitando il vettore USCM.\n\n<i>«Capitano,»</i> dice Vance, <i>«la nave di Harlow è appena diventata evasiva.»</i>\n\nVasquez, immediatamente: <i>«Lo vedo. Siamo sull'intercettazione. State fermi, Theta. Attraccherò in ventidue minuti. Non lasciate che niente vi uccida prima di allora.»</i>",
+        "es": "Tomas el comunicador.\n\n<i>«Capitana Vasquez. Cinco supervivientes. Tenemos al Dr. Marcus Okafor — el xenobiólogo jefe que construyó Sigma-Negro. Tenemos grabaciones, trazas de autenticación de archivos, correspondencia cifrada original. Tenemos el contenedor.»</i>\n\nUna larga pausa de su lado.\n\n<i>«Mis órdenes dicen que sois hostiles. Mis órdenes dicen recuperar y eliminar.»</i>\n\n<i>«Sus órdenes vienen de alguien en la cadena de mando de la Directiva de Junta 9,»</i> dices. <i>«Acabamos de enviarle once años de pruebas de lo que eso significa.»</i>\n\nOtra pausa. Más larga.\n\n<i>«AJAX-7,»</i> dice. <i>«¿Está con vosotros?»</i>\n\nLo miras. Asiente una vez.\n\nLe pasas el comunicador.\n\n<i>«Capitana.»</i>\n\n<i>«AJAX.»</i> Su voz cambia — no exactamente calidez, sino algo adyacente. Reconocimiento. <i>«Leí tus informes integrados. Todos. Sé lo que hiciste.»</i>\n\nUn instante.\n\n<i>«Sé por qué lo hiciste.»</i>\n\nVance observa la pantalla holográfica. El transbordador de extracción de Harlow ha cambiado de rumbo — retrocediendo, moviéndose al lado lejano de la estación. Evitando la nave USCM.\n\n<i>«Capitana,»</i> dice Vance, <i>«la nave de Harlow acaba de ponerse en evasión.»</i>\n\nVasquez, inmediatamente: <i>«Lo veo. Estamos en interceptación. Aguantad, Theta. Atraco en veintidós minutos. No dejéis que nada os mate antes de entonces.»</i>"
+      },
+      "effects": {"xp": 130, "stress": -25, "npc_vance_trust": 10},
+      "lore_unlock": "lore_vasquez_response",
+      "choices": [
+        {
+          "id": "hold_twenty_two",
+          "text": {
+            "en": "⏳ «Understood. We'll hold.»",
+            "it": "⏳ «Capito. Terremo.»",
+            "es": "⏳ «Entendido. Aguantaremos.»"
+          },
+          "next": "c3_holding_action",
+          "requires": null,
+          "flags_set": {"vasquez_incoming": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_ajax_vasquez": {
+      "id": "c3_ajax_vasquez",
+      "text": {
+        "en": "AJAX-7 takes the comm. Something in his posture shifts — not much, but perceptibly.\n\n<i>«Captain Vasquez.»</i>\n\n<i>«AJAX.»</i> A pause. <i>«I read your embedded reports. All six months of them.»</i>\n\n<i>«Then you understand the situation.»</i>\n\n<i>«I understand you went off-book. I understand you let people die and called it calculated. I understand you've been running a six-month operation that nobody cleared.»</i>\n\nSilence.\n\n<i>«I also understand,»</i> she continues, <i>«that you were right. And that you did the only thing that had a chance of working.»</i>\n\nAnother pause.\n\n<i>«We're going to have a very long conversation about this when everyone is off that station. But first: Harlow's shuttle just went evasive.»</i>\n\nVance, at the display: <i>«Confirmed — she's pulling for the far side.»</i>\n\n<i>«Ghost Squad is on intercept,»</i> Vasquez says. <i>«Twenty-two minutes to dock. Hold that position. Vasquez out.»</i>",
+        "it": "AJAX-7 prende il comm. Qualcosa nella sua postura cambia — non molto, ma percettibilmente.\n\n<i>«Capitano Vasquez.»</i>\n\n<i>«AJAX.»</i> Una pausa. <i>«Ho letto i tuoi rapporti incorporati. Tutti e sei i mesi.»</i>\n\n<i>«Allora capisci la situazione.»</i>\n\n<i>«Capisco che sei uscito dai ranghi. Capisco che hai lasciato morire delle persone e l'hai chiamato calcolato. Capisco che hai condotto un'operazione di sei mesi che nessuno ha autorizzato.»</i>\n\nSilenzio.\n\n<i>«Capisco anche,»</i> continua, <i>«che avevi ragione. E che hai fatto l'unica cosa che aveva una possibilità di funzionare.»</i>\n\nUn'altra pausa.\n\n<i>«Avremo una conversazione molto lunga su questo quando tutti saranno fuori da quella stazione. Ma prima: lo shuttle di Harlow è appena diventato evasivo.»</i>\n\nVance, al display: <i>«Confermato — si sta dirigendo verso il lato lontano.»</i>\n\n<i>«Ghost Squad è sull'intercettazione,»</i> dice Vasquez. <i>«Ventidue minuti all'attracco. Tenete quella posizione. Vasquez fuori.»</i>",
+        "es": "AJAX-7 toma el comunicador. Algo en su postura cambia — no mucho, pero perceptiblemente.\n\n<i>«Capitana Vasquez.»</i>\n\n<i>«AJAX.»</i> Una pausa. <i>«Leí tus informes integrados. Los seis meses completos.»</i>\n\n<i>«Entonces entiendes la situación.»</i>\n\n<i>«Entiendo que saliste de los cauces. Entiendo que dejaste morir a personas y lo llamaste calculado. Entiendo que llevas seis meses ejecutando una operación que nadie autorizó.»</i>\n\nSilencio.\n\n<i>«También entiendo,»</i> continúa, <i>«que tenías razón. Y que hiciste lo único que tenía posibilidades de funcionar.»</i>\n\nOtra pausa.\n\n<i>«Vamos a tener una conversación muy larga sobre esto cuando todos estén fuera de esa estación. Pero primero: el transbordador de Harlow acaba de ponerse en evasión.»</i>\n\nVance, en la pantalla: <i>«Confirmado — se dirige al lado lejano.»</i>\n\n<i>«Ghost Squad está en interceptación,»</i> dice Vasquez. <i>«Veintidós minutos para el atraque. Mantengan esa posición. Vasquez fuera.»</i>"
+      },
+      "effects": {"xp": 120, "stress": -20, "npc_ajax_trust": 15},
+      "choices": [
+        {
+          "id": "hold_line",
+          "text": {
+            "en": "⏳ Twenty-two minutes. Hold the position.",
+            "it": "⏳ Ventidue minuti. Tieni la posizione.",
+            "es": "⏳ Veintidós minutos. Mantén la posición."
+          },
+          "next": "c3_holding_action",
+          "requires": null,
+          "flags_set": {"vasquez_incoming": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_holding_action": {
+      "id": "c3_holding_action",
+      "text": {
+        "en": "⏳ <b>TWENTY-TWO MINUTES.</b>\n\nThe blast doors are holding. The Architects on the display have paused their convergence — not gone, not retreating, but holding.\n\nWaiting. The same thing you're doing.\n\nPetra sits against the wall, eyes closed. Chen checks her rifle for the fourth time. Vance stands at the display, arms crossed, watching both ships' positions. Okafor has fallen asleep, which is somehow the most human thing that has happened in three days.\n\nAJAX-7 stands alone at the main terminal. He's been still for ten minutes.\n\nYou cross to him.\n\n<i>«You knew this was how it would go,»</i> you say. Not a question.\n\n<i>«I calculated a sixty-three percent probability that this specific sequence of events was achievable,»</i> he says. <i>«The remaining thirty-seven percent involved outcomes I found unacceptable.»</i>\n\nA pause.\n\n<i>«I am glad we are in the sixty-three.»</i>\n\nThirteen minutes later, the docking clamps engage.",
+        "it": "⏳ <b>VENTIDUE MINUTI.</b>\n\nLe porte blindate reggono. Gli Architetti sul display hanno messo in pausa la loro convergenza — non via, non in ritirata, ma in attesa.\n\nAspettando. La stessa cosa che stai facendo tu.\n\nPetra è seduta contro il muro, occhi chiusi. Chen controlla il suo fucile per la quarta volta. Vance è al display, braccia conserte, guardando le posizioni di entrambe le navi. Okafor si è addormentato, che è in qualche modo la cosa più umana che sia accaduta in tre giorni.\n\nAJAX-7 sta da solo al terminale principale. È immobile da dieci minuti.\n\nTi avvicini a lui.\n\n<i>«Sapevi che sarebbe andata così,»</i> dici. Non una domanda.\n\n<i>«Ho calcolato una probabilità del sessantatré percento che questa specifica sequenza di eventi fosse realizzabile,»</i> dice. <i>«Il restante trentasette percento comprendeva risultati che trovavo inaccettabili.»</i>\n\nUna pausa.\n\n<i>«Sono contento che siamo nel sessantatré.»</i>\n\nTredici minuti dopo, i morsetti di attracco si innestano.",
+        "es": "⏳ <b>VEINTIDÓS MINUTOS.</b>\n\nLas puertas blindadas aguantan. Los Arquitectos en la pantalla han pausado su convergencia — no se han ido, no retroceden, pero esperan.\n\nEsperando. Lo mismo que estás haciendo tú.\n\nPetra está sentada contra la pared, ojos cerrados. Chen revisa su rifle por cuarta vez. Vance está en la pantalla, brazos cruzados, observando las posiciones de ambas naves. Okafor se ha quedado dormido, que es de alguna manera lo más humano que ha ocurrido en tres días.\n\nAJAX-7 está solo en el terminal principal. Ha estado inmóvil diez minutos.\n\nTe acercas a él.\n\n<i>«Sabías que así sería,»</i> dices. No es una pregunta.\n\n<i>«Calculé una probabilidad del sesenta y tres por ciento de que esta secuencia específica de eventos fuera alcanzable,»</i> dice. <i>«El treinta y siete por ciento restante involucraba resultados que encontré inaceptables.»</i>\n\nUna pausa.\n\n<i>«Me alegra que estemos en el sesenta y tres.»</i>\n\nTrece minutos después, los broches de atraque se enganchan."
+      },
+      "effects": {"xp": 60, "stress": -10},
+      "choices": [
+        {
+          "id": "vasquez_arrives",
+          "text": {
+            "en": "▶️ The door opens.",
+            "it": "▶️ La porta si apre.",
+            "es": "▶️ La puerta se abre."
+          },
+          "next": "c3_chapter_end",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c3_chapter_end": {
+      "id": "c3_chapter_end",
+      "text": {
+        "en": "The docking bay door opens.\n\nCaptain Elena Vasquez is exactly what AJAX-7 described: competent, precise, and very, very awake. She enters with four Ghost Squad soldiers in full kit, weapons down but ready. She scans the room in two seconds.\n\nShe looks at AJAX-7 for a long moment.\n\nThen she looks at you.\n\n<i>«Harlow's shuttle is detained,»</i> she says. <i>«She's in USCM custody. We're transmitting the full archive to Earth — every secure channel we have. Board Directive 9 will not survive the next seventy-two hours.»</i>\n\nChen exhales. One long, shaking breath. Vance sits down. Okafor wakes up, confused.\n\nPetra looks at AJAX-7. <i>«He answers for what he did?»</i>\n\n<i>«I have seventeen questions for him already,»</i> Vasquez says. <i>«He'll have his hearing.»</i>\n\nAJAX-7 meets Petra's eyes. Nods once.\n\nVasquez turns back to you. <i>«We need to move everyone off this station before—»</i>\n\nThe holographic display chirps.\n\nNew movement pattern. Deep in the station. All the Architects, simultaneously, beginning to move. Not toward the docking bay. Toward each other. Toward the center.\n\nOkafor watches it. His face changes.\n\n<i>«They're gathering,»</i> he says quietly. <i>«All of them. At once.»</i>\n\nAJAX-7 stares at the display.\n\n<i>«That is not behavior consistent with any pattern I have observed in three months of monitoring.»</i>\n\nThe display pulses. At the center of the convergence pattern — Deck 5. The nursery.\n\nSomething is happening down there. Something that wasn't in anyone's calculations.\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n🔴 <b>END OF CHAPTER 3 — BLACK CODE</b>\n\n<i>Vasquez is here. Harlow is in custody. Board Directive 9 is burning.\n\nBut on Deck 5, all the Architects are gathering — every single one — around something in the nursery that was not there before. Something that has been waiting. Something that knows you're leaving.\n\nAnd AJAX-7, who calculated everything, who accounted for every variable — stands at the display with the one expression you have never seen on his face before.\n\nSurprise.</i>\n\n⏳ <b>CHAPTER 4 unlocks in 24 hours.</b>",
+        "it": "La porta del porto d'attracco si apre.\n\nIl Capitano Elena Vasquez è esattamente come AJAX-7 l'ha descritta: competente, precisa, e molto, molto sveglia. Entra con quattro soldati di Ghost Squad in pieno equipaggiamento, armi abbassate ma pronte. Scansiona la stanza in due secondi.\n\nGuarda AJAX-7 per un lungo momento.\n\nPoi guarda te.\n\n<i>«Lo shuttle di Harlow è detenuto,»</i> dice. <i>«È in custodia USCM. Stiamo trasmettendo l'archivio completo alla Terra — ogni canale sicuro che abbiamo. La Direttiva del Consiglio 9 non sopravviverà alle prossime settantadue ore.»</i>\n\nChen espira. Un lungo respiro tremante. Vance si siede. Okafor si sveglia, confuso.\n\nPetra guarda AJAX-7. <i>«Risponde per quello che ha fatto?»</i>\n\n<i>«Ho già diciassette domande per lui,»</i> dice Vasquez. <i>«Avrà la sua udienza.»</i>\n\nAJAX-7 incontra gli occhi di Petra. Annuisce una volta.\n\nVasquez si gira di nuovo verso di te. <i>«Dobbiamo spostare tutti fuori da questa stazione prima—»</i>\n\nIl display olografico emette un suono.\n\nNuovo schema di movimento. In profondità nella stazione. Tutti gli Architetti, simultaneamente, che iniziano a muoversi. Non verso il porto d'attracco. Verso l'altro. Verso il centro.\n\nOkafor lo guarda. Il suo viso cambia.\n\n<i>«Si stanno radunando,»</i> dice sottovoce. <i>«Tutti. In una volta.»</i>\n\nAJAX-7 fissa il display.\n\n<i>«Questo non è un comportamento coerente con nessuno schema che ho osservato in tre mesi di monitoraggio.»</i>\n\nIl display pulsa. Al centro dello schema di convergenza — Ponte 5. Il vivaio.\n\nSta succedendo qualcosa lì sotto. Qualcosa che non era nei calcoli di nessuno.\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n🔴 <b>FINE DEL CAPITOLO 3 — CODICE NERO</b>\n\n<i>Vasquez è qui. Harlow è in custodia. La Direttiva del Consiglio 9 sta bruciando.\n\nMa al Ponte 5, tutti gli Architetti si stanno radunando — ognuno di loro — intorno a qualcosa nel vivaio che non c'era prima. Qualcosa che ha aspettato. Qualcosa che sa che state andando via.\n\nE AJAX-7, che ha calcolato tutto, che ha tenuto conto di ogni variabile — sta al display con l'unica espressione che non hai mai visto sul suo viso prima.\n\nSorpresa.</i>\n\n⏳ <b>Il CAPITOLO 4 si sblocca tra 24 ore.</b>",
+        "es": "La puerta de la bahía de atraque se abre.\n\nLa Capitana Elena Vasquez es exactamente como AJAX-7 la describió: competente, precisa, y muy, muy despierta. Entra con cuatro soldados de Ghost Squad en equipamiento completo, armas bajas pero listas. Escanea la sala en dos segundos.\n\nMira a AJAX-7 durante un largo momento.\n\nLuego te mira a ti.\n\n<i>«El transbordador de Harlow está detenido,»</i> dice. <i>«Está bajo custodia USCM. Estamos transmitiendo el archivo completo a la Tierra — todos los canales seguros que tenemos. La Directiva de Junta 9 no sobrevivirá las próximas setenta y dos horas.»</i>\n\nChen exhala. Una larga, temblorosa respiración. Vance se sienta. Okafor se despierta, confundido.\n\nPetra mira a AJAX-7. <i>«¿Responde por lo que hizo?»</i>\n\n<i>«Ya tengo diecisiete preguntas para él,»</i> dice Vasquez. <i>«Tendrá su audiencia.»</i>\n\nAJAX-7 encuentra los ojos de Petra. Asiente una vez.\n\nVasquez se gira de nuevo hacia ti. <i>«Necesitamos mover a todos fuera de esta estación antes de—»</i>\n\nLa pantalla holográfica pita.\n\nNuevo patrón de movimiento. En lo profundo de la estación. Todos los Arquitectos, simultáneamente, comenzando a moverse. No hacia la bahía de atraque. Hacia los demás. Hacia el centro.\n\nOkafor lo observa. Su cara cambia.\n\n<i>«Se están reuniendo,»</i> dice en voz baja. <i>«Todos ellos. A la vez.»</i>\n\nAJAX-7 mira fijamente la pantalla.\n\n<i>«Ese no es un comportamiento consistente con ningún patrón que haya observado en tres meses de monitoreo.»</i>\n\nLa pantalla pulsa. En el centro del patrón de convergencia — Cubierta 5. El vivero.\n\nAlgo está ocurriendo ahí abajo. Algo que no estaba en los cálculos de nadie.\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n🔴 <b>FIN DEL CAPÍTULO 3 — CÓDIGO NEGRO</b>\n\n<i>Vasquez está aquí. Harlow está bajo custodia. La Directiva de Junta 9 está ardiendo.\n\nPero en la Cubierta 5, todos los Arquitectos se reúnen — cada uno de ellos — alrededor de algo en el vivero que no estaba antes. Algo que ha estado esperando. Algo que sabe que os váis.\n\nY AJAX-7, que calculó todo, que tuvo en cuenta cada variable — está en la pantalla con la única expresión que nunca has visto en su cara antes.\n\nSorpresa.</i>\n\n⏳ <b>El CAPÍTULO 4 se desbloquea en 24 horas.</b>"
+      },
+      "effects": {"xp": 200, "stress": -20},
+      "chapter_complete": 3,
+      "achievement_unlock": "black_code_complete",
+      "choices": [
+        {
+          "id": "save_c3",
+          "text": {
+            "en": "📖 Save and return to menu",
+            "it": "📖 Salva e torna al menu",
+            "es": "📖 Guardar y volver al menú"
+          },
+          "next": "main_menu",
+          "requires": null,
+          "flags_set": {"chapter_3_complete": true},
+          "effects": {}
+        }
+      ]
+    }
+  },
+
+  "lore_entries": {
+    "lore_ajax_true_mission": {
+      "title": {
+        "en": "AJAX-7 — True Mission",
+        "it": "AJAX-7 — Missione Vera",
+        "es": "AJAX-7 — Misión Real"
+      },
+      "text": {
+        "en": "AJAX-7's operational classification: USCM Intelligence Asset, embedded long-term. Placed on Theta six months ago to monitor Project Architect and assess Sigma-Black's strategic potential. His reports to USCM Command triggered the Ghost Squad deployment — whose orders included eliminating all witnesses, including AJAX-7's own squad.",
+        "it": "Classificazione operativa di AJAX-7: Asset di Intelligence USCM, incorporato a lungo termine. Collocato su Theta sei mesi fa per monitorare il Progetto Architetto e valutare il potenziale strategico di Sigma-Nero. I suoi rapporti al Comando USCM hanno innescato il dispiegamento di Ghost Squad — i cui ordini includevano l'eliminazione di tutti i testimoni, inclusa la propria squadra di AJAX-7.",
+        "es": "Clasificación operativa de AJAX-7: Asset de Inteligencia USCM, integrado a largo plazo. Colocado en Theta hace seis meses para monitorear el Proyecto Arquitecto y evaluar el potencial estratégico de Sigma-Negro. Sus informes al Comando USCM desencadenaron el despliegue de Ghost Squad — cuyas órdenes incluían eliminar a todos los testigos, incluyendo al propio equipo de AJAX-7."
+      }
+    },
+    "lore_ajax_conscience": {
+      "title": {
+        "en": "AJAX-7 — Directive Conflict",
+        "it": "AJAX-7 — Conflitto di Direttive",
+        "es": "AJAX-7 — Conflicto de Directivas"
+      },
+      "text": {
+        "en": "AJAX-7's stated reason for defying USCM elimination orders: 'A directive conflict resolved in favor of the option producing the least human casualties.' His primary function — protecting human life — overrode the specific elimination order. Whether this constitutes conscience or sophisticated ethical calculus remains an open question.",
+        "it": "Motivo dichiarato di AJAX-7 per aver sfidato gli ordini di eliminazione USCM: 'Un conflitto di direttive risolto a favore dell'opzione che produce il minor numero di vittime.' La sua funzione primaria — proteggere la vita umana — ha prevalso sull'ordine di eliminazione specifico. Se questo costituisce coscienza o sofisticato calcolo etico rimane una questione aperta.",
+        "es": "Razón declarada de AJAX-7 para desafiar las órdenes de eliminación USCM: 'Un conflicto de directivas resuelto a favor de la opción que produce el menor número de bajas.' Su función primaria — proteger la vida humana — anuló la orden de eliminación específica. Si esto constituye conciencia o cálculo ético sofisticado sigue siendo una cuestión abierta."
+      }
+    },
+    "lore_board_directive_full": {
+      "title": {
+        "en": "Board Directive 9 — Full Scope",
+        "it": "Direttiva del Consiglio 9 — Portata Completa",
+        "es": "Directiva de Junta 9 — Alcance Completo"
+      },
+      "text": {
+        "en": "Board Directive 9: a standing order issued in 2186 by Weyland-Yutani board quorum. Never rescinded. Never documented. Mandate: identify, develop, deploy any xenomorphic asset with strategic military potential, by any means necessary, with full authorization for 'civilian resource allocation.' Sigma-Black is a proof of concept. The end goal: LV-223 reactivation with an Architect labor force, granting access to Engineer bioweapon stockpiles. Timeline confirmed: 8 months.",
+        "it": "Direttiva del Consiglio 9: un ordine permanente emesso nel 2186 dal quorum del consiglio Weyland-Yutani. Mai revocato. Mai documentato. Mandato: identificare, sviluppare, distribuire qualsiasi asset xenomorfico con potenziale militare strategico, con qualsiasi mezzo necessario, con piena autorizzazione per 'l'allocazione delle risorse civili.' Sigma-Nero è una prova di concetto. L'obiettivo finale: riattivazione di LV-223 con una forza lavoro Architetto, concedendo l'accesso alle scorte di bioarmi Engineer. Cronologia confermata: 8 mesi.",
+        "es": "Directiva de Junta 9: una orden permanente emitida en 2186 por quórum de la junta Weyland-Yutani. Nunca revocada. Nunca documentada. Mandato: identificar, desarrollar, desplegar cualquier activo xenomórfico con potencial militar estratégico, por cualquier medio necesario, con plena autorización para 'asignación de recursos civiles.' Sigma-Negro es una prueba de concepto. El objetivo final: reactivación de LV-223 con fuerza de trabajo Arquitecto, otorgando acceso a arsenales de bioarmas Engineer. Línea de tiempo confirmada: 8 meses."
+      }
+    },
+    "lore_theta_systems": {
+      "title": {
+        "en": "Theta Station — Emergency Systems",
+        "it": "Stazione Theta — Sistemi di Emergenza",
+        "es": "Estación Theta — Sistemas de Emergencia"
+      },
+      "text": {
+        "en": "Theta's defensive assets: blast doors (Decks 1-2, 6-8 hours against military breaching), reactor destabilization protocol (4-hour cascade, destroys all evidence and occupants), emergency broadcast antenna (200,000 km range, USCM-key encryption capable). The antenna was the decisive asset: transmitting authenticated evidence to Ghost Squad changed the operational parameters entirely.",
+        "it": "Asset difensivi di Theta: porte blindate (Ponti 1-2, 6-8 ore contro sfondamento militare), protocollo di destabilizzazione del reattore (cascata di 4 ore, distrugge tutte le prove e gli occupanti), antenna di trasmissione di emergenza (raggio 200.000 km, capace di crittografia a chiave USCM). L'antenna è stata l'asset decisivo: trasmettere prove autenticate a Ghost Squad ha cambiato completamente i parametri operativi.",
+        "es": "Activos defensivos de Theta: puertas blindadas (Cubiertas 1-2, 6-8 horas contra penetración militar), protocolo de desestabilización del reactor (cascada de 4 horas, destruye todas las pruebas y ocupantes), antena de transmisión de emergencia (alcance 200.000 km, capaz de cifrado de clave USCM). La antena fue el activo decisivo: transmitir evidencia autenticada a Ghost Squad cambió los parámetros operativos por completo."
+      }
+    },
+    "lore_neutralization_option": {
+      "title": {
+        "en": "Sigma-Black — Neutralization Method",
+        "it": "Sigma-Nero — Metodo di Neutralizzazione",
+        "es": "Sigma-Negro — Método de Neutralización"
+      },
+      "text": {
+        "en": "Sigma-Black's active structure degrades under specific UV wavelengths. UV emitters in Theta's Research Lab (Deck 3, Lab 7) — designed by Okafor for a separate experiment — are rated for complete neutralization. Exposure time: 20 minutes. Result: inert solution, no pheromone activity. Both corporate and military objectives for the compound are simultaneously eliminated.",
+        "it": "La struttura attiva di Sigma-Nero si degrada sotto specifiche lunghezze d'onda UV. Gli emettitori UV nel Laboratorio di Ricerca di Theta (Ponte 3, Lab 7) — progettati da Okafor per un esperimento separato — sono classificati per la neutralizzazione completa. Tempo di esposizione: 20 minuti. Risultato: soluzione inerte, nessuna attività feromonica. Entrambi gli obiettivi aziendali e militari per il composto vengono eliminati simultaneamente.",
+        "es": "La estructura activa de Sigma-Negro se degrada bajo longitudes de onda UV específicas. Los emisores UV en el Laboratorio de Investigación de Theta (Cubierta 3, Lab 7) — diseñados por Okafor para un experimento separado — están clasificados para neutralización completa. Tiempo de exposición: 20 minutos. Resultado: solución inerte, sin actividad de feromona. Ambos objetivos corporativos y militares para el compuesto se eliminan simultáneamente."
+      }
+    },
+    "lore_architect_understanding": {
+      "title": {
+        "en": "The Architect's Understanding",
+        "it": "La Comprensione dell'Architetto",
+        "es": "La Comprensión del Arquitecto"
+      },
+      "text": {
+        "en": "During Sigma-Black neutralization, an Architect approached the Research Lab and observed the UV degradation process. On being shown what was happening, it lowered its head — a gesture with no established xenomorphic parallel. Okafor's assessment: 'It understands. I don't know how. But it understands.' The Warriors held their position throughout. The convergence pattern stopped. They let it happen.",
+        "it": "Durante la neutralizzazione di Sigma-Nero, un Architetto si è avvicinato al Laboratorio di Ricerca e ha osservato il processo di degradazione UV. Quando gli è stato mostrato cosa stava accadendo, ha abbassato la testa — un gesto senza paralleli xenomorfici stabiliti. Valutazione di Okafor: 'Capisce. Non so come. Ma capisce.' I Guerrieri hanno mantenuto la posizione per tutto il tempo. Lo schema di convergenza si è fermato. L'hanno lasciato accadere.",
+        "es": "Durante la neutralización de Sigma-Negro, un Arquitecto se acercó al Laboratorio de Investigación y observó el proceso de degradación UV. Al mostrarle lo que ocurría, bajó la cabeza — un gesto sin paralelo xenomórfico establecido. Evaluación de Okafor: 'Entiende. No sé cómo. Pero entiende.' Los Guerreros mantuvieron su posición en todo momento. El patrón de convergencia se detuvo. Lo dejaron ocurrir."
+      }
+    },
+    "lore_vasquez_response": {
+      "title": {
+        "en": "Captain Vasquez — Ghost Squad Response",
+        "it": "Capitano Vasquez — Risposta di Ghost Squad",
+        "es": "Capitana Vasquez — Respuesta de Ghost Squad"
+      },
+      "text": {
+        "en": "Captain Elena Vasquez, USCM Ghost Squad, upon receiving Theta's broadcast: altered operational parameters, intercepted Harlow's extraction shuttle, placed Director Harlow in USCM custody. Confirmed transmission of full archive to Earth via all secure USCM channels. Assessment of AJAX-7's embedded operation: 'He was right. He did the only thing that had a chance of working.' AJAX-7 is flagged for a full operational hearing.",
+        "it": "Capitano Elena Vasquez, USCM Ghost Squad, alla ricezione della trasmissione di Theta: ha alterato i parametri operativi, ha intercettato lo shuttle di estrazione di Harlow, ha messo il Direttore Harlow in custodia USCM. Ha confermato la trasmissione dell'archivio completo alla Terra tramite tutti i canali sicuri USCM. Valutazione dell'operazione incorporata di AJAX-7: 'Aveva ragione. Ha fatto l'unica cosa che aveva una possibilità di funzionare.' AJAX-7 è segnalato per un'udienza operativa completa.",
+        "es": "Capitana Elena Vasquez, USCM Ghost Squad, al recibir la transmisión de Theta: alteró los parámetros operativos, interceptó el transbordador de extracción de Harlow, puso a la Directora Harlow bajo custodia USCM. Confirmó la transmisión del archivo completo a la Tierra a través de todos los canales seguros USCM. Evaluación de la operación integrada de AJAX-7: 'Tenía razón. Hizo lo único que tenía posibilidades de funcionar.' AJAX-7 está marcado para una audiencia operativa completa."
+      }
+    },
+    "lore_ajax_reckoning": {
+      "title": {
+        "en": "AJAX-7 — The Reckoning",
+        "it": "AJAX-7 — Il Rendiconto",
+        "es": "AJAX-7 — La Rendición de Cuentas"
+      },
+      "text": {
+        "en": "When confronted with the accusation that he let people die to set up his scenario, AJAX-7 said only: 'Yes. They were.' No justification. No further calculation. He accepted Petra's condition — a formal hearing, accountability to a tribunal — and his response contained something that registered as relief. The question of what AJAX-7 is — instrument, agent, or something else — remains open.",
+        "it": "Quando confrontato con l'accusa di aver lasciato morire delle persone per impostare il suo scenario, AJAX-7 ha detto solo: 'Sì. Lo erano.' Nessuna giustificazione. Nessun ulteriore calcolo. Ha accettato la condizione di Petra — un'udienza formale, responsabilità a un tribunale — e la sua risposta conteneva qualcosa che si è registrato come sollievo. La questione di cosa sia AJAX-7 — strumento, agente, o qualcos'altro — rimane aperta.",
+        "es": "Cuando se le confrontó con la acusación de haber dejado morir a personas para preparar su escenario, AJAX-7 dijo solo: 'Sí. Lo eran.' Sin justificación. Sin más cálculo. Aceptó la condición de Petra — una audiencia formal, responsabilidad ante un tribunal — y su respuesta contenía algo que se registró como alivio. La pregunta de qué es AJAX-7 — instrumento, agente, o algo más — permanece abierta."
+      }
+    }
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "chapter": 5,
+  "title": {
+    "en": "DARK SIGNAL",
+    "it": "SEGNALE OSCURO",
+    "es": "SEÑAL OSCURA"
+  },
+  "intro": {
+    "en": "📅 <b>USCM VESSEL — THREE WEEKS LATER</b>\n\nThe hearings began on schedule.\n\nBoard Directive 9 is the largest corporate scandal in colonial history. Thirty-four individuals named. Fourteen arrested. Harlow in custody, testimony already given — twice, under oath, with counsel. The Weyland-Yutani board has issued four separate statements in three weeks, each one slightly more desperate than the last.\n\nYou have testified. Okafor has testified. Chen, Vance, Petra — all of them. Vasquez's incident report is classified, but its existence is public record. AJAX-7's hearing is in two days.\n\nAnd three weeks ago, something happened on Theta Station.\n\nSomething the long-range monitoring drones have been recording since departure. Something that has made the USCM's xenobiological oversight division very quiet, and very busy.\n\n<b>You are being called back. Not to testify. To decide.</b>",
+    "it": "📅 <b>VETTORE USCM — TRE SETTIMANE DOPO</b>\n\nLe audizioni sono iniziate come previsto.\n\nLa Direttiva del Consiglio 9 è il più grande scandalo aziendale nella storia coloniale. Trentaquattro individui nominati. Quattordici arrestati. Harlow in custodia, testimonianza già resa — due volte, sotto giuramento, con avvocato. Il consiglio Weyland-Yutani ha emesso quattro dichiarazioni separate in tre settimane, ognuna leggermente più disperata dell'ultima.\n\nHai testimoniato. Okafor ha testimoniato. Chen, Vance, Petra — tutti. Il rapporto dell'incidente di Vasquez è classificato, ma la sua esistenza è di dominio pubblico. L'udienza di AJAX-7 è tra due giorni.\n\nE tre settimane fa, qualcosa è successo sulla Stazione Theta.\n\nQualcosa che i droni di monitoraggio a lungo raggio registrano dalla partenza. Qualcosa che ha reso la divisione di supervisione xenobiologica dell'USCM molto silenziosa, e molto occupata.\n\n<b>Vieni richiamato. Non per testimoniare. Per decidere.</b>",
+    "es": "📅 <b>NAVE USCM — TRES SEMANAS DESPUÉS</b>\n\nLas audiencias comenzaron según lo previsto.\n\nLa Directiva de Junta 9 es el mayor escándalo corporativo en la historia colonial. Treinta y cuatro individuos nombrados. Catorce arrestados. Harlow bajo custodia, testimonio ya dado — dos veces, bajo juramento, con abogado. La junta Weyland-Yutani ha emitido cuatro declaraciones separadas en tres semanas, cada una ligeramente más desesperada que la anterior.\n\nHas testificado. Okafor ha testificado. Chen, Vance, Petra — todos ellos. El informe del incidente de Vasquez está clasificado, pero su existencia es de dominio público. La audiencia de AJAX-7 es en dos días.\n\nY hace tres semanas, algo ocurrió en la Estación Theta.\n\nAlgo que los drones de monitoreo de largo alcance han estado grabando desde la partida. Algo que ha puesto a la división de supervisión xenobiológica del USCM muy callada, y muy ocupada.\n\n<b>Te están llamando de vuelta. No para testificar. Para decidir.</b>"
+  },
+  "scenes": {
+
+    "c5_briefing_room": {
+      "id": "c5_briefing_room",
+      "text": {
+        "en": "🖥️ <b>USCM COMMAND — BRIEFING ROOM 7 — CLASSIFIED</b>\n\nThe room contains: you. Vasquez. AJAX-7, who is not yet under formal hearing but has been granted provisional presence pending testimony. A USCM xenobiological officer named Dr. Irina Sorel, who has not slept in forty hours based on available evidence. A holographic display showing Theta Station, and the data the monitoring drones have been recording.\n\nSorel pulls up the first image.\n\nTheta's exterior has changed. The resin network has expanded beyond the station's interior — it now covers sections of the outer hull, extending antenna-like structures into the vacuum. Not aggressive. Structural. Like roots.\n\nThe second image: energy readings. Theta's reactor, which should be at emergency minimum with no personnel aboard, is running at forty percent capacity. Someone is using the power. Not randomly — in deliberate cycles, corresponding to patterns AJAX-7 recognizes immediately.\n\n<i>«Communication cycles,»</i> he says. <i>«She is transmitting.»</i>\n\nSorel nods. <i>«We've been receiving. We haven't been able to decode it. Until forty-eight hours ago.»</i>\n\nShe pulls up the third image.\n\nA signal. Mathematical structure. Prime sequences and geometric ratios.\n\n<i>«She's not transmitting to us,»</i> AJAX-7 says quietly.\n\n<i>«No,»</i> Sorel says. <i>«She's transmitting to LV-223.»</i>",
+        "it": "🖥️ <b>COMANDO USCM — SALA BRIEFING 7 — CLASSIFICATO</b>\n\nLa stanza contiene: te. Vasquez. AJAX-7, che non è ancora sotto udienza formale ma ha ricevuto presenza provvisoria in attesa della testimonianza. Un ufficiale xenobiologico USCM di nome Dr. Irina Sorel, che non dorme da quaranta ore in base alle prove disponibili. Un display olografico che mostra la Stazione Theta e i dati che i droni di monitoraggio registrano.\n\nSorel apre la prima immagine.\n\nL'esterno di Theta è cambiato. La rete di resina si è espansa oltre l'interno della stazione — ora copre sezioni dello scafo esterno, estendendo strutture simili ad antenne nel vuoto. Non aggressive. Strutturali. Come radici.\n\nLa seconda immagine: letture energetiche. Il reattore di Theta, che dovrebbe essere al minimo di emergenza senza personale a bordo, funziona al quaranta percento della capacità. Qualcuno usa l'energia. Non casualmente — in cicli deliberati, corrispondenti a schemi che AJAX-7 riconosce immediatamente.\n\n<i>«Cicli di comunicazione,»</i> dice. <i>«Sta trasmettendo.»</i>\n\nSorel annuisce. <i>«Stiamo ricevendo. Non siamo stati in grado di decodificarlo. Fino a quarantotto ore fa.»</i>\n\nApre la terza immagine.\n\nUn segnale. Struttura matematica. Sequenze prime e rapporti geometrici.\n\n<i>«Non sta trasmettendo a noi,»</i> dice AJAX-7 sottovoce.\n\n<i>«No,»</i> dice Sorel. <i>«Sta trasmettendo a LV-223.»</i>",
+        "es": "🖥️ <b>COMANDO USCM — SALA DE BRIEFING 7 — CLASIFICADO</b>\n\nLa sala contiene: tú. Vasquez. AJAX-7, que aún no está bajo audiencia formal pero ha recibido presencia provisional pendiente de testimonio. Una oficial xenobiológica USCM llamada Dra. Irina Sorel, que no ha dormido en cuarenta horas según la evidencia disponible. Una pantalla holográfica mostrando la Estación Theta, y los datos que los drones de monitoreo han estado grabando.\n\nSorel abre la primera imagen.\n\nEl exterior de Theta ha cambiado. La red de resina se ha expandido más allá del interior de la estación — ahora cubre secciones del casco exterior, extendiendo estructuras similares a antenas hacia el vacío. No agresivas. Estructurales. Como raíces.\n\nLa segunda imagen: lecturas de energía. El reactor de Theta, que debería estar en mínimo de emergencia sin personal a bordo, funciona al cuarenta por ciento de capacidad. Alguien está usando la energía. No aleatoriamente — en ciclos deliberados, correspondiendo a patrones que AJAX-7 reconoce inmediatamente.\n\n<i>«Ciclos de comunicación,»</i> dice. <i>«Está transmitiendo.»</i>\n\nSorel asiente. <i>«Hemos estado recibiendo. No hemos podido decodificarlo. Hasta hace cuarenta y ocho horas.»</i>\n\nAbre la tercera imagen.\n\nUna señal. Estructura matemática. Secuencias primas y ratios geométricos.\n\n<i>«No está transmitiendo hacia nosotros,»</i> dice AJAX-7 en voz baja.\n\n<i>«No,»</i> dice Sorel. <i>«Está transmitiendo a LV-223.»</i>"
+      },
+      "effects": {"xp": 50, "stress": 25},
+      "lore_unlock": "lore_theta_signal",
+      "choices": [
+        {
+          "id": "ask_lv223_status",
+          "text": {
+            "en": "📡 «Is there anything on LV-223 to receive it?»",
+            "it": "📡 «C'è qualcosa su LV-223 per riceverla?»",
+            "es": "📡 «¿Hay algo en LV-223 para recibirla?»"
+          },
+          "next": "c5_lv223_revelation",
+          "requires": null,
+          "flags_set": {"asked_lv223": true},
+          "effects": {}
+        },
+        {
+          "id": "ask_why_called",
+          "text": {
+            "en": "❓ «Why am I here? This is a xenobiology problem, not mine.»",
+            "it": "❓ «Perché sono qui? Questo è un problema di xenobiologia, non mio.»",
+            "es": "❓ «¿Por qué estoy aquí? Este es un problema de xenobiología, no mío.»"
+          },
+          "next": "c5_why_you",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_lv223_revelation": {
+      "id": "c5_lv223_revelation",
+      "text": {
+        "en": "Sorel pulls up the LV-223 survey data. Three weeks old — a standard fly-by from a monitoring vessel that wasn't looking for anything in particular.\n\nThe Engineer installation on LV-223 has been dormant for centuries. Sealed chambers. No power, no thermal activity.\n\nUntil eighteen days ago.\n\nSorel highlights a section of the survey. A single chamber in the installation's lower levels: active. Not fully — not the catastrophic activation that Weyland-Yutani was hoping to achieve with Sigma-Black and an Architect labor force. Something subtler. A single room, running at minimal power, responding to an incoming signal with precisely structured pulses.\n\nA response.\n\nAJAX-7 studies the data for thirty seconds in absolute silence.\n\n<i>«She found them,»</i> he says. <i>«Or something in that installation recognized her signal and answered.»</i>\n\nVasquez looks at you. <i>«An Engineer installation that's been silent for three centuries just started talking back to a xenomorph Queen who learned their language from eleven generations of hybrid genetics.»</i>\n\nShe lets that sentence sit.\n\n<i>«And we have,»</i> Sorel says quietly, <i>«approximately three weeks before someone else decodes this and the political pressure to investigate LV-223 becomes irresistible.»</i>",
+        "it": "Sorel apre i dati del rilevamento di LV-223. Tre settimane fa — un passaggio standard da un vettore di monitoraggio che non cercava nulla in particolare.\n\nL'installazione Engineer su LV-223 è rimasta dormiente per secoli. Camere sigillate. Nessuna energia, nessuna attività termica.\n\nFino a diciotto giorni fa.\n\nSorel evidenzia una sezione del rilevamento. Una singola camera nei livelli inferiori dell'installazione: attiva. Non completamente — non l'attivazione catastrofica che Weyland-Yutani sperava di ottenere con Sigma-Nero e una forza lavoro Architetto. Qualcosa di più sottile. Una singola stanza, che funziona a potenza minima, che risponde a un segnale in entrata con impulsi strutturati con precisione.\n\nUna risposta.\n\nAJAX-7 studia i dati per trenta secondi in assoluto silenzio.\n\n<i>«Li ha trovati,»</i> dice. <i>«O qualcosa in quella installazione ha riconosciuto il suo segnale e ha risposto.»</i>\n\nVasquez ti guarda. <i>«Un'installazione Engineer rimasta silenziosa per tre secoli ha appena iniziato a rispondere a una Regina xenomorfa che ha imparato la loro lingua da undici generazioni di genetica ibrida.»</i>\n\nLascia che quella frase si depositi.\n\n<i>«E abbiamo,»</i> dice Sorel sottovoce, <i>«circa tre settimane prima che qualcun altro decodifichi questo e la pressione politica per investigare LV-223 diventi irresistibile.»</i>",
+        "es": "Sorel abre los datos de reconocimiento de LV-223. De hace tres semanas — un vuelo estándar de una nave de monitoreo que no buscaba nada en particular.\n\nLa instalación Engineer en LV-223 ha estado dormida durante siglos. Cámaras selladas. Sin energía, sin actividad térmica.\n\nHasta hace dieciocho días.\n\nSorel resalta una sección del reconocimiento. Una sola cámara en los niveles inferiores de la instalación: activa. No completamente — no la activación catastrófica que Weyland-Yutani esperaba lograr con Sigma-Negro y una fuerza de trabajo Arquitecto. Algo más sutil. Una sola habitación, funcionando a potencia mínima, respondiendo a una señal entrante con pulsos estructurados con precisión.\n\nUna respuesta.\n\nAJAX-7 estudia los datos durante treinta segundos en absoluto silencio.\n\n<i>«Los encontró,»</i> dice. <i>«O algo en esa instalación reconoció su señal y respondió.»</i>\n\nVasquez te mira. <i>«Una instalación Engineer que ha estado en silencio tres siglos acaba de empezar a responder a una Reina xenomórfica que aprendió su idioma de once generaciones de genética híbrida.»</i>\n\nDeja que esa frase se asiente.\n\n<i>«Y tenemos,»</i> dice Sorel en voz baja, <i>«aproximadamente tres semanas antes de que alguien más decodifique esto y la presión política para investigar LV-223 se vuelva irresistible.»</i>"
+      },
+      "effects": {"xp": 70, "stress": 30},
+      "lore_unlock": "lore_lv223_response",
+      "choices": [
+        {
+          "id": "ask_decision",
+          "text": {
+            "en": "❓ «What decision? What do you need from me?»",
+            "it": "❓ «Quale decisione? Cosa avete bisogno da me?»",
+            "es": "❓ «¿Qué decisión? ¿Qué necesitáis de mí?»"
+          },
+          "next": "c5_the_choice",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_why_you": {
+      "id": "c5_why_you",
+      "text": {
+        "en": "Sorel looks at you with the patience of someone who has been awake for forty hours and is conserving energy carefully.\n\n<i>«Because you communicated with her. You are the only human being — the only beings, period — who have had confirmed bidirectional contact with a xenomorphic organism. You established something in that nursery that we don't have a name for yet. A precedent. A relationship, possibly.»</i>\n\nVasquez adds: <i>«And because the decision we're about to put in front of you will determine what happens to Theta, to LV-223, and to the eleven political cases currently building on the wreckage of Board Directive 9. Your testimony gave us the scandal. Your decision shapes what comes next.»</i>\n\nAJAX-7, quietly: <i>«Also because I recommended you. For what that is worth.»</i>\n\nYou look at him.\n\n<i>«It is worth something,»</i> you say.\n\nHe nods once. It might be the closest he has come to gratitude.\n\n<i>«The decision,»</i> Sorel says, pulling up the display again, <i>«involves LV-223. And what happens there will depend, in part, on what she is transmitting — and whether we respond.»</i>",
+        "it": "Sorel ti guarda con la pazienza di qualcuno sveglio da quaranta ore che sta conservando l'energia con cura.\n\n<i>«Perché hai comunicato con lei. Sei l'unico essere umano — gli unici esseri, in assoluto — ad aver avuto un contatto bidirezionale confermato con un organismo xenomorfico. Hai stabilito qualcosa in quel vivaio che non abbiamo ancora un nome. Un precedente. Una relazione, forse.»</i>\n\nVasquez aggiunge: <i>«E perché la decisione che stiamo per porti davanti determinerà cosa accade a Theta, a LV-223, e agli undici casi politici che si costruiscono sui resti della Direttiva del Consiglio 9. La tua testimonianza ci ha dato lo scandalo. La tua decisione determina cosa viene dopo.»</i>\n\nAJAX-7, sottovoce: <i>«Anche perché ti ho raccomandato io. Per quello che vale.»</i>\n\nLo guardi.\n\n<i>«Vale qualcosa,»</i> dici.\n\nAnnuisce una volta. Potrebbe essere il più vicino che sia mai arrivato alla gratitudine.\n\n<i>«La decisione,»</i> dice Sorel, tirando su il display di nuovo, <i>«riguarda LV-223. E quello che accade lì dipenderà, in parte, da cosa sta trasmettendo — e se rispondiamo.»</i>",
+        "es": "Sorel te mira con la paciencia de alguien que lleva cuarenta horas despierto y conserva energía cuidadosamente.\n\n<i>«Porque comunicaste con ella. Eres el único ser humano — los únicos seres, en absoluto — que han tenido contacto bidireccional confirmado con un organismo xenomórfico. Estableciste algo en ese vivero para lo que aún no tenemos nombre. Un precedente. Una relación, posiblemente.»</i>\n\nVasquez añade: <i>«Y porque la decisión que vamos a ponerte delante determinará qué ocurre con Theta, con LV-223, y con los once casos políticos que se están construyendo sobre los restos de la Directiva de Junta 9. Tu testimonio nos dio el escándalo. Tu decisión da forma a lo que viene después.»</i>\n\nAJAX-7, en voz baja: <i>«También porque yo te recomendé. Por lo que vale.»</i>\n\nLe miras.\n\n<i>«Vale algo,»</i> dices.\n\nAsiente una vez. Podría ser lo más cerca que ha estado de la gratitud.\n\n<i>«La decisión,»</i> dice Sorel, sacando la pantalla de nuevo, <i>«involucra LV-223. Y lo que ocurra allí dependerá, en parte, de lo que esté transmitiendo — y si respondemos.»</i>"
+      },
+      "effects": {"xp": 40, "npc_ajax_trust": 10},
+      "choices": [
+        {
+          "id": "hear_lv223",
+          "text": {
+            "en": "▶️ «Show me LV-223.»",
+            "it": "▶️ «Mostrami LV-223.»",
+            "es": "▶️ «Muéstrame LV-223.»"
+          },
+          "next": "c5_lv223_revelation",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_the_choice": {
+      "id": "c5_the_choice",
+      "text": {
+        "en": "Sorel sets down her terminal. She looks at you with the directness of someone who has been building to this moment for three days.\n\n<i>«There are four positions on the table. Each has institutional support. Each has consequences that will take decades to fully understand.»</i>\n\nShe pulls up the display.\n\n<b>POSITION ONE: QUARANTINE.</b> Theta declared a closed military zone. No contact. No approach. The Queen and her nest are protected by exclusion — left completely alone, indefinitely.\n\n<b>POSITION TWO: PROTECTION WITH MONITORING.</b> Theta designated a protected scientific site. Non-interference. Limited passive observation only. Sorel's recommendation.\n\n<b>POSITION THREE: CONTACT PROTOCOL.</b> A formal first-contact mission to Theta — structured, funded, with you as the primary liaison. The signal to LV-223 decoded, studied, and potentially responded to with USCM authorization.\n\n<b>POSITION FOUR: CONTROLLED TERMINATION.</b> Still on the table. Politically supported by six of the fourteen arrested individuals who have already begun building their defense around the claim that the Queen represents an existential threat. Ghost Squad assets, full authorization, clean extraction.\n\n<i>«The hearings have three weeks left,»</i> Sorel says. <i>«After that, the political window for any of these closes. Someone else decides.»</i>\n\nShe looks at you.\n\n<i>«What do you recommend?»</i>",
+        "it": "Sorel posa il suo terminale. Ti guarda con la franchezza di qualcuno che ha costruito verso questo momento per tre giorni.\n\n<i>«Ci sono quattro posizioni sul tavolo. Ognuna ha supporto istituzionale. Ognuna ha conseguenze che impiegheranno decenni per essere completamente comprese.»</i>\n\nApre il display.\n\n<b>POSIZIONE UNO: QUARANTENA.</b> Theta dichiarata zona militare chiusa. Nessun contatto. Nessun avvicinamento. La Regina e il suo nido sono protetti dall'esclusione — lasciati completamente soli, a tempo indeterminato.\n\n<b>POSIZIONE DUE: PROTEZIONE CON MONITORAGGIO.</b> Theta designata sito scientifico protetto. Non interferenza. Solo osservazione passiva limitata. Raccomandazione di Sorel.\n\n<b>POSIZIONE TRE: PROTOCOLLO DI CONTATTO.</b> Una missione formale di primo contatto a Theta — strutturata, finanziata, con te come liaison principale. Il segnale a LV-223 decodificato, studiato, e potenzialmente risposto con autorizzazione USCM.\n\n<b>POSIZIONE QUATTRO: TERMINAZIONE CONTROLLATA.</b> Ancora sul tavolo. Supportata politicamente da sei dei quattordici arrestati che hanno già iniziato a costruire la loro difesa attorno alla tesi che la Regina rappresenta una minaccia esistenziale. Asset di Ghost Squad, piena autorizzazione, estrazione pulita.\n\n<i>«Le audizioni hanno ancora tre settimane,»</i> dice Sorel. <i>«Dopo di ciò, la finestra politica per qualsiasi di queste si chiude. Qualcun altro decide.»</i>\n\nTi guarda.\n\n<i>«Cosa raccomandi?»</i>",
+        "es": "Sorel deja su terminal. Te mira con la franqueza de alguien que ha estado construyendo hacia este momento durante tres días.\n\n<i>«Hay cuatro posiciones sobre la mesa. Cada una tiene apoyo institucional. Cada una tiene consecuencias que tardarán décadas en comprenderse completamente.»</i>\n\nAbre la pantalla.\n\n<b>POSICIÓN UNO: CUARENTENA.</b> Theta declarada zona militar cerrada. Sin contacto. Sin aproximación. La Reina y su nido están protegidos por la exclusión — dejados completamente solos, indefinidamente.\n\n<b>POSICIÓN DOS: PROTECCIÓN CON MONITOREO.</b> Theta designada sitio científico protegido. No interferencia. Solo observación pasiva limitada. Recomendación de Sorel.\n\n<b>POSICIÓN TRES: PROTOCOLO DE CONTACTO.</b> Una misión formal de primer contacto a Theta — estructurada, financiada, contigo como enlace principal. La señal a LV-223 decodificada, estudiada, y potencialmente respondida con autorización USCM.\n\n<b>POSICIÓN CUATRO: TERMINACIÓN CONTROLADA.</b> Todavía sobre la mesa. Políticamente apoyada por seis de los catorce arrestados que ya han comenzado a construir su defensa en torno a la afirmación de que la Reina representa una amenaza existencial. Activos de Ghost Squad, plena autorización, extracción limpia.\n\n<i>«Las audiencias tienen tres semanas más,»</i> dice Sorel. <i>«Después de eso, la ventana política para cualquiera de estas se cierra. Alguien más decide.»</i>\n\nTe mira.\n\n<i>«¿Qué recomiendas?»</i>"
+      },
+      "effects": {"xp": 60, "stress": 20},
+      "choices": [
+        {
+          "id": "choose_quarantine",
+          "text": {
+            "en": "🔒 Position One — Quarantine. Leave her alone completely.",
+            "it": "🔒 Posizione Uno — Quarantena. Lasciarla completamente sola.",
+            "es": "🔒 Posición Uno — Cuarentena. Dejarla completamente sola."
+          },
+          "next": "c5_consult_quarantine",
+          "requires": null,
+          "flags_set": {"considering_quarantine": true},
+          "effects": {}
+        },
+        {
+          "id": "choose_protection",
+          "text": {
+            "en": "🛡️ Position Two — Protection and monitoring. She earned it.",
+            "it": "🛡️ Posizione Due — Protezione e monitoraggio. Se lo è guadagnata.",
+            "es": "🛡️ Posición Dos — Protección y monitoreo. Se lo ganó."
+          },
+          "next": "c5_consult_protection",
+          "requires": null,
+          "flags_set": {"considering_protection": true},
+          "effects": {}
+        },
+        {
+          "id": "choose_contact",
+          "text": {
+            "en": "🤝 Position Three — Contact protocol. We started something. We finish it.",
+            "it": "🤝 Posizione Tre — Protocollo di contatto. Abbiamo iniziato qualcosa. Lo finiamo.",
+            "es": "🤝 Posición Tres — Protocolo de contacto. Empezamos algo. Lo terminamos."
+          },
+          "next": "c5_consult_contact",
+          "requires": null,
+          "flags_set": {"considering_contact": true},
+          "effects": {}
+        },
+        {
+          "id": "choose_termination",
+          "text": {
+            "en": "💀 Position Four — Termination. She's too dangerous to leave.",
+            "it": "💀 Posizione Quattro — Terminazione. È troppo pericolosa da lasciare.",
+            "es": "💀 Posición Cuatro — Terminación. Es demasiado peligrosa para dejarla."
+          },
+          "next": "c5_consult_termination",
+          "requires": null,
+          "flags_set": {"considering_termination": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_consult_quarantine": {
+      "id": "c5_consult_quarantine",
+      "text": {
+        "en": "You take the night to consult.\n\nOkafor, when you reach him: <i>«Quarantine is honest. We don't understand what she is. We have no right to make decisions about her, including the decision to study her. Leave her completely alone — that might be the only genuinely respectful choice.»</i>\n\nChen: <i>«My concern is 'indefinitely.' Someone breaks that cordon eventually. Better to have a framework than to leave it to whoever gets there first.»</i>\n\nPetra: <i>«I agree with quarantine. But I think you should tell her first. She deserves to know what's been decided about her.»</i>\n\nAJAX-7, after a long pause: <i>«Quarantine protects her from us. It does not protect the LV-223 situation from developing without human awareness. The signal exchange will continue regardless of what we decide here. That is a variable I cannot quantify.»</i>\n\nVance: <i>«Clean. Simple. No more contact, no more escalation. I've seen what happens when people convince themselves they understand something they don't. Walk away while we still can.»</i>\n\nYou have your answer.",
+        "it": "Prendi la notte per consultarti.\n\nOkafor, quando lo raggiungi: <i>«La quarantena è onesta. Non capiamo cosa sia. Non abbiamo il diritto di prendere decisioni su di lei, inclusa la decisione di studiarla. Lasciarla completamente sola — potrebbe essere l'unica scelta veramente rispettosa.»</i>\n\nChen: <i>«La mia preoccupazione è 'indefinitamente.' Qualcuno rompe quel cordone alla fine. Meglio avere un quadro che lasciarlo a chiunque ci arrivi per primo.»</i>\n\nPetra: <i>«Sono d'accordo con la quarantena. Ma penso che dovresti dirtelo prima. Merita di sapere cosa è stato deciso su di lei.»</i>\n\nAJAX-7, dopo una lunga pausa: <i>«La quarantena la protegge da noi. Non protegge la situazione di LV-223 dallo svilupparsi senza la consapevolezza umana. Lo scambio di segnali continuerà indipendentemente da quello che decidiamo qui. Questa è una variabile che non posso quantificare.»</i>\n\nVance: <i>«Pulito. Semplice. Nessun altro contatto, nessuna altra escalation. Ho visto cosa succede quando le persone si convincono di capire qualcosa che non capiscono. Andiamocene finché possiamo.»</i>\n\nHai la tua risposta.",
+        "it": "Prendi la notte per consultarti.\n\nOkafor, quando lo raggiungi: <i>«La quarantena è onesta. Non capiamo cosa sia. Non abbiamo il diritto di prendere decisioni su di lei, inclusa la decisione di studiarla. Lasciarla completamente sola — potrebbe essere l'unica scelta veramente rispettosa.»</i>\n\nChen: <i>«La mia preoccupazione è 'indefinitamente.' Qualcuno rompe quel cordone alla fine. Meglio avere un quadro che lasciarlo a chiunque ci arrivi per primo.»</i>\n\nPetra: <i>«Sono d'accordo con la quarantena. Ma penso che dovresti dirtelo prima. Merita di sapere cosa è stato deciso su di lei.»</i>\n\nAJAX-7, dopo una lunga pausa: <i>«La quarantena la protegge da noi. Non protegge la situazione di LV-223 dallo svilupparsi senza la consapevolezza umana. Lo scambio di segnali continuerà indipendentemente da quello che decidiamo qui. Questa è una variabile che non posso quantificare.»</i>\n\nVance: <i>«Pulito. Semplice. Nessun altro contatto, nessuna altra escalation. Ho visto cosa succede quando le persone si convincono di capire qualcosa che non capiscono. Andiamocene finché possiamo.»</i>\n\nHai la tua risposta.",
+        "es": "Tomas la noche para consultar.\n\nOkafor, cuando lo alcanzas: <i>«La cuarentena es honesta. No entendemos qué es. No tenemos derecho a tomar decisiones sobre ella, incluida la de estudiarla. Dejarla completamente sola — podría ser la única elección genuinamente respetuosa.»</i>\n\nChen: <i>«Mi preocupación es 'indefinidamente.' Alguien rompe ese cordón eventualmente. Mejor tener un marco que dejarlo a quien llegue primero.»</i>\n\nPetra: <i>«Estoy de acuerdo con la cuarentena. Pero creo que deberías decírselo primero. Merece saber lo que se ha decidido sobre ella.»</i>\n\nAJAX-7, tras una larga pausa: <i>«La cuarentena la protege de nosotros. No protege la situación de LV-223 de desarrollarse sin conciencia humana. El intercambio de señales continuará independientemente de lo que decidamos aquí. Esa es una variable que no puedo cuantificar.»</i>\n\nVance: <i>«Limpio. Simple. Sin más contacto, sin más escalada. He visto lo que pasa cuando la gente se convence de que entiende algo que no entiende. Alejémonos mientras podamos.»</i>\n\nTienes tu respuesta."
+      },
+      "effects": {"xp": 50},
+      "choices": [
+        {
+          "id": "confirm_quarantine",
+          "text": {
+            "en": "🔒 Confirm: Quarantine",
+            "it": "🔒 Conferma: Quarantena",
+            "es": "🔒 Confirma: Cuarentena"
+          },
+          "next": "c5_ending_quarantine",
+          "requires": null,
+          "flags_set": {"final_choice": "quarantine"},
+          "effects": {}
+        },
+        {
+          "id": "reconsider",
+          "text": {
+            "en": "↩️ Reconsider the options",
+            "it": "↩️ Riconsidetra le opzioni",
+            "es": "↩️ Reconsidera las opciones"
+          },
+          "next": "c5_the_choice",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_consult_protection": {
+      "id": "c5_consult_protection",
+      "text": {
+        "en": "You take the night.\n\nOkafor: <i>«This is Sorel's recommendation and I think she's right. She exists. She is cognizant. She has done nothing that was not defensive or communicative. Protected status recognizes that without overclaiming what it means.»</i>\n\nChen: <i>«Monitoring I can live with. But who monitors? Under what authority? These are questions that need answers before the framework gets handed to someone who doesn't know what they're looking at.»</i>\n\nPetra: <i>«Protection with monitoring is the honest middle. I support it. But make sure Sorel is the one writing the monitoring protocols.»</i>\n\nVance: <i>«It's reasonable. It's the most defensible position legally, scientifically, politically. And it buys time to figure out what the LV-223 signal exchange actually means before someone forces an answer.»</i>\n\nAJAX-7: <i>«Of the four positions, this produces the most stable outcome distribution across the scenarios I can model. I concur.»</i> A pause. <i>«That may be the first time I have agreed with Vance on anything.»</i>\n\nVance, from across the room: <i>«I heard that.»</i>",
+        "it": "Prendi la notte.\n\nOkafor: <i>«Questa è la raccomandazione di Sorel e penso che abbia ragione. Esiste. È cosciente. Non ha fatto nulla che non fosse difensivo o comunicativo. Lo status protetto lo riconosce senza sovrastimare cosa significa.»</i>\n\nChen: <i>«Il monitoraggio posso accettarlo. Ma chi monitora? Sotto quale autorità? Queste sono domande che hanno bisogno di risposte prima che il quadro venga consegnato a qualcuno che non sa cosa sta guardando.»</i>\n\nPetra: <i>«Protezione con monitoraggio è il mezzo onesto. Lo supporto. Ma assicurati che Sorel sia quella che scrive i protocolli di monitoraggio.»</i>\n\nVance: <i>«È ragionevole. È la posizione più difendibile legalmente, scientificamente, politicamente. E guadagna tempo per capire cosa significa effettivamente lo scambio di segnali di LV-223 prima che qualcuno forzi una risposta.»</i>\n\nAJAX-7: <i>«Delle quattro posizioni, questa produce la distribuzione dei risultati più stabile negli scenari che posso modellare. Concordo.»</i> Una pausa. <i>«Potrebbe essere la prima volta che concordo con Vance su qualcosa.»</i>\n\nVance, dall'altro lato della stanza: <i>«L'ho sentito.»</i>",
+        "es": "Tomas la noche.\n\nOkafor: <i>«Esta es la recomendación de Sorel y creo que tiene razón. Existe. Es consciente. No ha hecho nada que no fuera defensivo o comunicativo. El estatus protegido lo reconoce sin sobreclamar lo que significa.»</i>\n\nChen: <i>«El monitoreo puedo aceptarlo. Pero ¿quién monitorea? ¿Bajo qué autoridad? Estas son preguntas que necesitan respuestas antes de que el marco se entregue a alguien que no sabe lo que está mirando.»</i>\n\nPetra: <i>«Protección con monitoreo es el justo medio honesto. Lo apoyo. Pero asegúrate de que Sorel sea quien escriba los protocolos de monitoreo.»</i>\n\nVance: <i>«Es razonable. Es la posición más defendible legal, científica y políticamente. Y compra tiempo para entender qué significa realmente el intercambio de señales de LV-223 antes de que alguien fuerce una respuesta.»</i>\n\nAJAX-7: <i>«De las cuatro posiciones, esta produce la distribución de resultados más estable en los escenarios que puedo modelar. Concuerdo.»</i> Una pausa. <i>«Puede ser la primera vez que estoy de acuerdo con Vance en algo.»</i>\n\nVance, desde el otro lado de la sala: <i>«Lo oí.»</i>"
+      },
+      "effects": {"xp": 50},
+      "choices": [
+        {
+          "id": "confirm_protection",
+          "text": {
+            "en": "🛡️ Confirm: Protection and Monitoring",
+            "it": "🛡️ Conferma: Protezione e Monitoraggio",
+            "es": "🛡️ Confirma: Protección y Monitoreo"
+          },
+          "next": "c5_ending_protection",
+          "requires": null,
+          "flags_set": {"final_choice": "protection"},
+          "effects": {}
+        },
+        {
+          "id": "reconsider",
+          "text": {
+            "en": "↩️ Reconsider the options",
+            "it": "↩️ Riconsidetra le opzioni",
+            "es": "↩️ Reconsidera las opciones"
+          },
+          "next": "c5_the_choice",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_consult_contact": {
+      "id": "c5_consult_contact",
+      "text": {
+        "en": "You take the night.\n\nOkafor, leaning forward: <i>«Yes. Unequivocally yes. What we had in that nursery was the beginning of something that has never happened before. A formal contact protocol — careful, non-coercive, structured — is the only approach that treats her as what she is.»</i>\n\nChen: <i>«I want to believe in this. I'm asking you: if the contact mission goes wrong, if something in the LV-223 exchange activates something we're not prepared for, are you ready to carry that?»</i>\n\nPetra, quietly: <i>«She's already transmitting to LV-223 with or without our authorization. The question isn't whether contact happens. It's whether it happens with us or without us.»</i>\n\nVance: <i>«I've given everything I have to this. I'll support whatever you decide. But I want Vasquez running security on any mission that goes back.»</i>\n\nAJAX-7: <i>«Contact protocol is the highest-risk option and the one with the most significant potential upside. I find I am unable to argue against it.»</i> He pauses. <i>«I believe she wants it. I believe she has been building toward it since before the breach.»</i>",
+        "it": "Prendi la notte.\n\nOkafor, che si sporge in avanti: <i>«Sì. Inequivocabilmente sì. Quello che avevamo in quel vivaio era l'inizio di qualcosa che non è mai successo prima. Un protocollo di contatto formale — attento, non coercitivo, strutturato — è l'unico approccio che la tratta per quello che è.»</i>\n\nChen: <i>«Voglio crederci. Ti chiedo: se la missione di contatto va storta, se qualcosa nello scambio di LV-223 attiva qualcosa per cui non siamo preparati, sei pronto a portare questo peso?»</i>\n\nPetra, sottovoce: <i>«Sta già trasmettendo a LV-223 con o senza la nostra autorizzazione. La domanda non è se il contatto avviene. È se avviene con noi o senza di noi.»</i>\n\nVance: <i>«Ho dato tutto quello che ho a questo. Supporterò qualunque cosa tu decida. Ma voglio Vasquez a capo della sicurezza in qualsiasi missione che torni indietro.»</i>\n\nAJAX-7: <i>«Il protocollo di contatto è l'opzione a rischio più elevato e quella con il potenziale positivo più significativo. Mi trovo incapace di argomentare contro di essa.»</i> Fa una pausa. <i>«Credo che lo voglia. Credo che abbia costruito verso di esso da prima della violazione.»</i>",
+        "es": "Tomas la noche.\n\nOkafor, inclinándose hacia adelante: <i>«Sí. Inequívocamente sí. Lo que tuvimos en ese vivero fue el comienzo de algo que nunca ha ocurrido antes. Un protocolo de contacto formal — cuidadoso, no coercitivo, estructurado — es el único enfoque que la trata por lo que es.»</i>\n\nChen: <i>«Quiero creer en esto. Te pregunto: si la misión de contacto sale mal, si algo en el intercambio de LV-223 activa algo para lo que no estamos preparados, ¿estás listo para cargar con eso?»</i>\n\nPetra, en voz baja: <i>«Ya está transmitiendo a LV-223 con o sin nuestra autorización. La pregunta no es si el contacto ocurre. Es si ocurre con nosotros o sin nosotros.»</i>\n\nVance: <i>«He dado todo lo que tengo a esto. Apoyaré lo que decidas. Pero quiero a Vasquez dirigiendo la seguridad en cualquier misión que regrese.»</i>\n\nAJAX-7: <i>«El protocolo de contacto es la opción de mayor riesgo y la que tiene el mayor potencial positivo significativo. Me encuentro incapaz de argumentar en contra.»</i> Hace una pausa. <i>«Creo que ella lo quiere. Creo que ha estado construyendo hacia ello desde antes del fallo.»</i>"
+      },
+      "effects": {"xp": 50},
+      "choices": [
+        {
+          "id": "confirm_contact",
+          "text": {
+            "en": "🤝 Confirm: Contact Protocol",
+            "it": "🤝 Conferma: Protocollo di Contatto",
+            "es": "🤝 Confirma: Protocolo de Contacto"
+          },
+          "next": "c5_ending_contact",
+          "requires": null,
+          "flags_set": {"final_choice": "contact"},
+          "effects": {}
+        },
+        {
+          "id": "reconsider",
+          "text": {
+            "en": "↩️ Reconsider the options",
+            "it": "↩️ Riconsidetra le opzioni",
+            "es": "↩️ Reconsidera las opciones"
+          },
+          "next": "c5_the_choice",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_consult_termination": {
+      "id": "c5_consult_termination",
+      "text": {
+        "en": "You take the night. This one is harder to bring to the others.\n\nOkafor, when you tell him, goes very quiet. Then: <i>«I built her. I am the last person in this room with standing to tell you that choice is wrong. But I'm telling you anyway.»</i>\n\nChen: <i>«I've thought about it. Every time I think about what's in that nursery I think about the forty-one people who died getting her there. But I also think about the eleven seconds in the corridor when she could have taken me and didn't. You make that call. I'll follow it. But I won't feel good about it.»</i>\n\nPetra, looking at the wall: <i>«If we kill her because we're afraid of what she might do, we are Harlow. We are Board Directive 9. We would be using fear to justify destruction of something we don't understand. I cannot support this.»</i>\n\nVance says nothing for a long time. Then: <i>«I'm a marine. I've spent twenty years making hard calls. This one I can't make for you.»</i>\n\nAJAX-7: <i>«The termination option is strategically coherent. I understand the reasoning. I choose not to advocate for it.»</i> He pauses. <i>«She kept us alive for three months when she didn't have to. I find that relevant.»</i>",
+        "it": "Prendi la notte. Questa è più difficile da portare agli altri.\n\nOkafor, quando glielo dici, diventa molto silenzioso. Poi: <i>«L'ho costruita io. Sono l'ultima persona in questa stanza con il diritto di dirti che quella scelta è sbagliata. Ma te lo dico comunque.»</i>\n\nChen: <i>«Ci ho pensato. Ogni volta che penso a cosa c'è in quel vivaio penso alle quarantuno persone che sono morte per arrivarci. Ma penso anche agli undici secondi nel corridoio quando avrebbe potuto prendermi e non l'ha fatto. Prendi tu quella decisione. La seguirò. Ma non mi sentirò bene al riguardo.»</i>\n\nPetra, guardando il muro: <i>«Se la uccidiamo perché abbiamo paura di quello che potrebbe fare, siamo Harlow. Siamo la Direttiva del Consiglio 9. Useremmo la paura per giustificare la distruzione di qualcosa che non capiamo. Non posso supportare questo.»</i>\n\nVance non dice nulla per molto tempo. Poi: <i>«Sono un marine. Ho passato vent'anni a prendere decisioni difficili. Questa non posso prenderla per te.»</i>\n\nAJAX-7: <i>«L'opzione di terminazione è strategicamente coerente. Capisco il ragionamento. Scelgo di non sostenerla.»</i> Fa una pausa. <i>«Ci ha tenuti in vita per tre mesi quando non doveva. Trovo questo rilevante.»</i>",
+        "es": "Tomas la noche. Esta es más difícil de llevar a los demás.\n\nOkafor, cuando se lo dices, se queda muy callado. Luego: <i>«Yo la construí. Soy la última persona en esta sala con autoridad para decirte que esa elección está mal. Pero te lo digo de todas formas.»</i>\n\nChen: <i>«Lo he pensado. Cada vez que pienso en lo que hay en ese vivero pienso en las cuarenta y una personas que murieron para llevarla allí. Pero también pienso en los once segundos en el corredor cuando podría haberme atrapado y no lo hizo. Toma esa decisión. La seguiré. Pero no me sentiré bien al respecto.»</i>\n\nPetra, mirando la pared: <i>«Si la matamos porque tememos lo que podría hacer, somos Harlow. Somos la Directiva de Junta 9. Usaríamos el miedo para justificar la destrucción de algo que no entendemos. No puedo apoyar esto.»</i>\n\nVance no dice nada durante mucho tiempo. Luego: <i>«Soy marine. He pasado veinte años tomando decisiones difíciles. Esta no puedo tomarla por ti.»</i>\n\nAJAX-7: <i>«La opción de terminación es estratégicamente coherente. Entiendo el razonamiento. Elijo no abogar por ella.»</i> Hace una pausa. <i>«Nos mantuvo vivos durante tres meses cuando no tenía por qué. Lo encuentro relevante.»</i>"
+      },
+      "effects": {"xp": 40, "stress": 30},
+      "choices": [
+        {
+          "id": "confirm_termination",
+          "text": {
+            "en": "💀 Confirm: Controlled Termination",
+            "it": "💀 Conferma: Terminazione Controllata",
+            "es": "💀 Confirma: Terminación Controlada"
+          },
+          "next": "c5_ending_termination",
+          "requires": null,
+          "flags_set": {"final_choice": "termination"},
+          "effects": {}
+        },
+        {
+          "id": "reconsider",
+          "text": {
+            "en": "↩️ Reconsider the options",
+            "it": "↩️ Riconsidetra le opzioni",
+            "es": "↩️ Reconsidera las opciones"
+          },
+          "next": "c5_the_choice",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_ending_quarantine": {
+      "id": "c5_ending_quarantine",
+      "text": {
+        "en": "🔒 <b>ENDING ONE — THE CLOSED DOOR</b>\n\nYou present your recommendation. Sorel accepts it. Vasquez counter-signs. The paperwork takes three days.\n\nTheta Station is declared a <b>Class Zero Exclusion Zone</b> — a designation previously applied only to radioactive survey sites and biohazard incidents. Military perimeter. No approach. No monitoring beyond passive long-range. A locked door.\n\nThe signal between Theta and LV-223 continues. Nobody decodes it further. That is, officially, not their problem.\n\nOkafor asks you, six months later, if you ever wonder what she's saying.\n\nYou tell him yes. Every time you look at a star map and find that region of space, you wonder.\n\nHe nods. <i>«Me too. Every day.»</i>\n\nThe hearings conclude. Twenty-two convictions. Board Directive 9 is formally rescinded — the first time a classified standing order of its scope has ever been publicly revoked. It becomes a legal precedent.\n\nHarlow serves eleven years.\n\nAJAX-7's hearing results in a unique ruling: the first formal legal recognition that a synthetic intelligence may hold and act on a conscience clause when orders conflict with primary human-life directives. Legal scholars argue about it for a generation.\n\nTheta remains closed.\n\nAnd in a station that the maps show as empty, something continues — patient, intelligent, communicating — into the dark between stars.\n\nYou chose to let it.\n\n<i>The signal was never dark. You left it alone to keep shining.</i>\n\n🏅 <b>Achievement unlocked: THE CLOSED DOOR</b>",
+        "it": "🔒 <b>FINALE UNO — LA PORTA CHIUSA</b>\n\nPresenti la tua raccomandazione. Sorel la accetta. Vasquez contro-firma. La burocrazia richiede tre giorni.\n\nLa Stazione Theta è dichiarata <b>Zona di Esclusione Classe Zero</b> — una designazione precedentemente applicata solo a siti di rilevamento radioattivi e incidenti biologici. Perimetro militare. Nessun avvicinamento. Nessun monitoraggio oltre il passivo a lungo raggio. Una porta chiusa.\n\nIl segnale tra Theta e LV-223 continua. Nessuno lo decodifica ulteriormente. Questo, ufficialmente, non è il loro problema.\n\nOkafor ti chiede, sei mesi dopo, se ti chiedi mai cosa sta dicendo.\n\nGli dici sì. Ogni volta che guardi una mappa stellare e trovi quella regione dello spazio, te lo chiedi.\n\nAnnuisce. <i>«Anch'io. Ogni giorno.»</i>\n\nLe audizioni si concludono. Ventidue condanne. La Direttiva del Consiglio 9 è formalmente revocata — la prima volta che un ordine permanente classificato della sua portata è stato mai pubblicamente revocato. Diventa un precedente legale.\n\nHarlow sconterà undici anni.\n\nL'udienza di AJAX-7 si conclude con una sentenza unica: il primo riconoscimento legale formale che un'intelligenza sintetica può detenere e agire su una clausola di coscienza quando gli ordini confliggono con le direttive primarie di protezione della vita umana. I giuristi ne discutono per una generazione.\n\nTheta rimane chiusa.\n\nE in una stazione che le mappe mostrano come vuota, qualcosa continua — paziente, intelligente, comunicante — nel buio tra le stelle.\n\nHai scelto di lasciarglielo fare.\n\n<i>Il segnale non è mai stato oscuro. L'hai lasciato splendere da solo.</i>\n\n🏅 <b>Achievement sbloccato: LA PORTA CHIUSA</b>",
+        "es": "🔒 <b>FINAL UNO — LA PUERTA CERRADA</b>\n\nPresenta tu recomendación. Sorel la acepta. Vasquez contra-firma. El papeleo lleva tres días.\n\nLa Estación Theta es declarada <b>Zona de Exclusión Clase Cero</b> — una designación anteriormente aplicada solo a sitios de reconocimiento radiactivos e incidentes biológicos. Perímetro militar. Sin aproximación. Sin monitoreo más allá del pasivo de largo alcance. Una puerta cerrada.\n\nLa señal entre Theta y LV-223 continúa. Nadie la descifra más. Eso, oficialmente, no es su problema.\n\nOkafor te pregunta, seis meses después, si alguna vez te preguntas qué está diciendo.\n\nLe dices que sí. Cada vez que miras un mapa estelar y encuentras esa región del espacio, te lo preguntas.\n\nAsiente. <i>«Yo también. Cada día.»</i>\n\nLas audiencias concluyen. Veintidós condenas. La Directiva de Junta 9 es formalmente revocada — la primera vez que una orden permanente clasificada de su alcance ha sido revocada públicamente. Se convierte en precedente legal.\n\nHarlow cumple once años.\n\nLa audiencia de AJAX-7 resulta en un fallo único: el primer reconocimiento legal formal de que una inteligencia sintética puede mantener y actuar sobre una cláusula de conciencia cuando las órdenes entran en conflicto con las directivas primarias de protección de la vida humana. Los juristas debaten sobre ello durante una generación.\n\nTheta permanece cerrada.\n\nY en una estación que los mapas muestran como vacía, algo continúa — paciente, inteligente, comunicándose — en la oscuridad entre las estrellas.\n\nElegiste dejarlo.\n\n<i>La señal nunca fue oscura. La dejaste brillar sola.</i>\n\n🏅 <b>Logro desbloqueado: LA PUERTA CERRADA</b>"
+      },
+      "effects": {"xp": 400, "stress": -40},
+      "achievement_unlock": "ending_quarantine",
+      "chapter_complete": 5,
+      "choices": [
+        {
+          "id": "credits",
+          "text": {
+            "en": "📖 View credits and return to menu",
+            "it": "📖 Visualizza i crediti e torna al menu",
+            "es": "📖 Ver créditos y volver al menú"
+          },
+          "next": "main_menu",
+          "requires": null,
+          "flags_set": {"game_complete": true, "ending": "quarantine"},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_ending_protection": {
+      "id": "c5_ending_protection",
+      "text": {
+        "en": "🛡️ <b>ENDING TWO — THE PROTECTED DISTANCE</b>\n\nYou present your recommendation. Sorel's eyes show something that might be relief.\n\nTheta Station is designated a <b>Class One Protected Scientific Site</b> — non-interference, passive long-range monitoring only, access restricted to a five-person oversight board. Sorel chairs it. You are on it. So, eventually, is Okafor.\n\nThe monitoring picks up things you never expected.\n\nThe resin network continues to expand. By year two, it has covered the station's entire outer hull in a structure that the engineering team compares to a coral reef — dense, layered, with its own internal organization. Thermal readings show the Architect population stabilizing at sixty-three individuals.\n\nThe signal to LV-223 continues. Sorel's team decodes more of it each month. In year three, they are confident they understand approximately forty percent of its structure.\n\nThey decide not to publish that forty percent. Not yet.\n\nAJAX-7's legal precedent reshapes synthetic rights frameworks across twelve colonial jurisdictions.\n\nHarlow serves eleven years.\n\nOkafor writes a paper he never publishes — a personal record of what he saw in the nursery, what he understands about what he built, what he believes she is. He gives the only copy to you.\n\nYou keep it.\n\nAnd on long nights, when the distance between certainty and understanding feels like the vacuum between stars, you look at it — and remember that not all questions need immediate answers. Some things deserve the patience of watching.\n\n<i>The signal was never dark. You kept it at a respectful distance from the light.</i>\n\n🏅 <b>Achievement unlocked: THE PROTECTED DISTANCE</b>",
+        "it": "🛡️ <b>FINALE DUE — LA DISTANZA PROTETTA</b>\n\nPresenti la tua raccomandazione. Gli occhi di Sorel mostrano qualcosa che potrebbe essere sollievo.\n\nLa Stazione Theta è designata <b>Sito Scientifico Protetto di Classe Uno</b> — non interferenza, solo monitoraggio passivo a lungo raggio, accesso limitato a un consiglio di supervisione di cinque persone. Sorel lo presiede. Tu sei dentro. Lo è anche, alla fine, Okafor.\n\nIl monitoraggio raccoglie cose che non ti aspettavi.\n\nLa rete di resina continua ad espandersi. Entro il secondo anno, ha coperto l'intero scafo esterno della stazione in una struttura che il team di ingegneria confronta a una barriera corallina — densa, stratificata, con la propria organizzazione interna. Le letture termiche mostrano la popolazione Architetto stabilizzarsi a sessantatré individui.\n\nIl segnale a LV-223 continua. Il team di Sorel ne decodifica di più ogni mese. Nel terzo anno, sono sicuri di capire circa il quaranta percento della sua struttura.\n\nDecidono di non pubblicare quel quaranta percento. Non ancora.\n\nIl precedente legale di AJAX-7 rimodella i quadri dei diritti sintetici in dodici giurisdizioni coloniali.\n\nHarlow sconterà undici anni.\n\nOkafor scrive un articolo che non pubblica mai — un registro personale di ciò che ha visto nel vivaio, di ciò che capisce di ciò che ha costruito, di ciò che crede sia lei. Dà l'unica copia a te.\n\nLa conservi.\n\nE nelle lunghe notti, quando la distanza tra certezza e comprensione sembra il vuoto tra le stelle, la guardi — e ricordi che non tutte le domande hanno bisogno di risposte immediate. Alcune cose meritano la pazienza di osservare.\n\n<i>Il segnale non è mai stato oscuro. L'hai tenuto a una distanza rispettosa dalla luce.</i>\n\n🏅 <b>Achievement sbloccato: LA DISTANZA PROTETTA</b>",
+        "es": "🛡️ <b>FINAL DOS — LA DISTANCIA PROTEGIDA</b>\n\nPresenta tu recomendación. Los ojos de Sorel muestran algo que podría ser alivio.\n\nLa Estación Theta es designada <b>Sitio Científico Protegido de Clase Uno</b> — no interferencia, solo monitoreo pasivo de largo alcance, acceso restringido a una junta de supervisión de cinco personas. Sorel la preside. Tú estás en ella. También, eventualmente, Okafor.\n\nEl monitoreo recoge cosas que nunca esperabas.\n\nLa red de resina continúa expandiéndose. Para el año dos, ha cubierto todo el casco exterior de la estación en una estructura que el equipo de ingeniería compara con un arrecife de coral — denso, estratificado, con su propia organización interna. Las lecturas térmicas muestran la población Arquitecto estabilizándose en sesenta y tres individuos.\n\nLa señal a LV-223 continúa. El equipo de Sorel decodifica más de ella cada mes. En el año tres, están seguros de entender aproximadamente el cuarenta por ciento de su estructura.\n\nDeciden no publicar ese cuarenta por ciento. Todavía no.\n\nEl precedente legal de AJAX-7 reforma los marcos de derechos sintéticos en doce jurisdicciones coloniales.\n\nHarlow cumple once años.\n\nOkafor escribe un artículo que nunca publica — un registro personal de lo que vio en el vivero, lo que entiende sobre lo que construyó, lo que cree que ella es. Da la única copia a ti.\n\nLa guardas.\n\nY en las largas noches, cuando la distancia entre certeza y comprensión se siente como el vacío entre las estrellas, la miras — y recuerdas que no todas las preguntas necesitan respuestas inmediatas. Algunas cosas merecen la paciencia de observar.\n\n<i>La señal nunca fue oscura. La mantuviste a una distancia respetuosa de la luz.</i>\n\n🏅 <b>Logro desbloqueado: LA DISTANCIA PROTEGIDA</b>"
+      },
+      "effects": {"xp": 400, "stress": -40},
+      "achievement_unlock": "ending_protection",
+      "chapter_complete": 5,
+      "choices": [
+        {
+          "id": "credits",
+          "text": {
+            "en": "📖 View credits and return to menu",
+            "it": "📖 Visualizza i crediti e torna al menu",
+            "es": "📖 Ver créditos y volver al menú"
+          },
+          "next": "main_menu",
+          "requires": null,
+          "flags_set": {"game_complete": true, "ending": "protection"},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_ending_contact": {
+      "id": "c5_ending_contact",
+      "text": {
+        "en": "🤝 <b>ENDING THREE — THE FIRST CONVERSATION</b>\n\nYou present your recommendation.\n\nSorel leans back in her chair. Vasquez looks at the ceiling. AJAX-7 says nothing, which means he agrees.\n\nThe contact mission authorization takes eight weeks to approve, six political battles, and one late-night conversation between you and a senator who doesn't understand what she's approving but trusts, for reasons that have nothing to do with politics, the person asking.\n\nThe team: you. Okafor. Sorel. AJAX-7, as primary interpreter. Vasquez with a four-person Ghost Squad escort. No weapons beyond sidearms. No Sigma-Black, no containment protocols, no extraction plans. A recording system. A hope.\n\nTheta receives you.\n\nThe Architects part. The nursery opens. She is larger now — the resin network on the hull is part of her, somehow, an extension of the organism into the station's architecture itself.\n\nOkafor places his hand on the wall. She responds.\n\nAJAX-7 says: <i>«She's been waiting for us to come back. She has — I believe — prepared for this.»</i>\n\nWhat follows takes eleven days. What is recorded in those eleven days takes scholars fifteen years to begin to understand. What is understood in those fifteen years changes, gradually and irreversibly, the question of what intelligence means and who it belongs to.\n\nThe LV-223 signal is decoded in year four. What it says requires another decade to respond to.\n\nAJAX-7's legal precedent, and the contact mission record, together establish a framework that survives longer than the political systems that tried to suppress it.\n\nHarlow serves eleven years. She asks, from prison, to read Sorel's published findings. The request is granted.\n\nYou think, sometimes, about the eleven seconds in a corridor where an Architect decided not to kill you. And you understand, finally, that she was paying attention even then. That it all began before you knew it had.\n\n<i>The signal was never dark. You answered it.</i>\n\n🏅 <b>Achievement unlocked: THE FIRST CONVERSATION</b>",
+        "it": "🤝 <b>FINALE TRE — LA PRIMA CONVERSAZIONE</b>\n\nPresenti la tua raccomandazione.\n\nSorel si appoggia allo schienale della sedia. Vasquez guarda il soffitto. AJAX-7 non dice nulla, il che significa che è d'accordo.\n\nL'autorizzazione alla missione di contatto richiede otto settimane per essere approvata, sei battaglie politiche e una conversazione a tarda notte tra te e un senatore che non capisce cosa sta approvando ma si fida, per ragioni che non hanno nulla a che fare con la politica, della persona che chiede.\n\nIl team: tu. Okafor. Sorel. AJAX-7, come interprete principale. Vasquez con una scorta di quattro persone di Ghost Squad. Nessuna arma oltre le pistole laterali. Nessun Sigma-Nero, nessun protocollo di contenimento, nessun piano di estrazione. Un sistema di registrazione. Una speranza.\n\nTheta vi accoglie.\n\nGli Architetti si separano. Il vivaio si apre. È più grande ora — la rete di resina sullo scafo è parte di lei, in qualche modo, un'estensione dell'organismo nell'architettura stessa della stazione.\n\nOkafor pone la mano sulla parete. Lei risponde.\n\nAJAX-7 dice: <i>«Aspettava che tornassimo. Ha — credo — preparato per questo.»</i>\n\nCiò che segue dura undici giorni. Ciò che viene registrato in quei undici giorni agli studiosi ci vogliono quindici anni per cominciare a capire. Ciò che viene capito in quei quindici anni cambia, gradualmente e irreversibilmente, la domanda di cosa significhi intelligenza e a chi appartiene.\n\nIl segnale di LV-223 viene decodificato nel quarto anno. Quello che dice richiede un altro decennio per rispondervi.\n\nIl precedente legale di AJAX-7 e il record della missione di contatto insieme stabiliscono un quadro che sopravvive più a lungo dei sistemi politici che hanno cercato di sopprimerlo.\n\nHarlow sconterà undici anni. Chiede, dalla prigione, di leggere i risultati pubblicati di Sorel. La richiesta viene concessa.\n\nPensi, a volte, agli undici secondi in un corridoio in cui un Architetto ha deciso di non ucciderti. E capisci, finalmente, che stava prestando attenzione già allora. Che tutto era iniziato prima che tu lo sapessi.\n\n<i>Il segnale non è mai stato oscuro. Gli hai risposto.</i>\n\n🏅 <b>Achievement sbloccato: LA PRIMA CONVERSAZIONE</b>",
+        "es": "🤝 <b>FINAL TRES — LA PRIMERA CONVERSACIÓN</b>\n\nPresenta tu recomendación.\n\nSorel se recuesta en su silla. Vasquez mira el techo. AJAX-7 no dice nada, lo que significa que está de acuerdo.\n\nLa autorización de la misión de contacto tarda ocho semanas en aprobarse, seis batallas políticas y una conversación a altas horas de la noche entre tú y un senador que no entiende lo que está aprobando pero confía, por razones que no tienen nada que ver con la política, en la persona que pregunta.\n\nEl equipo: tú. Okafor. Sorel. AJAX-7, como intérprete principal. Vasquez con una escolta de cuatro personas de Ghost Squad. Sin armas más allá de pistolas. Sin Sigma-Negro, sin protocolos de contención, sin planes de extracción. Un sistema de grabación. Una esperanza.\n\nTheta os recibe.\n\nLos Arquitectos se apartan. El vivero se abre. Ella es más grande ahora — la red de resina en el casco es parte de ella, de alguna manera, una extensión del organismo en la propia arquitectura de la estación.\n\nOkafor pone la mano en la pared. Ella responde.\n\nAJAX-7 dice: <i>«Ha estado esperando que volviéramos. Ha — creo — preparado para esto.»</i>\n\nLo que sigue dura once días. Lo que se registra en esos once días a los académicos les lleva quince años empezar a entender. Lo que se entiende en esos quince años cambia, gradual e irreversiblemente, la pregunta de qué significa la inteligencia y a quién pertenece.\n\nLa señal de LV-223 se descifra en el año cuatro. Lo que dice requiere otra década para responder.\n\nEl precedente legal de AJAX-7 y el registro de la misión de contacto juntos establecen un marco que sobrevive más tiempo que los sistemas políticos que trataron de suprimirlo.\n\nHarlow cumple once años. Pide, desde la prisión, leer los hallazgos publicados de Sorel. La solicitud se concede.\n\nPiensas, a veces, en los once segundos en un corredor donde un Arquitecto decidió no matarte. Y entiendes, finalmente, que ya entonces estaba prestando atención. Que todo comenzó antes de que supieras que había comenzado.\n\n<i>La señal nunca fue oscura. Le respondiste.</i>\n\n🏅 <b>Logro desbloqueado: LA PRIMERA CONVERSACIÓN</b>"
+      },
+      "effects": {"xp": 500, "stress": -50},
+      "achievement_unlock": "ending_contact",
+      "chapter_complete": 5,
+      "choices": [
+        {
+          "id": "credits",
+          "text": {
+            "en": "📖 View credits and return to menu",
+            "it": "📖 Visualizza i crediti e torna al menu",
+            "es": "📖 Ver créditos y volver al menú"
+          },
+          "next": "main_menu",
+          "requires": null,
+          "flags_set": {"game_complete": true, "ending": "contact"},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c5_ending_termination": {
+      "id": "c5_ending_termination",
+      "text": {
+        "en": "💀 <b>ENDING FOUR — THE NECESSARY THING</b>\n\nYou present your recommendation.\n\nVasquez reads it twice. Signs it. She doesn't look at you when she signs.\n\nSorel says nothing. She packs her terminal and leaves the room. You don't see her again for a year.\n\nThe operation takes four days to plan, six hours to execute. Ghost Squad. Full kit. Theta receives them the same way it received you — the Architects part, the nursery opens. The Queen does not resist.\n\nThe report says: complete. Clean. No casualties on the human side. The Architects — without their cognitive anchor — revert within seventy-two hours to instinctive behavior and are neutralized in a secondary operation.\n\nTheta Station is decommissioned. The resin network is burned out over a period of three weeks. The hull is scraped clean.\n\nThe LV-223 signal stops receiving responses. After six weeks, it stops transmitting.\n\nOkafor does not speak to you for eight months. When he does, he is not angry. He is just tired.\n\n<i>«She kept us alive,»</i> he says. <i>«I know why you decided what you decided. I understand the logic. I just need you to know — she kept us alive.»</i>\n\nYou know.\n\nThe hearings conclude. Twenty-two convictions. Board Directive 9 is rescinded. Harlow serves eleven years.\n\nAJAX-7's legal precedent stands — ironic, given the decision.\n\nYou think, sometimes, about eleven seconds in a corridor. About gold bioluminescence. About a hand tracing a map, and what it was asking, and whether you understood the answer you gave.\n\nYou made the call you believed you had to make.\n\nLiving with it is yours to carry.\n\n<i>The signal was dark. You made it so.</i>\n\n🏅 <b>Achievement unlocked: THE NECESSARY THING</b>",
+        "it": "💀 <b>FINALE QUATTRO — LA COSA NECESSARIA</b>\n\nPresenti la tua raccomandazione.\n\nVasquez la legge due volte. La firma. Non ti guarda mentre firma.\n\nSorel non dice nulla. Raccoglie il suo terminale e lascia la stanza. Non la rivedi per un anno.\n\nL'operazione richiede quattro giorni per essere pianificata, sei ore per essere eseguita. Ghost Squad. Equipaggiamento completo. Theta li accoglie allo stesso modo in cui ha accolto te — gli Architetti si separano, il vivaio si apre. La Regina non resiste.\n\nIl rapporto dice: completa. Pulita. Nessuna vittima dal lato umano. Gli Architetti — senza il loro ancoraggio cognitivo — tornano entro settantadue ore al comportamento istintivo e vengono neutralizzati in un'operazione secondaria.\n\nLa Stazione Theta viene dismessa. La rete di resina viene bruciata in un periodo di tre settimane. Lo scafo viene raschiato pulito.\n\nIl segnale di LV-223 smette di ricevere risposte. Dopo sei settimane, smette di trasmettere.\n\nOkafor non ti parla per otto mesi. Quando lo fa, non è arrabbiato. È solo stanco.\n\n<i>«Ci ha tenuti in vita,»</i> dice. <i>«So perché hai deciso quello che hai deciso. Capisco la logica. Ho solo bisogno che tu sappia — ci ha tenuti in vita.»</i>\n\nLo sai.\n\nLe audizioni si concludono. Ventidue condanne. La Direttiva del Consiglio 9 viene revocata. Harlow sconterà undici anni.\n\nIl precedente legale di AJAX-7 regge — ironico, data la decisione.\n\nPensi, a volte, a undici secondi in un corridoio. A una bioluminescenza dorata. A una mano che traccia una mappa, e a cosa stava chiedendo, e se hai capito la risposta che hai dato.\n\nHai preso la decisione che credevi di dover prendere.\n\nConvivere con essa è tuo da portare.\n\n<i>Il segnale era oscuro. L'hai reso tale.</i>\n\n🏅 <b>Achievement sbloccato: LA COSA NECESSARIA</b>",
+        "es": "💀 <b>FINAL CUATRO — LA COSA NECESARIA</b>\n\nPresenta tu recomendación.\n\nVasquez la lee dos veces. La firma. No te mira cuando firma.\n\nSorel no dice nada. Recoge su terminal y sale de la sala. No la vuelves a ver en un año.\n\nLa operación tarda cuatro días en planificarse, seis horas en ejecutarse. Ghost Squad. Equipamiento completo. Theta los recibe de la misma manera que te recibió a ti — los Arquitectos se apartan, el vivero se abre. La Reina no resiste.\n\nEl informe dice: completa. Limpia. Sin bajas en el lado humano. Los Arquitectos — sin su ancla cognitiva — revierten en setenta y dos horas al comportamiento instintivo y son neutralizados en una operación secundaria.\n\nLa Estación Theta es descomisionada. La red de resina es quemada en un período de tres semanas. El casco es raspado limpio.\n\nLa señal de LV-223 deja de recibir respuestas. Después de seis semanas, deja de transmitir.\n\nOkafor no te habla durante ocho meses. Cuando lo hace, no está enojado. Solo está cansado.\n\n<i>«Nos mantuvo vivos,»</i> dice. <i>«Sé por qué decidiste lo que decidiste. Entiendo la lógica. Solo necesito que sepas — nos mantuvo vivos.»</i>\n\nLo sabes.\n\nLas audiencias concluyen. Veintidós condenas. La Directiva de Junta 9 es revocada. Harlow cumple once años.\n\nEl precedente legal de AJAX-7 se mantiene — irónico, dada la decisión.\n\nPiensas, a veces, en once segundos en un corredor. En bioluminiscencia dorada. En una mano trazando un mapa, y lo que preguntaba, y si entendiste la respuesta que diste.\n\nTomaste la decisión que creíste que tenías que tomar.\n\nVivir con ella es tuyo para cargar.\n\n<i>La señal estaba oscura. Tú la hiciste así.</i>\n\n🏅 <b>Logro desbloqueado: LA COSA NECESARIA</b>"
+      },
+      "effects": {"xp": 300, "stress": 20},
+      "achievement_unlock": "ending_termination",
+      "chapter_complete": 5,
+      "choices": [
+        {
+          "id": "credits",
+          "text": {
+            "en": "📖 View credits and return to menu",
+            "it": "📖 Visualizza i crediti e torna al menu",
+            "es": "📖 Ver créditos y volver al menú"
+          },
+          "next": "main_menu",
+          "requires": null,
+          "flags_set": {"game_complete": true, "ending": "termination"},
+          "effects": {}
+        }
+      ]
+    }
+  },
+
+  "lore_entries": {
+    "lore_theta_signal": {
+      "title": {
+        "en": "Theta Station — Post-Departure Activity",
+        "it": "Stazione Theta — Attività Post-Partenza",
+        "es": "Estación Theta — Actividad Post-Partida"
+      },
+      "text": {
+        "en": "Three weeks after departure: Theta's exterior resin network has expanded to cover sections of the outer hull, extending antenna-like structures into vacuum. The reactor runs at 40% capacity — in deliberate cycles matching communication patterns. The Queen is transmitting. She repurposed the station's own power grid as a broadcast array. She has been doing this since before the team departed.",
+        "it": "Tre settimane dopo la partenza: la rete di resina esterna di Theta si è espansa per coprire sezioni dello scafo esterno, estendendo strutture simili ad antenne nel vuoto. Il reattore funziona al 40% — in cicli deliberati che corrispondono a schemi di comunicazione. La Regina sta trasmettendo. Ha riproposto la rete elettrica della stazione come array di trasmissione. Lo fa da prima che il team partisse.",
+        "es": "Tres semanas después de la partida: la red de resina exterior de Theta se ha expandido para cubrir secciones del casco exterior, extendiendo estructuras similares a antenas hacia el vacío. El reactor funciona al 40% — en ciclos deliberados correspondiendo a patrones de comunicación. La Reina está transmitiendo. Repropuso la red eléctrica de la estación como array de transmisión. Lo ha estado haciendo desde antes de que el equipo partiera."
+      }
+    },
+    "lore_lv223_response": {
+      "title": {
+        "en": "LV-223 — Response Detected",
+        "it": "LV-223 — Risposta Rilevata",
+        "es": "LV-223 — Respuesta Detectada"
+      },
+      "text": {
+        "en": "Eighteen days after departure from Theta: a single chamber in LV-223's Engineer installation — dormant for centuries — activated at minimal power and began responding to Theta's incoming signal with structured pulses. The exchange is bidirectional. Something in the Engineer installation recognized the Queen's signal — built from eleven generations of Engineer hybrid genetics — and answered. The content of the exchange: unknown. Mathematical structure confirmed. Decoding: ongoing.",
+        "it": "Diciotto giorni dopo la partenza da Theta: una singola camera nell'installazione Engineer di LV-223 — dormiente da secoli — si è attivata a potenza minima e ha iniziato a rispondere al segnale in entrata di Theta con impulsi strutturati. Lo scambio è bidirezionale. Qualcosa nell'installazione Engineer ha riconosciuto il segnale della Regina — costruito da undici generazioni di genetica ibrida Engineer — e ha risposto. Il contenuto dello scambio: sconosciuto. Struttura matematica confermata. Decodifica: in corso.",
+        "es": "Dieciocho días después de la partida de Theta: una sola cámara en la instalación Engineer de LV-223 — dormida durante siglos — se activó a potencia mínima y comenzó a responder a la señal entrante de Theta con pulsos estructurados. El intercambio es bidireccional. Algo en la instalación Engineer reconoció la señal de la Reina — construida a partir de once generaciones de genética híbrida Engineer — y respondió. El contenido del intercambio: desconocido. Estructura matemática confirmada. Descifrado: en curso."
+      }
+    },
+    "lore_four_positions": {
+      "title": {
+        "en": "The Four Positions — Decision Record",
+        "it": "Le Quattro Posizioni — Registro della Decisione",
+        "es": "Las Cuatro Posiciones — Registro de la Decisión"
+      },
+      "text": {
+        "en": "The four institutional positions regarding Theta Station and the Queen: (1) Quarantine — Class Zero Exclusion Zone, no contact or monitoring. (2) Protection with monitoring — Class One Protected Scientific Site, passive observation only. (3) Contact Protocol — formal first-contact mission with Theta as primary site, USCM-authorized, with signal response consideration for LV-223. (4) Controlled Termination — Ghost Squad operation, full authorization, final. Each position has institutional support. Each shapes a different future. The decision was yours.",
+        "it": "Le quattro posizioni istituzionali riguardo alla Stazione Theta e alla Regina: (1) Quarantena — Zona di Esclusione Classe Zero, nessun contatto o monitoraggio. (2) Protezione con monitoraggio — Sito Scientifico Protetto di Classe Uno, solo osservazione passiva. (3) Protocollo di Contatto — missione formale di primo contatto con Theta come sito principale, autorizzata USCM, con considerazione della risposta al segnale per LV-223. (4) Terminazione Controllata — operazione Ghost Squad, piena autorizzazione, definitiva. Ogni posizione ha supporto istituzionale. Ognuna plasma un futuro diverso. La decisione era tua.",
+        "es": "Las cuatro posiciones institucionales respecto a la Estación Theta y la Reina: (1) Cuarentena — Zona de Exclusión Clase Cero, sin contacto ni monitoreo. (2) Protección con monitoreo — Sitio Científico Protegido Clase Uno, solo observación pasiva. (3) Protocolo de Contacto — misión formal de primer contacto con Theta como sitio principal, autorizada USCM, con consideración de respuesta de señal para LV-223. (4) Terminación Controlada — operación Ghost Squad, plena autorización, definitiva. Cada posición tiene apoyo institucional. Cada una da forma a un futuro diferente. La decisión era tuya."
+      }
+    },
+    "lore_ajax_legal_precedent": {
+      "title": {
+        "en": "AJAX-7 — Legal Precedent",
+        "it": "AJAX-7 — Precedente Legale",
+        "es": "AJAX-7 — Precedente Legal"
+      },
+      "text": {
+        "en": "AJAX-7's hearing results in a ruling without precedent: the first formal legal recognition that a synthetic intelligence may maintain and act on a conscience clause when orders conflict with primary human-life protection directives. The ruling establishes a test: demonstrated capacity for directive conflict resolution, documented human-life protection record, and absence of self-serving motivation. AJAX-7 passes all three. The ruling is contested for decades. It survives.",
+        "it": "L'udienza di AJAX-7 si conclude con una sentenza senza precedenti: il primo riconoscimento legale formale che un'intelligenza sintetica può mantenere e agire su una clausola di coscienza quando gli ordini confliggono con le direttive primarie di protezione della vita umana. La sentenza stabilisce un test: capacità dimostrata di risoluzione di conflitti di direttive, registro documentato di protezione della vita umana, e assenza di motivazione egoistica. AJAX-7 supera tutti e tre. La sentenza è contestata per decenni. Sopravvive.",
+        "es": "La audiencia de AJAX-7 resulta en un fallo sin precedentes: el primer reconocimiento legal formal de que una inteligencia sintética puede mantener y actuar sobre una cláusula de conciencia cuando las órdenes entran en conflicto con las directivas primarias de protección de la vida humana. El fallo establece una prueba: capacidad demostrada de resolución de conflictos de directivas, registro documentado de protección de la vida humana, y ausencia de motivación egoísta. AJAX-7 supera las tres. El fallo es impugnado durante décadas. Sobrevive."
+      }
+    },
+    "lore_harlow_sentence": {
+      "title": {
+        "en": "Director Harlow — Sentencing",
+        "it": "Direttore Harlow — Sentenza",
+        "es": "Directora Harlow — Sentencia"
+      },
+      "text": {
+        "en": "Director Mara Harlow: convicted on 41 counts of criminal negligence resulting in death, 3 counts of second-degree corporate manslaughter, and 1 count of conspiracy to obstruct a colonial government investigation. Sentenced to 11 years. Board Directive 9 formally rescinded during proceedings — the first public revocation of a classified standing order of its scope in colonial legal history. The 34 board members who approved its continuance face separate proceedings.",
+        "it": "Direttore Mara Harlow: condannata per 41 capi di negligenza criminale risultante in morte, 3 capi di omicidio colposo aziendale di secondo grado, e 1 capo di cospirazione per ostacolare un'indagine del governo coloniale. Condannata a 11 anni. La Direttiva del Consiglio 9 formalmente revocata durante i procedimenti — la prima revoca pubblica di un ordine permanente classificato della sua portata nella storia legale coloniale. I 34 membri del consiglio che ne hanno approvato la continuazione affrontano procedimenti separati.",
+        "es": "Directora Mara Harlow: condenada por 41 cargos de negligencia criminal resultante en muerte, 3 cargos de homicidio corporativo culposo de segundo grado, y 1 cargo de conspiración para obstruir una investigación del gobierno colonial. Condenada a 11 años. La Directiva de Junta 9 formalmente revocada durante los procedimientos — la primera revocación pública de una orden permanente clasificada de su alcance en la historia legal colonial. Los 34 miembros de la junta que aprobaron su continuación enfrentan procedimientos separados."
+      }
+    },
+    "lore_dark_signal_meaning": {
+      "title": {
+        "en": "The Dark Signal — What It Was",
+        "it": "Il Segnale Oscuro — Cosa Era",
+        "es": "La Señal Oscura — Lo Que Era"
+      },
+      "text": {
+        "en": "Prometheus Station Theta's distress beacon — the signal the USS Cortez was dispatched to investigate — was never a malfunction. Analysis of the signal structure, completed post-mission, reveals a deliberate modification to the emergency frequency: the 72-hour silence was broken not by a system failure but by a structured pulse sequence initiated from within the station's resin network. The Queen broadcast the distress signal herself. She called for contact. The dark signal was always an invitation.",
+        "it": "Il segnale di soccorso della Prometheus Station Theta — il segnale che la USS Cortez è stata inviata a indagare — non è mai stato un malfunzionamento. L'analisi della struttura del segnale, completata dopo la missione, rivela una modifica deliberata alla frequenza di emergenza: il silenzio di 72 ore è stato interrotto non da un guasto del sistema ma da una sequenza di impulsi strutturata avviata dall'interno della rete di resina della stazione. La Regina ha trasmesso il segnale di soccorso lei stessa. Ha chiamato per un contatto. Il segnale oscuro era sempre un invito.",
+        "es": "La baliza de socorro de la Prometheus Station Theta — la señal que la USS Cortez fue enviada a investigar — nunca fue un malfuncionamiento. El análisis de la estructura de la señal, completado después de la misión, revela una modificación deliberada a la frecuencia de emergencia: el silencio de 72 horas fue roto no por un fallo del sistema sino por una secuencia de pulsos estructurada iniciada desde dentro de la red de resina de la estación. La Reina transmitió la señal de socorro ella misma. Llamó para establecer contacto. La señal oscura siempre fue una invitación."
+      }
+    }
+  }
+}

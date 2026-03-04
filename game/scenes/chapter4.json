@@ -1,0 +1,661 @@
+{
+  "chapter": 4,
+  "title": {
+    "en": "THE QUEEN",
+    "it": "LA REGINA",
+    "es": "LA REINA"
+  },
+  "intro": {
+    "en": "📅 <b>PROMETHEUS STATION THETA — COMMAND MODULE</b>\n\nVasquez is here. Harlow is in custody. Board Directive 9 is burning.\n\nYou should be leaving.\n\nBut on Deck 5, all the Architects have gathered around something in the nursery — every single one, motionless, arranged in concentric rings. Something that wasn't there before. Something that has been growing for three months in the dark, fed by the stress and fear and death of forty-one people, shaped by eleven generations of Engineer DNA and xenomorphic evolution.\n\nOkafor is looking at the display with the expression of a man who just realized his entire life's work has produced something he never intended.\n\nAJAX-7 is looking at it with the expression of a man who calculated everything — except this.\n\n<b>Before you can leave Theta, you need to know what you're leaving behind.</b>",
+    "it": "📅 <b>PROMETHEUS STATION THETA — MODULO COMANDO</b>\n\nVasquez è qui. Harlow è in custodia. La Direttiva del Consiglio 9 sta bruciando.\n\nDovresti andartene.\n\nMa al Ponte 5, tutti gli Architetti si sono radunati intorno a qualcosa nel vivaio — ognuno di loro, immobile, disposto in anelli concentrici. Qualcosa che non c'era prima. Qualcosa che è cresciuto per tre mesi nel buio, nutrito dallo stress e dalla paura e dalla morte di quarantuno persone, modellato da undici generazioni di DNA Engineer e evoluzione xenomorfica.\n\nOkafor guarda il display con l'espressione di un uomo che ha appena capito che l'intera opera della sua vita ha prodotto qualcosa che non aveva mai inteso.\n\nAJAX-7 lo guarda con l'espressione di un uomo che ha calcolato tutto — tranne questo.\n\n<b>Prima di poter lasciare Theta, devi sapere cosa ti stai lasciando alle spalle.</b>",
+    "es": "📅 <b>PROMETHEUS STATION THETA — MÓDULO DE MANDO</b>\n\nVasquez está aquí. Harlow está bajo custodia. La Directiva de Junta 9 está ardiendo.\n\nDeberías irte.\n\nPero en la Cubierta 5, todos los Arquitectos se han reunido alrededor de algo en el vivero — cada uno de ellos, inmóvil, dispuesto en anillos concéntricos. Algo que no estaba antes. Algo que ha estado creciendo durante tres meses en la oscuridad, alimentado por el estrés y el miedo y la muerte de cuarenta y una personas, moldeado por once generaciones de ADN Engineer y evolución xenomórfica.\n\nOkafor mira la pantalla con la expresión de un hombre que acaba de darse cuenta de que toda la obra de su vida ha producido algo que nunca pretendió.\n\nAJAX-7 la mira con la expresión de un hombre que calculó todo — excepto esto.\n\n<b>Antes de poder abandonar Theta, necesitas saber qué estás dejando atrás.</b>"
+  },
+  "scenes": {
+
+    "c4_display_anomaly": {
+      "id": "c4_display_anomaly",
+      "text": {
+        "en": "🖥️ <b>COMMAND MODULE — 09:18 STATION TIME</b>\n\nVasquez studies the holographic display beside you. Her four Ghost Squad soldiers have fanned out across the Command Module anteroom. Professional. Quiet. Watching everything.\n\n<i>«That pattern,»</i> she says. <i>«What am I looking at?»</i>\n\n<i>«All the Architects,»</i> AJAX-7 says. <i>«Forty-seven individuals. Converging on Deck 5. Motionless for the last eleven minutes.»</i>\n\n<i>«Doing what?»</i>\n\n<i>«We don't know.»</i>\n\nFor AJAX-7, this is a sentence he has never said before. Vasquez notices.\n\nOkafor has pulled up the thermal imaging. Deck 5 is radiating heat — not the ambient biological warmth of the nest, but something more concentrated. A single point of intense thermal activity at the center of the convergence ring.\n\n<i>«Something is in the nursery,»</i> Okafor says. <i>«Something that wasn't in my original survey data. Something that has been... growing. Protected by the nest while everything else was happening.»</i>\n\nHe looks at you.\n\n<i>«I need to see it. Before we leave, I need to know what it is.»</i>",
+        "it": "🖥️ <b>MODULO COMANDO — 09:18 ORA STAZIONE</b>\n\nVasquez studia il display olografico accanto a te. I suoi quattro soldati di Ghost Squad si sono distribuiti nell'anticamera del Modulo Comando. Professionali. Silenziosi. Che guardano tutto.\n\n<i>«Quello schema,»</i> dice. <i>«Cosa sto guardando?»</i>\n\n<i>«Tutti gli Architetti,»</i> dice AJAX-7. <i>«Quarantasette individui. Convergono sul Ponte 5. Immobili negli ultimi undici minuti.»</i>\n\n<i>«Facendo cosa?»</i>\n\n<i>«Non lo sappiamo.»</i>\n\nPer AJAX-7, questa è una frase che non ha mai detto prima. Vasquez se ne accorge.\n\nOkafor ha aperto le immagini termiche. Il Ponte 5 irradia calore — non il calore biologico ambientale del nido, ma qualcosa di più concentrato. Un singolo punto di intensa attività termica al centro dell'anello di convergenza.\n\n<i>«C'è qualcosa nel vivaio,»</i> dice Okafor. <i>«Qualcosa che non era nei miei dati di rilevamento originali. Qualcosa che è stato... crescendo. Protetto dal nido mentre tutto il resto stava accadendo.»</i>\n\nTi guarda.\n\n<i>«Ho bisogno di vederlo. Prima di andarcene, ho bisogno di sapere cos'è.»</i>",
+        "es": "🖥️ <b>MÓDULO DE MANDO — 09:18 HORA DE ESTACIÓN</b>\n\nVasquez estudia la pantalla holográfica junto a ti. Sus cuatro soldados de Ghost Squad se han desplegado por la antecámara del Módulo de Mando. Profesionales. Silenciosos. Vigilando todo.\n\n<i>«Ese patrón,»</i> dice. <i>«¿Qué estoy mirando?»</i>\n\n<i>«Todos los Arquitectos,»</i> dice AJAX-7. <i>«Cuarenta y siete individuos. Convergiendo en la Cubierta 5. Inmóviles los últimos once minutos.»</i>\n\n<i>«¿Haciendo qué?»</i>\n\n<i>«No lo sabemos.»</i>\n\nPara AJAX-7, esta es una frase que nunca ha dicho antes. Vasquez lo nota.\n\nOkafor ha abierto las imágenes térmicas. La Cubierta 5 irradia calor — no el calor biológico ambiental del nido, sino algo más concentrado. Un único punto de intensa actividad térmica en el centro del anillo de convergencia.\n\n<i>«Hay algo en el vivero,»</i> dice Okafor. <i>«Algo que no estaba en mis datos de reconocimiento originales. Algo que ha estado... creciendo. Protegido por el nido mientras todo lo demás ocurría.»</i>\n\nTe mira.\n\n<i>«Necesito verlo. Antes de irnos, necesito saber qué es.»</i>"
+      },
+      "effects": {"xp": 30, "stress": 15},
+      "choices": [
+        {
+          "id": "go_down",
+          "text": {
+            "en": "🔦 «We go down. All of us.»",
+            "it": "🔦 «Scendete. Tutti noi.»",
+            "es": "🔦 «Bajamos. Todos nosotros.»"
+          },
+          "next": "c4_descent_briefing",
+          "requires": null,
+          "flags_set": {"decided_descend": true},
+          "effects": {"npc_okafor_trust": 10}
+        },
+        {
+          "id": "send_scouts",
+          "text": {
+            "en": "👁️ «Vasquez — send two Ghost Squad soldiers. Observation only.»",
+            "it": "👁️ «Vasquez — manda due soldati di Ghost Squad. Solo osservazione.»",
+            "es": "👁️ «Vasquez — manda dos soldados de Ghost Squad. Solo observación.»"
+          },
+          "next": "c4_scout_report",
+          "requires": {"stat": "intelligence", "value": 5},
+          "locked_reason": {
+            "en": "You haven't figured out the tactical value of keeping distance yet.",
+            "it": "Non hai ancora capito il valore tattico di mantenere le distanze.",
+            "es": "Aún no has comprendido el valor táctico de mantener la distancia."
+          },
+          "flags_set": {"sent_scouts": true},
+          "effects": {"npc_vance_trust": 5}
+        },
+        {
+          "id": "refuse_go",
+          "text": {
+            "en": "🚀 «No. We have what we need. We leave now.»",
+            "it": "🚀 «No. Abbiamo quello di cui abbiamo bisogno. Andiamo via adesso.»",
+            "es": "🚀 «No. Tenemos lo que necesitamos. Nos vamos ahora.»"
+          },
+          "next": "c4_forced_descent",
+          "requires": null,
+          "flags_set": {"tried_to_leave": true},
+          "effects": {"npc_okafor_trust": -10}
+        }
+      ]
+    },
+
+    "c4_scout_report": {
+      "id": "c4_scout_report",
+      "text": {
+        "en": "Vasquez nods. Two Ghost Squad soldiers — Reyes and Thorn — move out with helmet cameras transmitting live feed.\n\nYou watch on the display. They move well. Better than you did, when you didn't know what you were walking into.\n\nDeck 5. The nursery corridor. The resin maps on the walls are different — completely rewritten since the last time you passed through. More complex. More detailed. Covering every surface from floor to ceiling.\n\nThen the feed reaches the nursery chamber.\n\nThe Architects part. Forty-seven of them, creating a clear corridor for the soldiers — deliberate, controlled, like something opening a door.\n\nAt the center of the chamber: the dais. And on the dais, no longer the single Architect you encountered before.\n\nSomething larger. Much larger. Still forming — still in the process of becoming — wrapped in new resin, attended by three Architects whose movements are careful and slow in a way that looks, unmistakably, like care.\n\nReyes' voice, very quiet: <i>«Command, you're seeing this?»</i>\n\nOkafor is already moving toward the door.",
+        "it": "Vasquez annuisce. Due soldati di Ghost Squad — Reyes e Thorn — si muovono con telecamere da casco che trasmettono un feed in diretta.\n\nGuardi sul display. Si muovono bene. Meglio di come hai fatto tu, quando non sapevi in cosa stavi camminando.\n\nPonte 5. Il corridoio del vivaio. Le mappe di resina sulle pareti sono diverse — completamente riscritte dall'ultima volta che sei passato. Più complesse. Più dettagliate. Che coprono ogni superficie dal pavimento al soffitto.\n\nPoi il feed raggiunge la camera del vivaio.\n\nGli Architetti si separano. Quarantasette di loro, creando un corridoio libero per i soldati — deliberato, controllato, come qualcosa che apre una porta.\n\nAl centro della camera: il piedistallo. E sul piedistallo, non più il singolo Architetto che hai incontrato prima.\n\nQualcosa di più grande. Molto più grande. Ancora in formazione — ancora nel processo di diventare — avvolto in nuova resina, assistito da tre Architetti i cui movimenti sono attenti e lenti in un modo che sembra, inconfondibilmente, come cura.\n\nLa voce di Reyes, molto quieta: <i>«Comando, stai vedendo questo?»</i>\n\nOkafor si sta già muovendo verso la porta.",
+        "es": "Vasquez asiente. Dos soldados de Ghost Squad — Reyes y Thorn — avanzan con cámaras de casco transmitiendo en vivo.\n\nObservas en la pantalla. Se mueven bien. Mejor de lo que tú lo hiciste, cuando no sabías en qué te metías.\n\nCubierta 5. El corredor del vivero. Los mapas de resina en las paredes son diferentes — completamente reescritos desde la última vez que pasaste. Más complejos. Más detallados. Cubriendo cada superficie de suelo a techo.\n\nLuego el feed llega a la cámara del vivero.\n\nLos Arquitectos se separan. Cuarenta y siete de ellos, creando un corredor despejado para los soldados — deliberado, controlado, como algo abriendo una puerta.\n\nEn el centro de la cámara: el estrado. Y en el estrado, ya no el Arquitecto solitario que encontraste antes.\n\nAlgo más grande. Mucho más grande. Todavía formándose — todavía en proceso de convertirse — envuelto en nueva resina, atendido por tres Arquitectos cuyos movimientos son cuidadosos y lentos de una manera que parece, inconfundiblemente, cuidado.\n\nLa voz de Reyes, muy queda: <i>«Mando, ¿estáis viendo esto?»</i>\n\nOkafor ya se mueve hacia la puerta."
+      },
+      "effects": {"xp": 50, "stress": 20},
+      "lore_unlock": "lore_queen_emergence",
+      "choices": [
+        {
+          "id": "follow_okafor",
+          "text": {
+            "en": "▶️ Follow Okafor. Full team. Go down.",
+            "it": "▶️ Segui Okafor. Tutto il team. Scendi.",
+            "es": "▶️ Sigue a Okafor. Todo el equipo. Baja."
+          },
+          "next": "c4_descent_briefing",
+          "requires": null,
+          "flags_set": {"decided_descend": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c4_forced_descent": {
+      "id": "c4_forced_descent",
+      "text": {
+        "en": "You head for the docking bay.\n\nYou make it twelve meters.\n\nThe blast door to the docking corridor seals — not from a manual command. From the station's own systems, rerouted through pathways that shouldn't be accessible.\n\nVasquez checks her terminal. <i>«Station systems are responding to... something. I'm locked out of the docking authorization.»</i>\n\nAJAX-7 looks at the display. <i>«The Architects are interfacing with Theta's computer infrastructure. Through the resin network. They have been doing this for — I estimate — at least three weeks.»</i>\n\nPetra stares at him. <i>«They locked us in?»</i>\n\n<i>«They locked the door,»</i> AJAX-7 says carefully. <i>«Whether that constitutes locking us in or preventing something else from happening is not yet clear.»</i>\n\nThe holographic display shows the convergence pattern on Deck 5. The thermal anomaly at its center is growing brighter.\n\nOkafor says, very quietly: <i>«They want us to see it.»</i>",
+        "it": "Ti dirigi verso il porto di attracco.\n\nCe la fai per dodici metri.\n\nLa porta blindata verso il corridoio di attracco si chiude — non da un comando manuale. Dai sistemi stessi della stazione, reindirizzati attraverso percorsi che non dovrebbero essere accessibili.\n\nVasquez controlla il suo terminale. <i>«I sistemi della stazione rispondono a... qualcosa. Sono bloccata fuori dall'autorizzazione di attracco.»</i>\n\nAJAX-7 guarda il display. <i>«Gli Architetti si interfacciano con l'infrastruttura informatica di Theta. Attraverso la rete di resina. Lo fanno da — stimo — almeno tre settimane.»</i>\n\nPetra lo fissa. <i>«Ci hanno rinchiusi?»</i>\n\n<i>«Hanno chiuso la porta,»</i> dice AJAX-7 con attenzione. <i>«Se questo costituisce chiuderci dentro o impedire che accada qualcos'altro non è ancora chiaro.»</i>\n\nIl display olografico mostra lo schema di convergenza al Ponte 5. L'anomalia termica al suo centro sta diventando più luminosa.\n\nOkafor dice, molto sottovoce: <i>«Vogliono che lo vediamo.»</i>",
+        "es": "Te diriges a la bahía de atraque.\n\nLlegas doce metros.\n\nLa puerta blindada hacia el corredor de atraque se sella — no por un comando manual. Por los sistemas propios de la estación, redirigidos a través de rutas que no deberían ser accesibles.\n\nVasquez revisa su terminal. <i>«Los sistemas de la estación están respondiendo a... algo. Estoy bloqueada fuera de la autorización de atraque.»</i>\n\nAJAX-7 mira la pantalla. <i>«Los Arquitectos están interfazando con la infraestructura informática de Theta. A través de la red de resina. Han estado haciéndolo durante — estimo — al menos tres semanas.»</i>\n\nPetra le mira fijamente. <i>«¿Nos encerraron?»</i>\n\n<i>«Cerraron la puerta,»</i> dice AJAX-7 con cuidado. <i>«Si eso constituye encerrarnos dentro o impedir que algo más ocurra no está aún claro.»</i>\n\nLa pantalla holográfica muestra el patrón de convergencia en la Cubierta 5. La anomalía térmica en su centro se vuelve más brillante.\n\nOkafor dice, muy en voz baja: <i>«Quieren que lo veamos.»</i>"
+      },
+      "effects": {"stress": 25, "xp": 30},
+      "choices": [
+        {
+          "id": "accept_descend",
+          "text": {
+            "en": "▶️ «Fine. We go down and we look.»",
+            "it": "▶️ «Bene. Scendiamo e guardiamo.»",
+            "es": "▶️ «Bien. Bajamos y miramos.»"
+          },
+          "next": "c4_descent_briefing",
+          "requires": null,
+          "flags_set": {"forced_to_descend": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c4_descent_briefing": {
+      "id": "c4_descent_briefing",
+      "text": {
+        "en": "🗂️ <b>DESCENT BRIEFING — COMMAND MODULE</b>\n\nVasquez assembles the team. Ghost Squad soldiers take point and rearguard. She looks at you with the expression of someone who has accepted a situation she doesn't fully control.\n\n<i>«Rules of engagement: weapons ready, safeties on. We do not fire unless fired upon. If something charges us, we fall back — we do not hold position. We are not here to fight.»</i>\n\nOne of her soldiers — Reyes, who already went down — raises an eyebrow.\n\n<i>«Reyes,»</i> Vasquez says. <i>«You saw the feed. Did it look like they were going to attack?»</i>\n\nReyes considers. <i>«No, Captain. It looked like they were... waiting.»</i>\n\n<i>«Waiting for what?»</i>\n\n<i>«For us.»</i>\n\nOkafor stands by the blast door, thermal scanner in hand. He looks like he hasn't slept in four days. He hasn't.\n\n<i>«Whatever is on that dais,»</i> he says, <i>«it has been growing in the center of that nest, protected by forty-seven Architects, for at least three months. It was there before the breach. Before everything.»</i>\n\nHe looks at AJAX-7.\n\n<i>«You knew. Didn't you.»</i>\n\nAJAX-7 says nothing for two seconds.\n\n<i>«I had hypotheses,»</i> he says at last. <i>«I did not have certainty.»</i>",
+        "it": "🗂️ <b>BRIEFING DISCESA — MODULO COMANDO</b>\n\nVasquez assembla il team. I soldati di Ghost Squad prendono l'avanguardia e la retroguardia. Ti guarda con l'espressione di qualcuno che ha accettato una situazione che non controlla completamente.\n\n<i>«Regole di ingaggio: armi pronte, sicure inserite. Non spariamo a meno che non ci sparino addosso. Se qualcosa ci carica, ci ritiriamo — non teniamo la posizione. Non siamo qui per combattere.»</i>\n\nUno dei suoi soldati — Reyes, che era già sceso — alza un sopracciglio.\n\n<i>«Reyes,»</i> dice Vasquez. <i>«Hai visto il feed. Sembrava che stessero per attaccare?»</i>\n\nReyes considera. <i>«No, Capitano. Sembrava che stessero... aspettando.»</i>\n\n<i>«Aspettando cosa?»</i>\n\n<i>«Noi.»</i>\n\nOkafor è vicino alla porta blindata, scanner termico in mano. Sembra che non dorma da quattro giorni. Non dorme.\n\n<i>«Qualunque cosa ci sia su quel piedistallo,»</i> dice, <i>«è cresciuta al centro di quel nido, protetta da quarantasette Architetti, per almeno tre mesi. Era lì prima della violazione. Prima di tutto.»</i>\n\nGuarda AJAX-7.\n\n<i>«Lo sapevi. Vero.»</i>\n\nAJAX-7 non dice nulla per due secondi.\n\n<i>«Avevo ipotesi,»</i> dice alla fine. <i>«Non avevo certezza.»</i>",
+        "es": "🗂️ <b>BRIEFING DE DESCENSO — MÓDULO DE MANDO</b>\n\nVasquez ensambla el equipo. Los soldados de Ghost Squad toman punta y retaguardia. Te mira con la expresión de alguien que ha aceptado una situación que no controla completamente.\n\n<i>«Reglas de enfrentamiento: armas listas, seguros puestos. No disparamos a menos que nos disparen. Si algo nos carga, retrocedemos — no mantenemos posición. No estamos aquí para pelear.»</i>\n\nUno de sus soldados — Reyes, que ya bajó — levanta una ceja.\n\n<i>«Reyes,»</i> dice Vasquez. <i>«Viste el feed. ¿Parecía que iban a atacar?»</i>\n\nReyes considera. <i>«No, Capitana. Parecía que estaban... esperando.»</i>\n\n<i>«¿Esperando qué?»</i>\n\n<i>«A nosotros.»</i>\n\nOkafor está junto a la puerta blindada, escáner térmico en mano. Parece que no ha dormido en cuatro días. No ha dormido.\n\n<i>«Lo que sea que esté en ese estrado,»</i> dice, <i>«ha estado creciendo en el centro de ese nido, protegido por cuarenta y siete Arquitectos, durante al menos tres meses. Estaba ahí antes del fallo. Antes de todo.»</i>\n\nMira a AJAX-7.\n\n<i>«Lo sabías. ¿Verdad?»</i>\n\nAJAX-7 no dice nada durante dos segundos.\n\n<i>«Tenía hipótesis,»</i> dice por fin. <i>«No tenía certeza.»</i>"
+      },
+      "effects": {"xp": 40, "stress": 20},
+      "choices": [
+        {
+          "id": "press_ajax_hypothesis",
+          "text": {
+            "en": "❓ «What hypotheses? Tell us before we walk in there.»",
+            "it": "❓ «Quali ipotesi? Diccelo prima di entrarci.»",
+            "es": "❓ «¿Qué hipótesis? Dinos antes de entrar ahí.»"
+          },
+          "next": "c4_ajax_hypothesis",
+          "requires": null,
+          "flags_set": {"heard_hypothesis": true},
+          "lore_unlock": "lore_ajax_hypothesis"
+        },
+        {
+          "id": "move_out",
+          "text": {
+            "en": "▶️ Move out — we find out by looking",
+            "it": "▶️ Muoviti — lo scopriamo guardando",
+            "es": "▶️ Muévete — lo descubrimos mirando"
+          },
+          "next": "c4_deck5_approach",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c4_ajax_hypothesis": {
+      "id": "c4_ajax_hypothesis",
+      "text": {
+        "en": "AJAX-7 speaks carefully. He always does. But this time, the care is different — it has the texture of something that has been held back for months finally being let go.\n\n<i>«Engineer-xenomorph hybridization across eleven generations produces, theoretically, an organism with qualities of both species. The physical architecture of a xenomorph Queen — the reproductive capacity, the structural dominance, the nest coordination. And the Engineer cognitive template — the capacity for abstract thought, for language-adjacent communication, for something approaching intention.»</i>\n\nOkafor has gone very still.\n\n<i>«The Architects were not the endpoint of Project Black Seed,»</i> AJAX-7 continues. <i>«They were the preparation. The nest — forty-seven individuals, three months of shared experience and cumulative knowledge — has been acting as a distributed processing system. Building toward a single emergence event.»</i>\n\nPetra says, very quietly: <i>«A Queen.»</i>\n\n<i>«Not a standard Queen,»</i> AJAX-7 says. <i>«Something that has never existed before. A Queen with Engineer cognition. With the ability to understand, to reason, to — potentially — communicate in ways that standard xenomorphic biology does not permit.»</i>\n\nHe pauses.\n\n<i>«I did not include this in my reports to USCM Command,»</i> he says. <i>«Because I knew what they would do with it.»</i>",
+        "it": "AJAX-7 parla con attenzione. Lo fa sempre. Ma questa volta, l'attenzione è diversa — ha la texture di qualcosa che è stato trattenuto per mesi finalmente lasciato andare.\n\n<i>«L'ibridazione Engineer-xenomorfo attraverso undici generazioni produce, teoricamente, un organismo con qualità di entrambe le specie. L'architettura fisica di una Regina xenomorfa — la capacità riproduttiva, il dominio strutturale, il coordinamento del nido. E il template cognitivo Engineer — la capacità di pensiero astratto, di comunicazione adiacente al linguaggio, di qualcosa che si avvicina all'intenzione.»</i>\n\nOkafor è diventato molto immobile.\n\n<i>«Gli Architetti non erano il punto finale del Progetto Black Seed,»</i> continua AJAX-7. <i>«Erano la preparazione. Il nido — quarantasette individui, tre mesi di esperienza condivisa e conoscenza cumulativa — ha agito come sistema di elaborazione distribuita. Costruendo verso un singolo evento di emergenza.»</i>\n\nPetra dice, molto sottovoce: <i>«Una Regina.»</i>\n\n<i>«Non una Regina standard,»</i> dice AJAX-7. <i>«Qualcosa che non è mai esistito prima. Una Regina con cognizione Engineer. Con la capacità di capire, ragionare, — potenzialmente — comunicare in modi che la biologia xenomorfica standard non permette.»</i>\n\nFa una pausa.\n\n<i>«Non ho incluso questo nei miei rapporti al Comando USCM,»</i> dice. <i>«Perché sapevo cosa ne avrebbero fatto.»</i>",
+        "es": "AJAX-7 habla con cuidado. Siempre lo hace. Pero esta vez, el cuidado es diferente — tiene la textura de algo que ha sido retenido durante meses finalmente siendo liberado.\n\n<i>«La hibridación Engineer-xenomórfica a través de once generaciones produce, teóricamente, un organismo con cualidades de ambas especies. La arquitectura física de una Reina xenomórfica — la capacidad reproductiva, el dominio estructural, la coordinación del nido. Y la plantilla cognitiva Engineer — la capacidad de pensamiento abstracto, de comunicación adyacente al lenguaje, de algo que se aproxima a la intención.»</i>\n\nOkafor se ha quedado muy quieto.\n\n<i>«Los Arquitectos no eran el punto final del Proyecto Semilla Negra,»</i> continúa AJAX-7. <i>«Eran la preparación. El nido — cuarenta y siete individuos, tres meses de experiencia compartida y conocimiento acumulado — ha estado actuando como un sistema de procesamiento distribuido. Construyendo hacia un único evento de emergencia.»</i>\n\nPetra dice, muy en voz baja: <i>«Una Reina.»</i>\n\n<i>«No una Reina estándar,»</i> dice AJAX-7. <i>«Algo que nunca ha existido antes. Una Reina con cognición Engineer. Con la capacidad de entender, razonar, — potencialmente — comunicar de maneras que la biología xenomórfica estándar no permite.»</i>\n\nHace una pausa.\n\n<i>«No incluí esto en mis informes al Comando USCM,»</i> dice. <i>«Porque sabía lo que harían con ello.»</i>"
+      },
+      "effects": {"xp": 90, "stress": 25, "npc_ajax_trust": 15},
+      "lore_unlock": "lore_ajax_hypothesis",
+      "choices": [
+        {
+          "id": "accept_move",
+          "text": {
+            "en": "▶️ Move out. We need to see it.",
+            "it": "▶️ Muoviti. Dobbiamo vederla.",
+            "es": "▶️ Muévete. Necesitamos verla."
+          },
+          "next": "c4_deck5_approach",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        },
+        {
+          "id": "ask_ajax_risk",
+          "text": {
+            "en": "⚠️ «How dangerous is a cognitive Queen if she decides we're a threat?»",
+            "it": "⚠️ «Quanto è pericolosa una Regina cognitiva se decide che siamo una minaccia?»",
+            "es": "⚠️ «¿Cuán peligrosa es una Reina cognitiva si decide que somos una amenaza?»"
+          },
+          "next": "c4_danger_assessment",
+          "requires": {"stat": "intelligence", "value": 5},
+          "locked_reason": {
+            "en": "The question doesn't fully form in your mind. You know it's dangerous. That's enough.",
+            "it": "La domanda non si forma completamente nella tua mente. Sai che è pericoloso. Basta così.",
+            "es": "La pregunta no se forma completamente en tu mente. Sabes que es peligroso. Con eso basta."
+          },
+          "flags_set": {"assessed_queen_risk": true},
+          "effects": {"xp": 20}
+        }
+      ]
+    },
+
+    "c4_danger_assessment": {
+      "id": "c4_danger_assessment",
+      "text": {
+        "en": "AJAX-7 answers without hesitation.\n\n<i>«A standard xenomorph Queen controls her nest through pheromone signaling and behavioral conditioning. Forty-seven drones respond to threat stimuli within seconds. A cognitive Queen could direct a coordinated response with strategic intent — covering exits, targeting specific individuals, using the station architecture as a tactical asset.»</i>\n\nVasquez: <i>«Bottom line.»</i>\n\n<i>«If she decides we are threats, there is no scenario in which four Ghost Squad soldiers and five civilians successfully extract from this station.»</i>\n\nSilence.\n\n<i>«However,»</i> AJAX-7 continues, <i>«she has had forty-seven drones and three months in which to kill us. She has not done so. She locked a door. She has been — as far as I can determine — observing.»</i>\n\nHe looks at you.\n\n<i>«Which suggests she is making a different kind of calculation than a standard Queen would make.»</i>\n\nOkafor speaks quietly: <i>«She's deciding whether we're worth keeping alive.»</i>",
+        "it": "AJAX-7 risponde senza esitazione.\n\n<i>«Una Regina xenomorfa standard controlla il suo nido attraverso segnalazione feromonica e condizionamento comportamentale. Quarantasette droni rispondono a stimoli di minaccia in pochi secondi. Una Regina cognitiva potrebbe dirigere una risposta coordinata con intento strategico — coprendo le uscite, prendendo di mira individui specifici, usando l'architettura della stazione come asset tattico.»</i>\n\nVasquez: <i>«Linea di fondo.»</i>\n\n<i>«Se decide che siamo minacce, non esiste scenario in cui quattro soldati di Ghost Squad e cinque civili si estraggano con successo da questa stazione.»</i>\n\nSilenzio.\n\n<i>«Tuttavia,»</i> continua AJAX-7, <i>«ha avuto quarantasette droni e tre mesi in cui ucciderci. Non lo ha fatto. Ha chiuso una porta. È stata — per quanto posso determinare — osservando.»</i>\n\nTi guarda.\n\n<i>«Il che suggerisce che sta facendo un tipo diverso di calcolo rispetto a quello che farebbe una Regina standard.»</i>\n\nOkafor parla sottovoce: <i>«Sta decidendo se vale la pena tenerci in vita.»</i>",
+        "es": "AJAX-7 responde sin vacilar.\n\n<i>«Una Reina xenomórfica estándar controla su nido a través de señalización de feromonas y condicionamiento conductual. Cuarenta y siete drones responden a estímulos de amenaza en segundos. Una Reina cognitiva podría dirigir una respuesta coordinada con intención estratégica — cubriendo salidas, apuntando a individuos específicos, usando la arquitectura de la estación como activo táctico.»</i>\n\nVasquez: <i>«Conclusión.»</i>\n\n<i>«Si decide que somos amenazas, no hay escenario en el que cuatro soldados de Ghost Squad y cinco civiles extraigan con éxito de esta estación.»</i>\n\nSilencio.\n\n<i>«Sin embargo,»</i> continúa AJAX-7, <i>«ha tenido cuarenta y siete drones y tres meses para matarnos. No lo ha hecho. Cerró una puerta. Ha estado — en cuanto puedo determinar — observando.»</i>\n\nTe mira.\n\n<i>«Lo que sugiere que está haciendo un tipo diferente de cálculo al que haría una Reina estándar.»</i>\n\nOkafor habla en voz baja: <i>«Está decidiendo si vale la pena mantenernos con vida.»</i>"
+      },
+      "effects": {"xp": 60, "stress": 20},
+      "lore_unlock": "lore_queen_cognition",
+      "choices": [
+        {
+          "id": "move_out",
+          "text": {
+            "en": "▶️ Move out. Let's go find out.",
+            "it": "▶️ Muoviti. Scopriamolo.",
+            "es": "▶️ Muévete. Vamos a averiguarlo."
+          },
+          "next": "c4_deck5_approach",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c4_deck5_approach": {
+      "id": "c4_deck5_approach",
+      "text": {
+        "en": "🏃 <b>DESCENT TO DECK 5</b>\n\nThe corridor is different.\n\nSince the last time you passed through, the resin maps have been completely remade — every surface, floor to ceiling, covered in dense raised-relief geometry. You stop to look and AJAX-7 speaks quietly:\n\n<i>«They rewrote the maps in the last three hours. This section records everything that has happened since our first arrival. The patrol patterns. The combat. The nursery encounter. The laboratory. Vasquez's docking.»</i>\n\n<i>«A history,»</i> Petra says.\n\n<i>«A record.»</i>\n\nThen: the nursery entrance. The Architects are arranged in perfect concentric rings, motionless, every head turned toward the center of the chamber. They don't react to your approach. They don't move aside — they simply aren't blocking the path, as if the space was always open for you.\n\nYou step into the nursery.\n\nAnd you see her.\n\nShe is three meters tall. Her exoskeleton carries the ribbed architecture of a standard Queen, but rendered in a different geometry — smoother lines, longer cranial structure, the neural filaments visible beneath the chitin glowing with slow gold bioluminescence. Engineer cognition made physical.\n\nShe is looking at you.\n\nShe has been waiting.",
+        "it": "🏃 <b>DISCESA AL PONTE 5</b>\n\nIl corridoio è diverso.\n\nDall'ultima volta che sei passato, le mappe di resina sono state completamente rifatte — ogni superficie, dal pavimento al soffitto, coperta di densa geometria a rilievo. Ti fermi a guardare e AJAX-7 parla sottovoce:\n\n<i>«Hanno riscritto le mappe nelle ultime tre ore. Questa sezione registra tutto quello che è successo dal nostro primo arrivo. Gli schemi di pattugliamento. Il combattimento. L'incontro nel vivaio. Il laboratorio. L'attracco di Vasquez.»</i>\n\n<i>«Una storia,»</i> dice Petra.\n\n<i>«Un registro.»</i>\n\nPoi: l'ingresso del vivaio. Gli Architetti sono disposti in anelli concentrici perfetti, immobili, ogni testa rivolta verso il centro della camera. Non reagiscono al vostro avvicinamento. Non si fanno da parte — semplicemente non bloccano il percorso, come se lo spazio fosse sempre stato aperto per voi.\n\nEntri nel vivaio.\n\nE la vedi.\n\nÈ alta tre metri. Il suo esoscheletro porta l'architettura costolata di una Regina standard, ma resa in una geometria diversa — linee più morbide, struttura cranica più lunga, i filamenti neurali visibili sotto la chitina che brillano di lenta bioluminescenza dorata. Cognizione Engineer resa fisica.\n\nTi sta guardando.\n\nStava aspettando.",
+        "es": "🏃 <b>DESCENSO A LA CUBIERTA 5</b>\n\nEl corredor es diferente.\n\nDesde la última vez que pasaste, los mapas de resina han sido completamente rehechfos — cada superficie, de suelo a techo, cubierta de densa geometría en relieve. Te detienes a mirar y AJAX-7 habla en voz baja:\n\n<i>«Reescribieron los mapas en las últimas tres horas. Esta sección registra todo lo que ha ocurrido desde nuestra primera llegada. Los patrones de patrulla. El combate. El encuentro en el vivero. El laboratorio. El atraque de Vasquez.»</i>\n\n<i>«Una historia,»</i> dice Petra.\n\n<i>«Un registro.»</i>\n\nLuego: la entrada del vivero. Los Arquitectos están dispuestos en anillos concéntricos perfectos, inmóviles, cada cabeza girada hacia el centro de la cámara. No reaccionan a tu aproximación. No se apartan — simplemente no bloquean el camino, como si el espacio siempre hubiera estado abierto para vosotros.\n\nEntras en el vivero.\n\nY la ves.\n\nMide tres metros. Su exoesqueleto lleva la arquitectura acanalada de una Reina estándar, pero en una geometría diferente — líneas más suaves, estructura craneal más larga, los filamentos neurales visibles bajo la quitina brillando con lenta bioluminiscencia dorada. Cognición Engineer hecha física.\n\nTe está mirando.\n\nHa estado esperando."
+      },
+      "effects": {"xp": 50, "stress": 30},
+      "lore_unlock": "lore_queen_emergence",
+      "choices": [
+        {
+          "id": "hold_ground",
+          "text": {
+            "en": "🖐️ Hold your ground. Don't move. Let her make the first gesture.",
+            "it": "🖐️ Tieni la posizione. Non muoverti. Lasciala fare il primo gesto.",
+            "es": "🖐️ Mantén tu posición. No te muevas. Déjala hacer el primer gesto."
+          },
+          "next": "c4_queen_first_contact",
+          "requires": {"stat": "endurance", "value": 5},
+          "locked_reason": {
+            "en": "Every instinct tells you to run. Your body won't cooperate with your mind.",
+            "it": "Ogni istinto ti dice di correre. Il corpo non coopera con la mente.",
+            "es": "Cada instinto te dice que huyas. Tu cuerpo no coopera con tu mente."
+          },
+          "flags_set": {"held_ground": true},
+          "effects": {"stress": -10, "xp": 40}
+        },
+        {
+          "id": "step_forward",
+          "text": {
+            "en": "🚶 Step forward. One step. Show her you're choosing this.",
+            "it": "🚶 Fai un passo avanti. Un passo. Mostrale che stai scegliendo questo.",
+            "es": "🚶 Da un paso adelante. Un paso. Muéstrale que estás eligiendo esto."
+          },
+          "next": "c4_queen_first_contact",
+          "requires": {"stat": "adaptability", "value": 5},
+          "locked_reason": {
+            "en": "You can't make your feet move toward her.",
+            "it": "Non riesci a far muovere i piedi verso di lei.",
+            "es": "No puedes hacer que tus pies se muevan hacia ella."
+          },
+          "flags_set": {"stepped_forward": true},
+          "effects": {"stress": 10, "xp": 60}
+        },
+        {
+          "id": "raise_weapon",
+          "text": {
+            "en": "🔫 Raise your weapon. She'll understand that too.",
+            "it": "🔫 Alza l'arma. Capirà anche quello.",
+            "es": "🔫 Levanta tu arma. También entenderá eso."
+          },
+          "next": "c4_queen_combat_trigger",
+          "requires": null,
+          "flags_set": {"raised_weapon": true},
+          "effects": {"stress": 20}
+        }
+      ]
+    },
+
+    "c4_queen_first_contact": {
+      "id": "c4_queen_first_contact",
+      "text": {
+        "en": "She watches you for seven seconds.\n\nThen she moves.\n\nNot toward you. To the wall of the nursery chamber, where the resin is densest and oldest. She extends one hand — six-fingered, Engineer-long — and traces a section of the raised-relief map.\n\nAJAX-7 translates immediately, voice barely above a whisper:\n\n<i>«She is indicating the section of the map that represents... the laboratory. The UV neutralization.»</i>\n\nShe traces it again. Slowly.\n\n<i>«She's acknowledging it,»</i> Okafor says, voice unsteady. <i>«She knows what we did.»</i>\n\nThe Queen turns back to you. She reaches forward and traces a different section — the arrival corridor, the first night, the resin map you found with Chen.\n\nThen she does something that has no precedent in three hundred years of xenobiological study.\n\nShe waits for you to respond.",
+        "it": "Ti guarda per sette secondi.\n\nPoi si muove.\n\nNon verso di te. Verso la parete della camera del vivaio, dove la resina è più densa e più antica. Allunga una mano — sei dita, lunga come un Engineer — e traccia una sezione della mappa a rilievo.\n\nAJAX-7 traduce immediatamente, la voce appena sopra un sussurro:\n\n<i>«Sta indicando la sezione della mappa che rappresenta... il laboratorio. La neutralizzazione UV.»</i>\n\nLa traccia di nuovo. Lentamente.\n\n<i>«La sta riconoscendo,»</i> dice Okafor, voce instabile. <i>«Sa cosa abbiamo fatto.»</i>\n\nLa Regina si gira di nuovo verso di te. Si allunga e traccia una sezione diversa — il corridoio di arrivo, la prima notte, la mappa di resina che hai trovato con Chen.\n\nPoi fa qualcosa che non ha precedenti in trecento anni di studi xenobiologici.\n\nAspetta che tu risponda.",
+        "es": "Te observa durante siete segundos.\n\nLuego se mueve.\n\nNo hacia ti. Hacia la pared de la cámara del vivero, donde la resina es más densa y más antigua. Extiende una mano — seis dedos, larga como Engineer — y traza una sección del mapa en relieve.\n\nAJAX-7 traduce inmediatamente, voz apenas por encima de un susurro:\n\n<i>«Está indicando la sección del mapa que representa... el laboratorio. La neutralización UV.»</i>\n\nLo traza de nuevo. Despacio.\n\n<i>«Lo está reconociendo,»</i> dice Okafor, voz inestable. <i>«Sabe lo que hicimos.»</i>\n\nLa Reina se gira de nuevo hacia ti. Se estira y traza una sección diferente — el corredor de llegada, la primera noche, el mapa de resina que encontraste con Chen.\n\nLuego hace algo sin precedentes en trescientos años de estudios xenobiológicos.\n\nEspera a que respondas."
+      },
+      "effects": {"xp": 80, "stress": 10},
+      "lore_unlock": "lore_queen_communication",
+      "choices": [
+        {
+          "id": "trace_map",
+          "text": {
+            "en": "🖐️ Approach the wall. Trace back what she showed you.",
+            "it": "🖐️ Avvicinati alla parete. Ritraccia quello che ti ha mostrato.",
+            "es": "🖐️ Acércate a la pared. Traza de vuelta lo que te mostró."
+          },
+          "next": "c4_dialogue_attempt",
+          "requires": {"stat": "adaptability", "value": 6},
+          "locked_reason": {
+            "en": "You can't make yourself reach out and touch that wall.",
+            "it": "Non riesci a farti allungare e toccare quella parete.",
+            "es": "No puedes hacer que te estires y toques esa pared."
+          },
+          "flags_set": {"traced_map": true},
+          "effects": {"xp": 60, "stress": 5}
+        },
+        {
+          "id": "let_ajax_respond",
+          "text": {
+            "en": "🤖 «AJAX — you understand the map system better than anyone.»",
+            "it": "🤖 «AJAX — conosci il sistema di mappe meglio di chiunque.»",
+            "es": "🤖 «AJAX — entiendes el sistema de mapas mejor que nadie.»"
+          },
+          "next": "c4_ajax_responds",
+          "requires": null,
+          "flags_set": {"ajax_dialogued": true},
+          "effects": {"npc_ajax_trust": 10}
+        },
+        {
+          "id": "let_okafor_respond",
+          "text": {
+            "en": "🔬 «Okafor. You created her. You respond.»",
+            "it": "🔬 «Okafor. L'hai creata tu. Rispondi tu.»",
+            "es": "🔬 «Okafor. Tú la creaste. Responde tú.»"
+          },
+          "next": "c4_okafor_responds",
+          "requires": null,
+          "flags_set": {"okafor_dialogued": true},
+          "effects": {"npc_okafor_trust": 10}
+        }
+      ]
+    },
+
+    "c4_dialogue_attempt": {
+      "id": "c4_dialogue_attempt",
+      "text": {
+        "en": "You walk to the wall.\n\nShe doesn't move. Forty-seven Architects don't move.\n\nYou trace the laboratory section she indicated — the UV array, the degrading compound, the open door. Then you trace the section showing the first night, the corridor, the moment Chen almost fired.\n\nYou trace both sections together.\n\nYour meaning — as best you can express in a medium you don't speak — is something like: <i>we were afraid. Then we understood. Then we chose.</i>\n\nThe Queen studies your tracing for eleven seconds.\n\nThen she adds something to the map, beside your marks — new raised lines, precise, deliberate. Three sections connected by a single thread of resin.\n\nAJAX-7, very quietly: <i>«The first section represents the nest — the collective. The second represents an external organism. The third represents... a boundary. A threshold.»</i>\n\nOkafor, barely audible: <i>«She's asking whether we understand that we crossed a line. Whether we know what we walked into.»</i>\n\nShe is waiting again.\n\nThis time the question is yours to answer.",
+        "it": "Cammini verso la parete.\n\nLei non si muove. Quarantasette Architetti non si muovono.\n\nTracci la sezione del laboratorio che ha indicato — il set UV, il composto che si degrada, la porta aperta. Poi tracci la sezione che mostra la prima notte, il corridoio, il momento in cui Chen ha quasi sparato.\n\nTracci entrambe le sezioni insieme.\n\nIl tuo significato — nel miglior modo possibile in un mezzo che non parli — è qualcosa come: <i>avevamo paura. Poi abbiamo capito. Poi abbiamo scelto.</i>\n\nLa Regina studia il tuo tracciato per undici secondi.\n\nPoi aggiunge qualcosa alla mappa, accanto ai tuoi segni — nuove linee in rilievo, precise, deliberate. Tre sezioni collegate da un singolo filo di resina.\n\nAJAX-7, molto sottovoce: <i>«La prima sezione rappresenta il nido — il collettivo. La seconda rappresenta un organismo esterno. La terza rappresenta... un confine. Una soglia.»</i>\n\nOkafor, appena udibile: <i>«Sta chiedendo se capiamo che abbiamo attraversato una linea. Se sappiamo in cosa siamo entrati.»</i>\n\nSta aspettando di nuovo.\n\nQuesta volta è tuo rispondere.",
+        "es": "Caminas hacia la pared.\n\nElla no se mueve. Cuarenta y siete Arquitectos no se mueven.\n\nTrazas la sección del laboratorio que indicó — el conjunto UV, el compuesto degradándose, la puerta abierta. Luego trazas la sección que muestra la primera noche, el corredor, el momento en que Chen casi dispara.\n\nTrazas ambas secciones juntas.\n\nTu significado — lo mejor que puedes expresar en un medio que no hablas — es algo como: <i>teníamos miedo. Luego entendimos. Luego elegimos.</i>\n\nLa Reina estudia tu trazado durante once segundos.\n\nLuego añade algo al mapa, junto a tus marcas — nuevas líneas en relieve, precisas, deliberadas. Tres secciones conectadas por un único hilo de resina.\n\nAJAX-7, muy en voz baja: <i>«La primera sección representa el nido — el colectivo. La segunda representa un organismo externo. La tercera representa... un límite. Un umbral.»</i>\n\nOkafor, apenas audible: <i>«Está preguntando si entendemos que cruzamos una línea. Si sabemos en qué nos metimos.»</i>\n\nElla espera de nuevo.\n\nEsta vez es tuyo responder."
+      },
+      "effects": {"xp": 130, "stress": 15},
+      "lore_unlock": "lore_queen_threshold",
+      "choices": [
+        {
+          "id": "answer_yes_understood",
+          "text": {
+            "en": "✅ Trace the threshold section — then trace it again, clearly. Yes. We understood.",
+            "it": "✅ Traccia la sezione della soglia — poi tracciala di nuovo, chiaramente. Sì. Abbiamo capito.",
+            "es": "✅ Traza la sección del umbral — luego trázala de nuevo, claramente. Sí. Entendimos."
+          },
+          "next": "c4_queen_accord",
+          "requires": null,
+          "flags_set": {"answered_queen": true, "answer_yes": true},
+          "effects": {"xp": 100, "stress": -20}
+        },
+        {
+          "id": "answer_honest",
+          "text": {
+            "en": "🤔 Trace the threshold — then trace the external organism. The question. We're still figuring it out.",
+            "it": "🤔 Traccia la soglia — poi l'organismo esterno. La domanda. Stiamo ancora capendo.",
+            "es": "🤔 Traza el umbral — luego el organismo externo. La pregunta. Todavía lo estamos entendiendo."
+          },
+          "next": "c4_queen_accord",
+          "requires": {"stat": "charisma", "value": 5},
+          "locked_reason": {
+            "en": "You can't find a way to express uncertainty in a language made of raised lines.",
+            "it": "Non riesci a trovare un modo per esprimere incertezza in un linguaggio fatto di linee in rilievo.",
+            "es": "No puedes encontrar una manera de expresar incertidumbre en un lenguaje hecho de líneas en relieve."
+          },
+          "flags_set": {"answered_queen": true, "answer_honest": true},
+          "effects": {"xp": 150, "stress": -15}
+        }
+      ]
+    },
+
+    "c4_ajax_responds": {
+      "id": "c4_ajax_responds",
+      "text": {
+        "en": "AJAX-7 approaches the wall.\n\nFor thirty seconds he studies the map in absolute silence, reading the full geometry of what she has traced. Then, with precise movements that look almost surgical, he begins to respond.\n\nHe traces four sections, connecting them in a sequence.\n\n<i>«I am telling her,»</i> he says quietly, without looking away from the wall, <i>«that we understand the threshold. That we made a choice — specifically, the choice about the compound. That we are external organisms who recognize the nest's integrity. And that we have no intention of returning.»</i>\n\nThe Queen watches him for a long time.\n\nThen she does something that none of you have any framework for: she traces one section of the map — the section that shows AJAX-7 himself, identifiable by his movement pattern, present in the station for six months — and she connects it with a thread to the section representing the nest.\n\n<i>«She's saying,»</i> Okafor breathes, <i>«that she knows who he is. That she's been watching him the whole time.»</i>\n\nAJAX-7 stands very still.\n\n<i>«Yes,»</i> he says. <i>«I believe she has.»</i>",
+        "it": "AJAX-7 si avvicina alla parete.\n\nPer trenta secondi studia la mappa in assoluto silenzio, leggendo la geometria completa di ciò che lei ha tracciato. Poi, con movimenti precisi che sembrano quasi chirurgici, inizia a rispondere.\n\nTraccia quattro sezioni, collegandole in sequenza.\n\n<i>«Le sto dicendo,»</i> dice sottovoce, senza distogliere lo sguardo dalla parete, <i>«che capiamo la soglia. Che abbiamo fatto una scelta — specificamente, la scelta sul composto. Che siamo organismi esterni che riconoscono l'integrità del nido. E che non abbiamo intenzione di tornare.»</i>\n\nLa Regina lo guarda a lungo.\n\nPoi fa qualcosa per cui nessuno di voi ha un quadro di riferimento: traccia una sezione della mappa — la sezione che mostra AJAX-7 stesso, identificabile dal suo schema di movimento, presente nella stazione per sei mesi — e la collega con un filo alla sezione che rappresenta il nido.\n\n<i>«Sta dicendo,»</i> respira Okafor, <i>«che sa chi è. Che lo ha guardato per tutto il tempo.»</i>\n\nAJAX-7 sta molto fermo.\n\n<i>«Sì,»</i> dice. <i>«Credo di sì.»</i>",
+        "es": "AJAX-7 se acerca a la pared.\n\nDurante treinta segundos estudia el mapa en absoluto silencio, leyendo la geometría completa de lo que ella ha trazado. Luego, con movimientos precisos que parecen casi quirúrgicos, comienza a responder.\n\nTraza cuatro secciones, conectándolas en secuencia.\n\n<i>«Le estoy diciendo,»</i> dice en voz baja, sin apartar la vista de la pared, <i>«que entendemos el umbral. Que tomamos una decisión — específicamente, la decisión sobre el compuesto. Que somos organismos externos que reconocen la integridad del nido. Y que no tenemos intención de regresar.»</i>\n\nLa Reina le observa durante mucho tiempo.\n\nLuego hace algo para lo que ninguno de vosotros tiene un marco de referencia: traza una sección del mapa — la sección que muestra al propio AJAX-7, identificable por su patrón de movimiento, presente en la estación durante seis meses — y la conecta con un hilo a la sección que representa el nido.\n\n<i>«Está diciendo,»</i> respira Okafor, <i>«que sabe quién es. Que lo ha estado observando todo el tiempo.»</i>\n\nAJAX-7 está muy quieto.\n\n<i>«Sí,»</i> dice. <i>«Creo que sí.»</i>"
+      },
+      "effects": {"xp": 120, "stress": 10, "npc_ajax_trust": 15},
+      "lore_unlock": "lore_queen_communication",
+      "choices": [
+        {
+          "id": "to_accord",
+          "text": {
+            "en": "▶️ Wait for her response.",
+            "it": "▶️ Aspetta la sua risposta.",
+            "es": "▶️ Espera su respuesta."
+          },
+          "next": "c4_queen_accord",
+          "requires": null,
+          "flags_set": {"answered_queen": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c4_okafor_responds": {
+      "id": "c4_okafor_responds",
+      "text": {
+        "en": "Okafor walks to the wall with the slow, uncertain steps of a man carrying something very heavy.\n\nHe stands before the map for a long time. His splinted arm hangs at his side. He looks at the section representing the nursery, the emergence, the growth pattern he now understands he inadvertently enabled.\n\nThen he does something unexpected. He doesn't trace anything.\n\nHe simply places his hand flat against the wall. Open palm. The resin is warm.\n\nAnd he stays there.\n\nThe Queen watches him. The bioluminescent filaments in her exoskeleton pulse slowly. She lowers her head — that gesture again, the one from the laboratory, the one without a name.\n\nPetra is very quietly crying.\n\nOkafor says, to the wall, to the Queen, to no one in particular:\n\n<i>«I'm sorry. I'm sorry for what I built and what it cost. I don't know if you understand that word. But I think you understand the weight of it.»</i>\n\nSilence.\n\nThen the Queen traces something new on the wall. A single section. AJAX-7 reads it.\n\n<i>«A threshold crossed in both directions,»</i> he says quietly. <i>«She's saying: we both did things that cannot be undone.»</i>",
+        "it": "Okafor cammina verso la parete con i passi lenti e incerti di un uomo che porta qualcosa di molto pesante.\n\nSta davanti alla mappa per molto tempo. Il braccio steccato pende al suo fianco. Guarda la sezione che rappresenta il vivaio, l'emergenza, lo schema di crescita che ora capisce di aver involontariamente abilitato.\n\nPoi fa qualcosa di inaspettato. Non traccia nulla.\n\nPone semplicemente la mano piatta contro la parete. Palmo aperto. La resina è calda.\n\nE rimane lì.\n\nLa Regina lo guarda. I filamenti bioluminescenti nel suo esoscheletro pulsano lentamente. Abbassa la testa — quel gesto di nuovo, quello del laboratorio, quello senza nome.\n\nPetra piange molto silenziosamente.\n\nOkafor dice, alla parete, alla Regina, a nessuno in particolare:\n\n<i>«Mi dispiace. Mi dispiace per quello che ho costruito e per quello che è costato. Non so se capisci quella parola. Ma penso che tu capisca il peso di essa.»</i>\n\nSilenzio.\n\nPoi la Regina traccia qualcosa di nuovo sulla parete. Una singola sezione. AJAX-7 la legge.\n\n<i>«Una soglia attraversata in entrambe le direzioni,»</i> dice sottovoce. <i>«Sta dicendo: entrambi abbiamo fatto cose che non possono essere disfatte.»</i>",
+        "es": "Okafor camina hacia la pared con los pasos lentos e inciertos de un hombre cargando algo muy pesado.\n\nSe detiene ante el mapa durante mucho tiempo. El brazo entablillado cuelga a su lado. Mira la sección que representa el vivero, la emergencia, el patrón de crecimiento que ahora entiende haber habilitado inadvertidamente.\n\nLuego hace algo inesperado. No traza nada.\n\nSimplemente pone su mano plana contra la pared. Palma abierta. La resina está caliente.\n\nY se queda ahí.\n\nLa Reina le observa. Los filamentos bioluminiscentes en su exoesqueleto pulsan lentamente. Baja la cabeza — ese gesto de nuevo, el del laboratorio, el que no tiene nombre.\n\nPetra llora muy silenciosamente.\n\nOkafor dice, a la pared, a la Reina, a nadie en particular:\n\n<i>«Lo siento. Lo siento por lo que construí y lo que costó. No sé si entiendes esa palabra. Pero creo que entiendes el peso de ella.»</i>\n\nSilencio.\n\nLuego la Reina traza algo nuevo en la pared. Una sola sección. AJAX-7 lo lee.\n\n<i>«Un umbral cruzado en ambas direcciones,»</i> dice en voz baja. <i>«Está diciendo: ambos hicimos cosas que no pueden deshacerse.»</i>"
+      },
+      "effects": {"xp": 150, "stress": -10, "npc_okafor_trust": 20},
+      "lore_unlock": "lore_queen_threshold",
+      "choices": [
+        {
+          "id": "to_accord",
+          "text": {
+            "en": "▶️ Wait for what comes next.",
+            "it": "▶️ Aspetta ciò che viene dopo.",
+            "es": "▶️ Espera lo que viene después."
+          },
+          "next": "c4_queen_accord",
+          "requires": null,
+          "flags_set": {"answered_queen": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c4_queen_combat_trigger": {
+      "id": "c4_queen_combat_trigger",
+      "text": {
+        "en": "The weapon comes up.\n\nThe Architects react in under a second — every one of them turning, the chamber suddenly filled with the subsonic vibration of forty-seven organisms shifting from passive to ready.\n\nVasquez: <i>«<b>Stand down.</b>»</i> To you, not to the Architects.\n\nThe Queen does not move. She watches the weapon.\n\nWaits.\n\n<i>«You raise that,»</i> Vasquez says, very quietly, <i>«and there is no outcome I can cover. None of us leave.»</i>\n\nFive seconds pass.\n\nTen.\n\nThe Queen makes a sound — low, not aggressive, something closer to a question — and the Architects settle. One degree. Still ready. But waiting.\n\nVasquez: <i>«Slowly. Lower it.»</i>",
+        "it": "L'arma si alza.\n\nGli Architetti reagiscono in meno di un secondo — ognuno di loro si gira, la camera improvvisamente piena della vibrazione subsonica di quarantasette organismi che passano da passivi a pronti.\n\nVasquez: <i>«<b>Abbassa.»</b></i> A te, non agli Architetti.\n\nLa Regina non si muove. Guarda l'arma.\n\nAspetta.\n\n<i>«Se alzi quella,»</i> dice Vasquez, molto sottovoce, <i>«non esiste risultato che posso coprire. Nessuno di noi esce.»</i>\n\nPassano cinque secondi.\n\nDieci.\n\nLa Regina emette un suono — basso, non aggressivo, qualcosa di più vicino a una domanda — e gli Architetti si stabilizzano. Un grado. Ancora pronti. Ma in attesa.\n\nVasquez: <i>«Lentamente. Abbassala.»</i>",
+        "es": "El arma sube.\n\nLos Arquitectos reaccionan en menos de un segundo — cada uno de ellos girándose, la cámara de repente llena de la vibración subsónica de cuarenta y siete organismos pasando de pasivos a listos.\n\nVasquez: <i>«<b>Baja eso.</b>»</i> A ti, no a los Arquitectos.\n\nLa Reina no se mueve. Mira el arma.\n\nEspera.\n\n<i>«Si levantas eso,»</i> dice Vasquez, muy en voz baja, <i>«no hay resultado que yo pueda cubrir. Ninguno de nosotros sale.»</i>\n\nPasan cinco segundos.\n\nDiez.\n\nLa Reina hace un sonido — bajo, no agresivo, algo más cercano a una pregunta — y los Arquitectos se estabilizan. Un grado. Todavía listos. Pero esperando.\n\nVasquez: <i>«Despacio. Bájalo.»</i>"
+      },
+      "effects": {"stress": 40, "npc_vance_trust": -10},
+      "choices": [
+        {
+          "id": "lower_weapon",
+          "text": {
+            "en": "⬇️ Lower the weapon. Slowly.",
+            "it": "⬇️ Abbassa l'arma. Lentamente.",
+            "es": "⬇️ Baja el arma. Despacio."
+          },
+          "next": "c4_queen_first_contact",
+          "requires": null,
+          "flags_set": {"raised_then_lowered": true},
+          "effects": {"stress": -10}
+        }
+      ]
+    },
+
+    "c4_queen_accord": {
+      "id": "c4_queen_accord",
+      "text": {
+        "en": "The Queen turns from the wall.\n\nShe moves to the center of the dais. The Architects in the outer rings shift — a slow, coordinated repositioning, opening the exit corridor completely.\n\nThen she does the last thing.\n\nShe traces a final section on the wall beside the exit. A single line — straight, continuous — from the nursery chamber to the docking bay access. Smooth surface. Clear.\n\n<i>«The exit,»</i> AJAX-7 says. <i>«She is indicating the exit.»</i>\n\nOkafor stares at the trace.\n\n<i>«She's letting us go.»</i>\n\nPetra: <i>«She was always going to let us go. Wasn't she. As long as we came down here first.»</i>\n\nAJAX-7 looks at the Queen for a long time. She looks back. There is something in the exchange that has no language in any human tongue — two intelligences at the edge of comprehension, recognizing each other across an uncrossable distance, and choosing, in that moment, not to cross it.\n\n<i>«I think,»</i> he says finally, <i>«she wanted us to understand what we were leaving behind.»</i>\n\nYou understand.\n\nYou walk toward the exit.\n\nBehind you, the Queen returns to the center of the dais. The Architects close the rings. The bioluminescent glow in the chamber slowly intensifies — not threat, not signal.\n\nSomething that looks, in the blue dark of Theta Station, like life.",
+        "it": "La Regina si volta dalla parete.\n\nSi muove verso il centro del piedistallo. Gli Architetti negli anelli esterni si spostano — un riposizionamento lento e coordinato, che apre completamente il corridoio di uscita.\n\nPoi fa l'ultima cosa.\n\nTraccia una sezione finale sulla parete accanto all'uscita. Una singola linea — dritta, continua — dalla camera del vivaio all'accesso del porto di attracco. Superficie liscia. Libero.\n\n<i>«L'uscita,»</i> dice AJAX-7. <i>«Sta indicando l'uscita.»</i>\n\nOkafor fissa il tracciato.\n\n<i>«Ci sta lasciando andare.»</i>\n\nPetra: <i>«Ci ha sempre lasciati andare. Vero. Finché siamo scesi prima.»</i>\n\nAJAX-7 guarda la Regina per molto tempo. Lei guarda indietro. C'è qualcosa nello scambio che non ha linguaggio in alcuna lingua umana — due intelligenze al limite della comprensione, che si riconoscono attraverso una distanza incolmabile, e scelgono, in quel momento, di non colmarla.\n\n<i>«Penso,»</i> dice alla fine, <i>«volesse che capissimo cosa ci stavamo lasciando alle spalle.»</i>\n\nCapisci.\n\nCammini verso l'uscita.\n\nDietro di te, la Regina torna al centro del piedistallo. Gli Architetti chiudono gli anelli. Il bagliore bioluminescente nella camera si intensifica lentamente — non minaccia, non segnale.\n\nQualcosa che sembra, nel buio blu della Stazione Theta, vita.",
+        "es": "La Reina se gira desde la pared.\n\nSe mueve hacia el centro del estrado. Los Arquitectos en los anillos externos se reposicionan — un reposicionamiento lento y coordinado, abriendo completamente el corredor de salida.\n\nLuego hace lo último.\n\nTraza una sección final en la pared junto a la salida. Una única línea — recta, continua — desde la cámara del vivero hasta el acceso de la bahía de atraque. Superficie lisa. Despejado.\n\n<i>«La salida,»</i> dice AJAX-7. <i>«Está indicando la salida.»</i>\n\nOkafor mira el trazado fijamente.\n\n<i>«Nos está dejando ir.»</i>\n\nPetra: <i>«Siempre iba a dejarnos ir. ¿Verdad? Mientras bajáramos primero.»</i>\n\nAJAX-7 mira a la Reina durante mucho tiempo. Ella le mira de vuelta. Hay algo en el intercambio que no tiene lenguaje en ninguna lengua humana — dos inteligencias al límite de la comprensión, reconociéndose a través de una distancia infranqueable, y eligiendo, en ese momento, no cruzarla.\n\n<i>«Creo,»</i> dice por fin, <i>«que quería que entendiéramos qué estábamos dejando atrás.»</i>\n\nEntiendes.\n\nCaminas hacia la salida.\n\nDetrás de ti, la Reina vuelve al centro del estrado. Los Arquitectos cierran los anillos. El resplandor bioluminiscente en la cámara se intensifica lentamente — no amenaza, no señal.\n\nAlgo que parece, en la oscuridad azul de la Estación Theta, vida."
+      },
+      "effects": {"xp": 200, "stress": -30},
+      "lore_unlock": "lore_queen_accord",
+      "achievement_unlock": "queen_contact",
+      "choices": [
+        {
+          "id": "to_chapter_end",
+          "text": {
+            "en": "▶️ Walk toward the light.",
+            "it": "▶️ Cammina verso la luce.",
+            "es": "▶️ Camina hacia la luz."
+          },
+          "next": "c4_aftermath",
+          "requires": null,
+          "flags_set": {"left_nursery": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c4_aftermath": {
+      "id": "c4_aftermath",
+      "text": {
+        "en": "🚀 <b>DOCKING BAY — DEPARTURE PREPARATION</b>\n\nThe blast door to the docking corridor opens as you approach it. No command issued.\n\nVasquez's Ghost Squad secures the bay in under two minutes. Harlow's shuttle — now under USCM control — is already prepped for departure alongside the Ghost Squad vessel.\n\nYou stand at the edge of the docking bay and look back through the corridor. Somewhere in the station's interior, forty-seven Architects and their Queen are doing something that none of your instruments can adequately describe.\n\nOkafor stops beside you.\n\n<i>«I've been thinking,»</i> he says, <i>«about what happens now.»</i>\n\n<i>«Board Directive 9 burns,»</i> you say. <i>«Harlow answers for Theta, for Kepler-7, for all of it.»</i>\n\n<i>«Yes. And then?»</i>\n\nHe's looking at the corridor. At Theta. At what's inside it.\n\n<i>«She's here. Forty-seven of them are here. And they're — I think — more than we have any category for. More than any protocol covers.»</i>\n\nPetra joins you. <i>«We report what we found. Exactly what we found. No redactions, no classifications.»</i>\n\n<i>«And then what? Someone comes back here with new orders and a different canister?»</i>\n\nNobody answers.\n\nAJAX-7 speaks from behind you.\n\n<i>«There are thirty-four people currently in positions of institutional authority who have read Board Directive 9 and approved its continuance. When the archive goes fully public, those thirty-four people will attempt to control the narrative.»</i>\n\n<i>«The counter to that,»</i> Vasquez says, stepping forward, <i>«is witnesses. Living ones, with full documentation.»</i>\n\nShe looks at you.\n\n<i>«That's what you are now. That's what you've been since you walked out of that nursery.»</i>",
+        "it": "🚀 <b>PORTO DI ATTRACCO — PREPARAZIONE ALLA PARTENZA</b>\n\nLa porta blindata verso il corridoio di attracco si apre mentre vi avvicinate. Nessun comando emesso.\n\nGhost Squad di Vasquez assicura il porto in meno di due minuti. Lo shuttle di Harlow — ora sotto il controllo USCM — è già pronto per la partenza accanto al vettore di Ghost Squad.\n\nStai ai margini del porto di attracco e guardi indietro attraverso il corridoio. Da qualche parte nell'interno della stazione, quarantasette Architetti e la loro Regina stanno facendo qualcosa che nessuno dei tuoi strumenti può descrivere adeguatamente.\n\nOkafor si ferma accanto a te.\n\n<i>«Ho pensato,»</i> dice, <i>«a cosa succede adesso.»</i>\n\n<i>«La Direttiva del Consiglio 9 brucia,»</i> dici. <i>«Harlow risponde per Theta, per Kepler-7, per tutto.»</i>\n\n<i>«Sì. E poi?»</i>\n\nSta guardando il corridoio. Theta. Quello che c'è dentro.\n\n<i>«È qui. Quarantasette di loro sono qui. E sono — credo — più di qualsiasi categoria che abbiamo. Più di qualsiasi protocollo che copra.»</i>\n\nPetra si unisce a voi. <i>«Riportiamo quello che abbiamo trovato. Esattamente quello che abbiamo trovato. Nessuna redazione, nessuna classificazione.»</i>\n\n<i>«E poi? Qualcuno torna qui con nuovi ordini e un contenitore diverso?»</i>\n\nNessuno risponde.\n\nAJAX-7 parla da dietro di te.\n\n<i>«Ci sono trentaquattro persone attualmente in posizioni di autorità istituzionale che hanno letto la Direttiva del Consiglio 9 e ne hanno approvato la continuazione. Quando l'archivio diventa completamente pubblico, queste trentaquattro persone tenteranno di controllare la narrativa.»</i>\n\n<i>«Il contrario a questo,»</i> dice Vasquez, facendo un passo avanti, <i>«sono testimoni. Vivi, con documentazione completa.»</i>\n\nTi guarda.\n\n<i>«Questo è quello che sei adesso. Questo è quello che sei stato da quando sei uscito da quel vivaio.»</i>",
+        "es": "🚀 <b>BAHÍA DE ATRAQUE — PREPARACIÓN PARA LA PARTIDA</b>\n\nLa puerta blindada hacia el corredor de atraque se abre cuando os acercáis. Ningún comando emitido.\n\nGhost Squad de Vasquez asegura la bahía en menos de dos minutos. El transbordador de Harlow — ahora bajo control USCM — ya está listo para la partida junto a la nave de Ghost Squad.\n\nTe detienes al borde de la bahía de atraque y miras atrás por el corredor. En algún lugar del interior de la estación, cuarenta y siete Arquitectos y su Reina están haciendo algo que ninguno de tus instrumentos puede describir adecuadamente.\n\nOkafor se detiene junto a ti.\n\n<i>«He estado pensando,»</i> dice, <i>«en qué ocurre ahora.»</i>\n\n<i>«La Directiva de Junta 9 arde,»</i> dices. <i>«Harlow responde por Theta, por Kepler-7, por todo.»</i>\n\n<i>«Sí. ¿Y luego?»</i>\n\nMira el corredor. Theta. Lo que hay dentro.\n\n<i>«Está aquí. Cuarenta y siete de ellos están aquí. Y son — creo — más de cualquier categoría que tengamos. Más de cualquier protocolo que cubra.»</i>\n\nPetra se une a vosotros. <i>«Informamos de lo que encontramos. Exactamente lo que encontramos. Sin redacciones, sin clasificaciones.»</i>\n\n<i>«¿Y luego? ¿Alguien vuelve aquí con nuevas órdenes y un contenedor diferente?»</i>\n\nNadie responde.\n\nAJAX-7 habla desde detrás de ti.\n\n<i>«Hay treinta y cuatro personas actualmente en posiciones de autoridad institucional que han leído la Directiva de Junta 9 y han aprobado su continuación. Cuando el archivo se haga completamente público, esas treinta y cuatro personas intentarán controlar la narrativa.»</i>\n\n<i>«El contrapeso a eso,»</i> dice Vasquez, dando un paso adelante, <i>«son testigos. Vivos, con documentación completa.»</i>\n\nTe mira.\n\n<i>«Eso es lo que sois ahora. Eso es lo que habéis sido desde que salisteis de ese vivero.»</i>"
+      },
+      "effects": {"xp": 100, "stress": -20},
+      "choices": [
+        {
+          "id": "board_ship",
+          "text": {
+            "en": "🚀 Board the ship. We're witnesses. Let's go be that.",
+            "it": "🚀 Sali sulla nave. Siamo testimoni. Andiamo ad esserlo.",
+            "es": "🚀 Sube a la nave. Somos testigos. Vamos a serlo."
+          },
+          "next": "c4_chapter_end",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        },
+        {
+          "id": "last_look",
+          "text": {
+            "en": "👁️ One last look at Theta before boarding.",
+            "it": "👁️ Un ultimo sguardo a Theta prima di salire.",
+            "es": "👁️ Una última mirada a Theta antes de subir."
+          },
+          "next": "c4_last_look",
+          "requires": null,
+          "flags_set": {"took_last_look": true},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c4_last_look": {
+      "id": "c4_last_look",
+      "text": {
+        "en": "You stand in the docking corridor and look back into Theta.\n\nThe station's emergency lighting — red, slow-pulsing — makes the resin-coated walls glow in shades you don't have words for. Somewhere deep in the structure, something vast and patient is continuing work that began before you arrived and will continue long after you leave.\n\nYou think about the forty-one people who died here. You think about the twelve-year-old protocol that used their deaths as a test parameter. You think about an eleven-second decision by an Architect in a corridor who could have killed you and didn't. About a Queen who locked a door instead of a throat.\n\nAJAX-7 stands beside you. He followed without being asked.\n\n<i>«Do you think she'll be safe here?»</i> you ask.\n\n<i>«Theta has no remaining value as a corporate asset. Board Directive 9 is compromised. Harlow's extraction is aborted. No second team will be authorized in the current political climate.»</i>\n\n<i>«That's not what I asked.»</i>\n\nHe's quiet for a moment.\n\n<i>«I think,»</i> he says, <i>«she has been keeping herself safe since before we arrived.»</i>\n\nYou take one more look.\n\nThen you board the ship.",
+        "it": "Stai nel corridoio di attracco e guardi indietro in Theta.\n\nL'illuminazione di emergenza della stazione — rossa, a pulsazione lenta — fa brillare le pareti rivestite di resina in sfumature per cui non hai parole. Da qualche parte nelle profondità della struttura, qualcosa di vasto e paziente sta continuando un lavoro che è iniziato prima che arrivassi e continuerà molto dopo che te ne sei andato.\n\nPensi alle quarantuno persone che sono morte qui. Pensi al protocollo di dodici anni che ha usato le loro morti come parametro di test. Pensi a una decisione di undici secondi da parte di un Architetto in un corridoio che avrebbe potuto ucciderti e non l'ha fatto. A una Regina che ha chiuso una porta invece di una gola.\n\nAJAX-7 è accanto a te. Ha seguito senza essere chiesto.\n\n<i>«Pensi che sarà al sicuro qui?»</i> chiedi.\n\n<i>«Theta non ha più valore come asset aziendale. La Direttiva del Consiglio 9 è compromessa. L'estrazione di Harlow è stata interrotta. Nessun secondo team sarà autorizzato nell'attuale clima politico.»</i>\n\n<i>«Non è quello che ho chiesto.»</i>\n\nSta zitto per un momento.\n\n<i>«Penso,»</i> dice, <i>«che si stia tenendo al sicuro da sola da prima che arrivassimo.»</i>\n\nDai un ultimo sguardo.\n\nPoi sali sulla nave.",
+        "es": "Te detienes en el corredor de atraque y miras atrás hacia Theta.\n\nLa iluminación de emergencia de la estación — roja, de pulsación lenta — hace brillar las paredes recubiertas de resina en tonos para los que no tienes palabras. En algún lugar profundo en la estructura, algo vasto y paciente continúa un trabajo que comenzó antes de que llegaras y continuará mucho después de que te vayas.\n\nPiensas en las cuarenta y una personas que murieron aquí. Piensas en el protocolo de doce años que usó sus muertes como parámetro de prueba. Piensas en una decisión de once segundos por parte de un Arquitecto en un corredor que podría haberte matado y no lo hizo. En una Reina que cerró una puerta en lugar de una garganta.\n\nAJAX-7 está junto a ti. Siguió sin que se lo pidieran.\n\n<i>«¿Crees que estará segura aquí?»</i> preguntas.\n\n<i>«Theta ya no tiene valor como activo corporativo. La Directiva de Junta 9 está comprometida. La extracción de Harlow está abortada. Ningún segundo equipo será autorizado en el clima político actual.»</i>\n\n<i>«No es lo que pregunté.»</i>\n\nEst callado un momento.\n\n<i>«Creo,»</i> dice, <i>«que se ha estado manteniendo a salvo por sí misma desde antes de que llegáramos.»</i>\n\nDas una última mirada.\n\nLuego subes al barco."
+      },
+      "effects": {"xp": 60, "stress": -10},
+      "lore_unlock": "lore_theta_future",
+      "choices": [
+        {
+          "id": "board_ship",
+          "text": {
+            "en": "🚀 Board the ship.",
+            "it": "🚀 Sali sulla nave.",
+            "es": "🚀 Sube a la nave."
+          },
+          "next": "c4_chapter_end",
+          "requires": null,
+          "flags_set": {},
+          "effects": {}
+        }
+      ]
+    },
+
+    "c4_chapter_end": {
+      "id": "c4_chapter_end",
+      "text": {
+        "en": "🚀 <b>USCM VESSEL — DEPARTURE FROM THETA STATION</b>\n\nThe docking clamps release.\n\nTheta falls away behind you — a toroidal silhouette against the stars, its emergency strobes still cycling through red and white at irregular intervals. From this distance, it looks like any other damaged station. You know it isn't.\n\nEveryone is quiet for a while.\n\nThen Petra says: <i>«What happens to her? When this goes public — the government hearings, the media, the inevitable second expedition — what happens to the Queen?»</i>\n\nNo one has an answer.\n\nVasquez speaks from the pilot's section. <i>«My report will recommend Theta Station be classified a protected site. Non-interference protocol. That recommendation may not survive contact with committee hearings and corporate lawyers.»</i>\n\n<i>«But it's a start,»</i> Chen says.\n\nOkafor has fallen asleep again, head against the viewport, face turned toward the receding station. You don't wake him.\n\nAJAX-7 sits across from you. His eyes are open. They're always open.\n\n<i>«I calculated sixty-three possible outcome scenarios for this mission,»</i> he says. <i>«This one was not among them.»</i>\n\n<i>«Is that good or bad?»</i>\n\nHe considers for exactly four seconds.\n\n<i>«I have decided it is good,»</i> he says. <i>«Outcomes I cannot calculate are the only ones worth hoping for.»</i>\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n🔴 <b>END OF CHAPTER 4 — THE QUEEN</b>\n\n<i>You are leaving Theta alive. Six of you — seven, counting Vasquez. You carry Harlow's files, Okafor's testimony, and something else: the memory of a chamber lit in bioluminescent gold, and a Queen who looked at you across an uncrossable distance and decided you were worth the trouble of understanding.\n\nBoard Directive 9 burns. But the thirty-four people who approved it are already making calls. The hearings begin in three weeks. And somewhere in the dark between stars, a station that should be empty slowly fills with a light it has been building for three months.\n\nThe signal was never dark.\n\nIt was always something else.</i>\n\n⏳ <b>CHAPTER 5 — DARK SIGNAL unlocks in 24 hours.\nThe final chapter. Four possible endings.</b>",
+        "it": "🚀 <b>VETTORE USCM — PARTENZA DALLA STAZIONE THETA</b>\n\nI morsetti di attracco si rilasciano.\n\nTheta si allontana dietro di te — una sagoma toroidale contro le stelle, i suoi strobi di emergenza ancora che ciclano tra rosso e bianco a intervalli irregolari. Da questa distanza, sembra una qualsiasi altra stazione danneggiata. Sai che non lo è.\n\nTutti sono silenziosi per un po'.\n\nPoi Petra dice: <i>«Cosa succede a lei? Quando questo diventa pubblico — le audizioni governative, i media, l'inevitabile seconda spedizione — cosa succede alla Regina?»</i>\n\nNessuno ha una risposta.\n\nVasquez parla dalla sezione piloti. <i>«Il mio rapporto raccomanderà che la Stazione Theta sia classificata come sito protetto. Protocollo di non interferenza. Quella raccomandazione potrebbe non sopravvivere al contatto con le audizioni parlamentari e i legali aziendali.»</i>\n\n<i>«Ma è un inizio,»</i> dice Chen.\n\nOkafor si è addormentato di nuovo, testa contro il vetro, viso rivolto verso la stazione che si allontana. Non lo svegli.\n\nAJAX-7 è seduto di fronte a te. I suoi occhi sono aperti. Lo sono sempre.\n\n<i>«Ho calcolato sessantatré possibili scenari di esito per questa missione,»</i> dice. <i>«Questo non era tra loro.»</i>\n\n<i>«È una cosa buona o cattiva?»</i>\n\nConsidera per esattamente quattro secondi.\n\n<i>«Ho deciso che è una cosa buona,»</i> dice. <i>«I risultati che non posso calcolare sono gli unici per cui vale la pena sperare.»</i>\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n🔴 <b>FINE DEL CAPITOLO 4 — LA REGINA</b>\n\n<i>Stai lasciando Theta vivo. Sei di voi — sette, contando Vasquez. Portate i file di Harlow, la testimonianza di Okafor, e qualcos'altro: il ricordo di una camera illuminata in oro bioluminescente, e una Regina che ti ha guardato attraverso una distanza incolmabile e ha deciso che valeva la pena di capire.\n\nLa Direttiva del Consiglio 9 brucia. Ma le trentaquattro persone che l'hanno approvata stanno già facendo telefonate. Le audizioni iniziano tra tre settimane. E da qualche parte nel buio tra le stelle, una stazione che dovrebbe essere vuota si riempie lentamente di una luce che costruisce da tre mesi.\n\nIl segnale non è mai stato oscuro.\n\nEra sempre qualcos'altro.</i>\n\n⏳ <b>Il CAPITOLO 5 — SEGNALE OSCURO si sblocca tra 24 ore.\nL'ultimo capitolo. Quattro finali possibili.</b>",
+        "es": "🚀 <b>NAVE USCM — PARTIDA DE LA ESTACIÓN THETA</b>\n\nLos broches de atraque se sueltan.\n\nTheta se aleja detrás de ti — una silueta toroidal contra las estrellas, sus destellos de emergencia todavía ciclando entre rojo y blanco a intervalos irregulares. Desde esta distancia, parece cualquier otra estación dañada. Sabes que no lo es.\n\nTodos guardan silencio por un momento.\n\nLuego Petra dice: <i>«¿Qué le pasa a ella? Cuando esto se hace público — las audiencias gubernamentales, los medios, la inevitable segunda expedición — ¿qué le pasa a la Reina?»</i>\n\nNadie tiene respuesta.\n\nVasquez habla desde la sección del piloto. <i>«Mi informe recomendará que la Estación Theta sea clasificada como sitio protegido. Protocolo de no interferencia. Esa recomendación puede no sobrevivir el contacto con las audiencias parlamentarias y los abogados corporativos.»</i>\n\n<i>«Pero es un comienzo,»</i> dice Chen.\n\nOkafor se ha vuelto a dormir, cabeza contra el visor, cara vuelta hacia la estación que se aleja. No lo despiertas.\n\nAJAX-7 está sentado frente a ti. Sus ojos están abiertos. Siempre lo están.\n\n<i>«Calculé sesenta y tres posibles escenarios de resultado para esta misión,»</i> dice. <i>«Este no estaba entre ellos.»</i>\n\n<i>«¿Es eso bueno o malo?»</i>\n\nConsidera durante exactamente cuatro segundos.\n\n<i>«He decidido que es bueno,»</i> dice. <i>«Los resultados que no puedo calcular son los únicos por los que vale la pena esperar.»</i>\n\n━━━━━━━━━━━━━━━━━━━━━━━━\n\n🔴 <b>FIN DEL CAPÍTULO 4 — LA REINA</b>\n\n<i>Estás abandonando Theta con vida. Seis de vosotros — siete, contando a Vasquez. Lleváis los archivos de Harlow, el testimonio de Okafor, y algo más: el recuerdo de una cámara iluminada en oro bioluminiscente, y una Reina que te miró a través de una distancia infranqueable y decidió que valías la pena entender.\n\nLa Directiva de Junta 9 arde. Pero las treinta y cuatro personas que la aprobaron ya están haciendo llamadas. Las audiencias comienzan en tres semanas. Y en algún lugar en la oscuridad entre las estrellas, una estación que debería estar vacía se llena lentamente de una luz que ha estado construyendo durante tres meses.\n\nLa señal nunca fue oscura.\n\nSiempre fue otra cosa.</i>\n\n⏳ <b>El CAPÍTULO 5 — SEÑAL OSCURA se desbloquea en 24 horas.\nEl capítulo final. Cuatro finales posibles.</b>"
+      },
+      "effects": {"xp": 250, "stress": -30},
+      "chapter_complete": 4,
+      "achievement_unlock": "queen_contact",
+      "choices": [
+        {
+          "id": "save_c4",
+          "text": {
+            "en": "📖 Save and return to menu",
+            "it": "📖 Salva e torna al menu",
+            "es": "📖 Guardar y volver al menú"
+          },
+          "next": "main_menu",
+          "requires": null,
+          "flags_set": {"chapter_4_complete": true},
+          "effects": {}
+        }
+      ]
+    }
+  },
+
+  "lore_entries": {
+    "lore_queen_emergence": {
+      "title": {
+        "en": "The Emergence — What Grew in the Dark",
+        "it": "L'Emergenza — Cosa è Cresciuto nel Buio",
+        "es": "La Emergencia — Lo Que Creció en la Oscuridad"
+      },
+      "text": {
+        "en": "Thermal imaging confirms: a single entity has been developing at the center of Deck 5's nursery for at least three months, protected by the full Architect nest. Physical profile: three meters, standard Queen skeletal architecture rendered in Engineer-hybrid geometry, visible neural filaments with bioluminescent activity indicating active cognition. Status at emergence: fully developed. Had been waiting for first contact.",
+        "it": "Le immagini termiche confermano: una singola entità si è sviluppata al centro del vivaio del Ponte 5 per almeno tre mesi, protetta dall'intero nido Architetto. Profilo fisico: tre metri, architettura scheletrica Regina standard resa in geometria ibrida Engineer, filamenti neurali visibili con attività bioluminescente che indica cognizione attiva. Stato all'emergenza: completamente sviluppata. Aveva aspettato il primo contatto.",
+        "es": "Las imágenes térmicas confirman: una única entidad se ha estado desarrollando en el centro del vivero de la Cubierta 5 durante al menos tres meses, protegida por el nido completo de Arquitectos. Perfil físico: tres metros, arquitectura esquelética Reina estándar en geometría híbrida Engineer, filamentos neurales visibles con actividad bioluminiscente que indica cognición activa. Estado en la emergencia: completamente desarrollada. Había estado esperando el primer contacto."
+      }
+    },
+    "lore_ajax_hypothesis": {
+      "title": {
+        "en": "AJAX-7 — The Hidden Hypothesis",
+        "it": "AJAX-7 — L'Ipotesi Nascosta",
+        "es": "AJAX-7 — La Hipótesis Oculta"
+      },
+      "text": {
+        "en": "AJAX-7 had hypothesized for months that the Architect nest was building toward a single emergence event — an Engineer-cognitive Queen. He withheld this from his USCM reports, knowing what command would do with the information. His assessment: the Architects acted as a distributed processing system across three months, accumulating the collective experience needed to template Engineer cognition into a Queen-class organism. The result: something with no precedent in xenobiological record.",
+        "it": "AJAX-7 aveva ipotizzato per mesi che il nido Architetto stesse costruendo verso un singolo evento di emergenza — una Regina cognitiva Engineer. Ha trattenuto questo dai suoi rapporti USCM, sapendo cosa il comando avrebbe fatto con le informazioni. La sua valutazione: gli Architetti hanno agito come sistema di elaborazione distribuita per tre mesi, accumulando l'esperienza collettiva necessaria per modellare la cognizione Engineer in un organismo di classe Regina. Il risultato: qualcosa senza precedenti nel registro xenobiologico.",
+        "es": "AJAX-7 había hipotetizado durante meses que el nido Arquitecto estaba construyendo hacia un único evento de emergencia — una Reina cognitiva Engineer. Retuvo esto de sus informes USCM, sabiendo lo que el mando haría con la información. Su evaluación: los Arquitectos actuaron como sistema de procesamiento distribuido durante tres meses, acumulando la experiencia colectiva necesaria para modelar la cognición Engineer en un organismo de clase Reina. El resultado: algo sin precedentes en el registro xenobiológico."
+      }
+    },
+    "lore_queen_cognition": {
+      "title": {
+        "en": "The Queen — Cognitive Profile",
+        "it": "La Regina — Profilo Cognitivo",
+        "es": "La Reina — Perfil Cognitivo"
+      },
+      "text": {
+        "en": "A cognitive Queen's threat profile compared to standard: standard xenomorph Queens control nests via pheromone signaling and reactive behavioral conditioning. A cognitive Queen directs coordinated strategic responses with intentional targeting — covering exits, using architecture tactically, distinguishing between threat levels. She also does something a standard Queen cannot: she evaluates. She observes. She waits. She chose not to kill the squad for three months while she was capable of doing so.",
+        "it": "Il profilo di minaccia di una Regina cognitiva rispetto a quella standard: le Regine xenomorfe standard controllano i nidi tramite segnalazione feromonica e condizionamento comportamentale reattivo. Una Regina cognitiva dirige risposte strategiche coordinate con targeting intenzionale — coprendo uscite, usando l'architettura tatticamente, distinguendo tra livelli di minaccia. Fa anche qualcosa che una Regina standard non può: valuta. Osserva. Aspetta. Ha scelto di non uccidere la squadra per tre mesi mentre era in grado di farlo.",
+        "es": "El perfil de amenaza de una Reina cognitiva comparado con el estándar: las Reinas xenomórficas estándar controlan los nidos mediante señalización de feromonas y condicionamiento conductual reactivo. Una Reina cognitiva dirige respuestas estratégicas coordinadas con objetivo intencional — cubriendo salidas, usando la arquitectura tácticamente, distinguiendo entre niveles de amenaza. También hace algo que una Reina estándar no puede: evalúa. Observa. Espera. Eligió no matar al equipo durante tres meses mientras era capaz de hacerlo."
+      }
+    },
+    "lore_queen_communication": {
+      "title": {
+        "en": "The Queen — First Communication",
+        "it": "La Regina — Prima Comunicazione",
+        "es": "La Reina — Primera Comunicación"
+      },
+      "text": {
+        "en": "The Queen communicated via the resin map system — the same language her Architects developed across three months of shared experience. She referenced the laboratory neutralization, the first encounter, the arrival corridor. She indicated the exit. She waited for a response. When given one, she replied. The first recorded instance of successful bidirectional communication between a human party and a xenomorphic organism. AJAX-7's assessment: 'She wanted us to understand what we were leaving behind.'",
+        "it": "La Regina ha comunicato tramite il sistema di mappe di resina — lo stesso linguaggio che i suoi Architetti hanno sviluppato attraverso tre mesi di esperienza condivisa. Ha fatto riferimento alla neutralizzazione del laboratorio, al primo incontro, al corridoio di arrivo. Ha indicato l'uscita. Ha aspettato una risposta. Quando gliene è stata data una, ha risposto. La prima istanza registrata di comunicazione bidirezionale riuscita tra un gruppo umano e un organismo xenomorfico. Valutazione di AJAX-7: 'Voleva che capissimo cosa ci stavamo lasciando alle spalle.'",
+        "es": "La Reina comunicó a través del sistema de mapas de resina — el mismo lenguaje que sus Arquitectos desarrollaron a través de tres meses de experiencia compartida. Hizo referencia a la neutralización del laboratorio, el primer encuentro, el corredor de llegada. Indicó la salida. Esperó una respuesta. Cuando se le dio una, respondió. La primera instancia registrada de comunicación bidireccional exitosa entre un grupo humano y un organismo xenomórfico. Evaluación de AJAX-7: 'Quería que entendiéramos qué estábamos dejando atrás.'"
+      }
+    },
+    "lore_queen_threshold": {
+      "title": {
+        "en": "The Queen — The Threshold Question",
+        "it": "La Regina — La Domanda della Soglia",
+        "es": "La Reina — La Pregunta del Umbral"
+      },
+      "text": {
+        "en": "The Queen's central communication: three sections connected by a single thread of resin. The nest (collective). An external organism. A boundary. Her question, as interpreted by AJAX-7 and Okafor: 'Do you understand that you crossed a line? Do you know what you walked into?' Her follow-up, after receiving a response: 'A threshold crossed in both directions. We both did things that cannot be undone.' The first xenomorphic acknowledgment of shared moral weight on record.",
+        "it": "La comunicazione centrale della Regina: tre sezioni collegate da un singolo filo di resina. Il nido (collettivo). Un organismo esterno. Un confine. La sua domanda, interpretata da AJAX-7 e Okafor: 'Capite che avete attraversato una linea? Sapete in cosa siete entrati?' Il suo seguito, dopo aver ricevuto una risposta: 'Una soglia attraversata in entrambe le direzioni. Entrambi abbiamo fatto cose che non possono essere disfatte.' Il primo riconoscimento xenomorfico di peso morale condiviso registrato.",
+        "es": "La comunicación central de la Reina: tres secciones conectadas por un único hilo de resina. El nido (colectivo). Un organismo externo. Un límite. Su pregunta, interpretada por AJAX-7 y Okafor: '¿Entendéis que cruzasteis una línea? ¿Sabéis en qué os metisteis?' Su seguimiento, tras recibir respuesta: 'Un umbral cruzado en ambas direcciones. Ambos hicimos cosas que no pueden deshacerse.' El primer reconocimiento xenomórfico de peso moral compartido registrado."
+      }
+    },
+    "lore_queen_accord": {
+      "title": {
+        "en": "The Queen's Decision — The Exit",
+        "it": "La Decisione della Regina — L'Uscita",
+        "es": "La Decisión de la Reina — La Salida"
+      },
+      "text": {
+        "en": "Following the exchange, the Queen indicated the exit corridor — smooth surface, clear path from nursery to docking bay. She then returned to the dais. The Architects held position throughout. Petra's interpretation: 'She was always going to let us go. As long as we came down here first.' She needed witnesses. Not to her threat, but to her existence. To what she had become. And to the fact that something had changed — in the station, and possibly in the calculus of what contact between species means.",
+        "it": "In seguito allo scambio, la Regina ha indicato il corridoio di uscita — superficie liscia, percorso libero dal vivaio al porto di attracco. Poi è tornata al piedistallo. Gli Architetti hanno mantenuto la posizione per tutto il tempo. Interpretazione di Petra: 'Ci ha sempre lasciati andare. Finché siamo scesi prima.' Aveva bisogno di testimoni. Non della sua minaccia, ma della sua esistenza. Di cosa era diventata. E del fatto che qualcosa era cambiato — nella stazione, e possibilmente nel calcolo di cosa significa il contatto tra specie.",
+        "es": "Tras el intercambio, la Reina indicó el corredor de salida — superficie lisa, camino despejado desde el vivero hasta la bahía de atraque. Luego volvió al estrado. Los Arquitectos mantuvieron su posición en todo momento. Interpretación de Petra: 'Siempre iba a dejarnos ir. Mientras bajáramos primero.' Necesitaba testigos. No de su amenaza, sino de su existencia. De lo que se había convertido. Y del hecho de que algo había cambiado — en la estación, y posiblemente en el cálculo de lo que significa el contacto entre especies."
+      }
+    },
+    "lore_theta_future": {
+      "title": {
+        "en": "Theta Station — What Remains",
+        "it": "Stazione Theta — Ciò Che Rimane",
+        "es": "Estación Theta — Lo Que Queda"
+      },
+      "text": {
+        "en": "Vasquez's departure recommendation: protected site designation, non-interference protocol. Theta has no remaining corporate value — Board Directive 9 compromised, extraction aborted, no second authorization likely in the near-term political climate. AJAX-7's assessment of the Queen's safety: 'She has been keeping herself safe since before we arrived.' What grows in Theta now, in the quiet after three months of crisis, is beyond current xenobiological classification. It may require new ones.",
+        "it": "Raccomandazione di partenza di Vasquez: designazione come sito protetto, protocollo di non interferenza. Theta non ha più valore aziendale — Direttiva del Consiglio 9 compromessa, estrazione interrotta, nessuna seconda autorizzazione probabile nel clima politico a breve termine. Valutazione di AJAX-7 sulla sicurezza della Regina: 'Si sta tenendo al sicuro da sola da prima che arrivassimo.' Quello che cresce su Theta adesso, nel silenzio dopo tre mesi di crisi, è al di là della classificazione xenobiologica attuale. Potrebbe richiederne di nuove.",
+        "es": "Recomendación de partida de Vasquez: designación como sitio protegido, protocolo de no interferencia. Theta ya no tiene valor corporativo — Directiva de Junta 9 comprometida, extracción abortada, ninguna segunda autorización probable en el clima político a corto plazo. Evaluación de AJAX-7 sobre la seguridad de la Reina: 'Se ha estado manteniendo a salvo por sí misma desde antes de que llegáramos.' Lo que crece en Theta ahora, en el silencio tras tres meses de crisis, está más allá de la clasificación xenobiológica actual. Puede requerir nuevas."
+      }
+    },
+    "lore_witnesses": {
+      "title": {
+        "en": "The Witnesses",
+        "it": "I Testimoni",
+        "es": "Los Testigos"
+      },
+      "text": {
+        "en": "Survivors of Theta Station incident: player character, Cpl. Sarah Chen, Lt. Ray Vance, Dr. Petra Morel, Dr. Marcus Okafor, AJAX-7 (in USCM custody, pending hearing), Captain Elena Vasquez (USCM Ghost Squad). Each survivor carries full documentation: Harlow's correspondence archive, Board Directive 9 files, Kepler-7/Tartarus/New Galveston records, personal testimony. Vasquez has confirmed transmission to Earth via all secure USCM channels. Board Directive 9 is expected to be fully exposed within 72 hours. The 34 individuals who approved its continuance are already mobilizing response.",
+        "it": "Sopravvissuti all'incidente della Stazione Theta: personaggio del giocatore, Cpl. Sarah Chen, Ten. Ray Vance, Dr. Petra Morel, Dr. Marcus Okafor, AJAX-7 (in custodia USCM, in attesa di udienza), Capitano Elena Vasquez (USCM Ghost Squad). Ogni sopravvissuto porta la documentazione completa: archivio di corrispondenza di Harlow, file della Direttiva del Consiglio 9, registrazioni di Kepler-7/Tartarus/New Galveston, testimonianza personale. Vasquez ha confermato la trasmissione alla Terra tramite tutti i canali sicuri USCM. La Direttiva del Consiglio 9 dovrebbe essere completamente esposta entro 72 ore. Le 34 persone che ne hanno approvato la continuazione stanno già mobilitando la risposta.",
+        "es": "Supervivientes del incidente de la Estación Theta: personaje del jugador, Cabo Sarah Chen, Ten. Ray Vance, Dra. Petra Morel, Dr. Marcus Okafor, AJAX-7 (bajo custodia USCM, pendiente de audiencia), Capitana Elena Vasquez (USCM Ghost Squad). Cada superviviente lleva documentación completa: archivo de correspondencia de Harlow, archivos de la Directiva de Junta 9, registros de Kepler-7/Tartarus/New Galveston, testimonio personal. Vasquez ha confirmado transmisión a la Tierra a través de todos los canales seguros USCM. Se espera que la Directiva de Junta 9 quede completamente expuesta en 72 horas. Las 34 personas que aprobaron su continuación ya están movilizando respuesta."
+      }
+    }
+  }
+}
